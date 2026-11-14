@@ -1,8 +1,25 @@
+/*
+ * MissionBar: the header with the day number, the destination selector, and the
+ * play button + day slider. Used on every page (it's drawn by App).
+ * PROPS: mission, day, setDay, destination, setDestination, delay. They all come from App,
+ * so changing the day here changes it for the whole dashboard.
+ *
+ * HOW THE PLAY BUTTON WORKS (useState + useEffect + setInterval):
+ *   - `playing` is local STATE: does the user want playback on?
+ *   - The EFFECT starts a timer (setInterval) that adds one day every 600 ms.
+ *   - The function the effect RETURNS is the "clean-up": React runs it before the effect runs
+ *     again or when the component disappears, so the timer is always stopped properly.
+ *   - The list at the end of useEffect, [isPlaying, mission.day, setDay], says WHEN to re-run
+ *     the effect: only when one of those values changes.
+ *   - setDay((d) => ...) uses the latest day value, which is the safe way to update state
+ *     from inside a timer.
+ */
 import { useEffect, useState } from 'react'
 import { Play, Pause, Radio } from 'lucide-react'
 
 export default function MissionBar({ mission, day, setDay, destination, setDestination, delay }) {
   const [playing, setPlaying] = useState(false)
+  // Worked out on every draw: are we on the last day? Is playback actually running?
   const atEnd = day >= mission.day
   const isPlaying = playing && !atEnd
 

@@ -1,3 +1,7 @@
+/*
+ * destinations.js: the radio delay between the spacecraft and Earth (plain JavaScript).
+ * Used by the mission bar and the "Send to Earth" card.
+ */
 // One-way radio delay from the spacecraft to Earth, for each destination.
 // Mars uses the API's value, because the real delay changes as the planets move.
 export function delayFor(destination, mission) {

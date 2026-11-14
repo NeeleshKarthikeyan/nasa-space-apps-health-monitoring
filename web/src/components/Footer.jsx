@@ -1,3 +1,8 @@
+/*
+ * Footer: the badges and disclaimer at the bottom of every page.
+ * PROPS: live (true = live API, false = saved backup files).
+ * The disclaimer matters: this is decision support on simulated data, not a medical device.
+ */
 export default function Footer({ live }) {
   return (
     <footer className="footer">

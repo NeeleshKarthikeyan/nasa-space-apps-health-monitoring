@@ -1,3 +1,12 @@
+/*
+ * CrewOverview: the overview PAGE, shown at #/ (the home page).
+ * A "page" is just a component that App's <Route> chooses based on the address.
+ * PROPS: crew (today's crew), history (all days), day, setDay, lastDay.
+ *
+ * It doesn't load any data itself: App loads everything once and passes it down,
+ * so moving between pages is instant.
+ * Order on screen: TodayBanner, one StatusCard per crew member, then the CrewTimeline.
+ */
 import TodayBanner from '../components/TodayBanner'
 import StatusCard from '../components/StatusCard'
 import CrewTimeline from '../components/CrewTimeline'

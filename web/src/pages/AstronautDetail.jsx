@@ -1,3 +1,15 @@
+/*
+ * AstronautDetail: one astronaut's PAGE, shown at #/astronaut/A, B, C or D.
+ * PROPS: day, delay, crew.
+ *
+ * useParams() reads the part of the address after /astronaut/, so #/astronaut/B gives id = "B".
+ * It loads that astronaut's timeseries (every signal, every day) when the id changes.
+ *
+ * Layout (designed so playback never makes things jump):
+ *   left column : one big chart that stays put + a widget for every signal
+ *   right column: the alert panel, which can grow or shrink without moving the charts
+ * The big chart shows the clicked widget, or by default this astronaut's main problem.
+ */
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ChevronLeft } from 'lucide-react'
@@ -20,6 +32,7 @@ export default function AstronautDetail({ day, delay, crew }) {
     getTimeseries(id).then(({ data }) => setTs(data))
   }, [id])
 
+  // Wait for the data, and for the RIGHT astronaut's data after switching between crew members
   if (!ts || ts.astronaut_id !== id) return <p className="loading">Loading…</p>
 
   const info = crewInfo(id)

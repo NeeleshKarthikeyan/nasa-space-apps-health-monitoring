@@ -4,6 +4,15 @@
 // 2. It TRANSLATES the API's answers into the shapes the dashboard uses ("normalise" functions).
 //    It accepts both Fahim's current shapes and the shapes in docs/data-contract.md,
 //    so the dashboard keeps working if the API changes to match the contract later.
+//
+// New to this? Some JavaScript you'll see below:
+//   async / await   an `async` function can pause with `await` until something slow (the network) finishes
+//   fetch(url)      asks a server for data; res.json() turns the reply into a JavaScript object
+//   Promise.all     starts several requests at the same time and waits until all have finished
+//   a ?? b          use a, but if a is null or undefined use b instead
+//   a?.b            read b from a, but don't crash if a is missing (gives undefined)
+//   { ...a, x }     a copy of object a with x added or replaced
+// Nothing in this file draws anything: the pages call the get...() functions at the bottom.
 import missionFile from './fallback/mission.json'
 import crewFile from './fallback/crew.json'
 import alertsFile from './fallback/alerts.json'
@@ -15,6 +24,7 @@ import { crewInfo } from './crew'
 import { SIGNALS, signalInfo } from './signals'
 
 const TIMESERIES_FILES = { A: tsA, B: tsB, C: tsC, D: tsD }
+// The API address comes from web/.env.local (VITE_API_URL=...). Without it, it uses your own laptop.
 const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
 
 // Try the live API for 5 seconds; if it fails, use the saved copy.

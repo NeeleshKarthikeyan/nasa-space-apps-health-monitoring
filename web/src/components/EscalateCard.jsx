@@ -1,3 +1,14 @@
+/*
+ * EscalateCard: the "Send to Earth" card inside the alert panel.
+ * PROPS: alert (today's alert), delay (radio delay for the chosen destination).
+ *
+ * It behaves like a tiny state machine with three phases stored in state:
+ *   'ready'   -> show the Send and Copy buttons
+ *   'sending' -> show a progress bar for the radio delay (SPED UP: 1 second per minute)
+ *   'sent'    -> show "Delivered" and how long a reply will take
+ * AlertPanel gives this card key={alert_id}. A new key makes React create a fresh card,
+ * so every new alert starts back at 'ready'.
+ */
 import { useState } from 'react'
 import { Send, Satellite, Copy, Check } from 'lucide-react'
 

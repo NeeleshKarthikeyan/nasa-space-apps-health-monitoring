@@ -1,3 +1,8 @@
+/*
+ * status.js: how each status looks (plain JavaScript, no React).
+ * One place decides the word, icon and colour for green / amber / red, so every
+ * badge, ring, dot and timeline cell stays consistent. Icons come from the lucide-react library.
+ */
 import { CircleCheck, TriangleAlert, OctagonAlert, CircleDashed } from 'lucide-react'
 
 // One place that decides how each status looks: word, icon and colour.

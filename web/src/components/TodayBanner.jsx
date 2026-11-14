@@ -1,3 +1,10 @@
+/*
+ * TodayBanner: the one-sentence summary at the top of the overview ("2 of 4 crew need attention").
+ * PROPS: crew (the crew list for the selected day).
+ *
+ * Notice there is no state here: everything is worked out from the props each time the
+ * component draws. If a value can be calculated from props, calculate it; don't store it.
+ */
 import { crewInfo } from '../crew'
 import { statusOf } from '../status'
 

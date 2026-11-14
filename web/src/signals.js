@@ -1,3 +1,14 @@
+/*
+ * signals.js: everything the dashboard knows about the 10 health signals (plain JavaScript).
+ *   GROUPS          which signals belong to which NASA hazard, and each group's colour
+ *   SIGNALS         friendly name, icon, decimal places and unit for each signal
+ *   signalInfo()    safe lookup for one signal
+ *   groupOf()       which group a signal is in (gives its colour)
+ *   todayStats()    today's value, its difference from normal, and whether it's out of range
+ *   signatureSignal() which signal to show in the big chart by default
+ *   fixedRange()    a y-axis range that doesn't change during playback
+ * Only signals listed here are ever shown, which is why the "scenario" answer key never appears.
+ */
 import {
   Moon,
   Timer,

@@ -1,3 +1,20 @@
+/*
+ * App.jsx: the top-level component. It loads the shared data and decides which page to show.
+ *
+ * Layout on screen: Sidebar (left) | MissionBar (top) + the current page + Footer.
+ *
+ * What App remembers (STATE):
+ *   mission      mission info from the API: its name, last day and the radio delay
+ *   history      every day's crew status, loaded once at the start: { 1: [...], 2: [...], ... }
+ *   day          the day picked with the slider or the play button
+ *   live         true = data came from the live API, false = from the saved backup files
+ *   destination  ISS, Moon or Mars from the mission bar (it only changes the radio delay)
+ *
+ * Why does this live in App? A piece of state belongs in the closest component that
+ * EVERYTHING using it sits inside. The slider (in MissionBar) changes `day`, and both pages
+ * read `day`, so App owns it and passes it down as a prop. Passing `setDay` down as well
+ * lets a child component change it.
+ */
 import { useEffect, useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { getMission, getCrewHistory } from './api'
@@ -28,6 +45,7 @@ export default function App() {
     })
   }, [])
 
+  // While the data is loading, show a simple message. Returning early means nothing below runs yet.
   if (!mission || !history) {
     return (
       <div className="boot">
@@ -37,6 +55,7 @@ export default function App() {
     )
   }
 
+  // Worked out fresh on every draw from state; no need to store these separately
   const delay = delayFor(destination, mission)
   const crew = history[day] ?? []
 
@@ -52,6 +71,8 @@ export default function App() {
           setDestination={setDestination}
           delay={delay}
         />
+        {/* <Routes> shows ONE <Route>: the one whose path matches the address.
+            ":id" is a placeholder, so #/astronaut/B shows AstronautDetail with id = "B". */}
         <Routes>
           <Route
             path="/"

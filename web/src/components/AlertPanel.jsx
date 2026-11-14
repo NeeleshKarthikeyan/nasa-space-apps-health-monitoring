@@ -1,3 +1,16 @@
+/*
+ * AlertPanel: the right-hand panel on the astronaut page. It shows today's alert:
+ * the explanation, a checklist of actions, source links, and the Send to Earth card.
+ * PROPS: id (astronaut, e.g. "B"), day, delay.
+ *
+ * HOW IT LOADS DATA (useEffect):
+ *   The effect asks the API for this astronaut's alerts whenever `id` or `day` changes
+ *   (that's what [id, day] at the end means), then saves the answer in state with setAlerts.
+ *   Until the answer arrives, `alerts` is null and the panel draws nothing.
+ *
+ * EARLY RETURNS: a component can `return` different JSX in different situations.
+ * Here: nothing yet -> "No alerts today" -> the full alert.
+ */
 import { useEffect, useState } from 'react'
 import { CircleCheck } from 'lucide-react'
 import { getAlerts } from '../api'
@@ -16,6 +29,7 @@ export default function AlertPanel({ id, day, delay }) {
   if (!alerts) return null
 
   // Only today's alert matters; an older one has already passed
+  // .find() returns the first item that matches, or undefined if none does
   const today = alerts.find((a) => a.mission_day === day)
 
   if (!today) {
@@ -31,6 +45,7 @@ export default function AlertPanel({ id, day, delay }) {
 
   const s = statusOf(today.status)
   const Icon = s.icon
+  // Each tick is remembered under "alertId:action", so ticks from one day never show on another
   const key = (action) => `${today.alert_id}:${action}`
   const doneCount = today.actions.filter((a) => done[key(a)]).length
 

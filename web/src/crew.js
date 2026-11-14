@@ -1,3 +1,8 @@
+/*
+ * crew.js: names for the crew (plain JavaScript, no React).
+ * The data only says A, B, C, D. This file turns those into the call signs and roles
+ * shown on screen. Change a name here and it changes everywhere.
+ */
 // Invented call signs and roles for the simulated crew. These are NOT real astronauts.
 export const CREW = {
   A: { callsign: 'Vega', role: 'Commander', initials: 'VG' },

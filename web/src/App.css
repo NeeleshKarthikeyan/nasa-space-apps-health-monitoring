@@ -1,3 +1,17 @@
+/*
+ * App.css: how the dashboard looks. Sections, in order:
+ *   Shared text styles, App shell (sidebar + main), Sidebar, Mission bar, panel style,
+ *   Overview (banner, crew cards, timeline), Astronaut page (alert, Send to Earth,
+ *   charts, widgets), Footer, and finally Phones and narrow screens (@media).
+ *
+ * Tips for reading it:
+ *   - className="crew-card" in a component is styled by .crew-card { ... } here.
+ *   - "rem" units scale with the base text size set in index.css, so on a big screen
+ *     everything grows together. "px" stays fixed.
+ *   - var(--accent) is a CSS variable; components set it, e.g. style={{ '--accent': color }}.
+ *   - clamp(min, preferred, max) picks a size that grows with the screen but stays within limits.
+ *   - @media (max-width: 900px) { ... } only applies on screens narrower than 900px.
+ */
 /* =========================================================
    Crew Health Monitor: calm version
    Rule of thumb: one panel style, generous space, colour only where it means something.

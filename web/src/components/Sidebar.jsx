@@ -1,3 +1,12 @@
+/*
+ * Sidebar: the navigation on the left (Overview, then one link per crew member).
+ * PROPS: crew (for the coloured status dots), live (for the "Live data / Offline copy" note).
+ *
+ * <NavLink> is a react-router link that automatically gets the CSS class "active" when its
+ * page is the one showing; App.css uses that to highlight it. `end` on the Overview link means
+ * "only active on exactly #/", not on every page.
+ * On narrow screens App.css turns this column into a row along the top.
+ */
 import { NavLink } from 'react-router-dom'
 import { LayoutGrid, Rocket } from 'lucide-react'
 import { crewInfo } from '../crew'

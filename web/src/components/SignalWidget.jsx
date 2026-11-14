@@ -1,3 +1,13 @@
+/*
+ * SignalWidget: one small tile per health signal on the astronaut page: icon, today's value,
+ * change from normal, and a mini chart of the last 3 weeks.
+ * It is a <button>: clicking it shows that signal in the big chart above.
+ * PROPS: signalKey (e.g. "sleep_h"), unit, points (the signal's data), day, color,
+ *        selected (is it in the big chart?), onSelect (what to do when clicked).
+ *
+ * The mini chart uses the Recharts library: <ResponsiveContainer> makes the chart fill its
+ * box, <AreaChart> draws the filled line, and <linearGradient> creates the fade to transparent.
+ */
 import { AreaChart, Area, YAxis, ResponsiveContainer } from 'recharts'
 import { ArrowDown, ArrowUp } from 'lucide-react'
 import { signalInfo, todayStats, fixedRange } from '../signals'

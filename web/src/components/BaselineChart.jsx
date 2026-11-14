@@ -1,3 +1,18 @@
+/*
+ * BaselineChart: the big chart on the astronaut page.
+ * PROPS: signalKey, unit, points, day, color, big.
+ *
+ * HOW THE CHART IS BUILT (Recharts: each part of the chart is its own component):
+ *   <ResponsiveContainer>  fills the box it sits in (its height comes from App.css)
+ *   <ComposedChart>        a chart that can mix several layers; `data` is the list of days
+ *   <XAxis>/<YAxis>        both have a FIXED range, so the chart doesn't rescale during playback
+ *   <Area> (first)         the faint band = this astronaut's normal range. When dataKey returns
+ *                          a pair [low, high], Recharts shades BETWEEN them
+ *   <Area> (second)        the readings, with a gradient fill. connectNulls={false} leaves a
+ *                          gap where a reading is missing instead of drawing it as zero
+ *   <ReferenceLine>        the dashed line marking the selected day
+ *   FlagDot                draws a red dot only on days the model flagged
+ */
 import {
   ComposedChart,
   Area,

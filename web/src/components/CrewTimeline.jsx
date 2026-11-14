@@ -1,3 +1,15 @@
+/*
+ * CrewTimeline: the grid on the overview page. One row per astronaut, one cell per day,
+ * coloured by that day's status. Clicking a cell jumps the whole dashboard to that day.
+ * PROPS: history (every day's crew list), lastDay, day (selected), setDay (to change it).
+ *
+ * REACT IDEAS USED HERE:
+ *   - list.map(item => <Something key={...} />) draws one element per item in a list.
+ *     React needs a unique `key` on each one, so it can tell them apart when things change.
+ *   - <Fragment> groups elements without adding an extra box to the page.
+ *   - onClick={() => setDay(d)} runs when the cell is clicked; calling setDay (from App)
+ *     changes the shared day, and every part of the dashboard redraws for that day.
+ */
 import { Fragment } from 'react'
 import { crewInfo } from '../crew'
 import { statusOf } from '../status'

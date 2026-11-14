@@ -14,7 +14,7 @@ Space Apps requires every external resource (data, code, libraries, text, images
 
 ## Libraries
 - Python: pandas, NumPy, scikit-learn, FastAPI, Uvicorn, requests
-- JavaScript: React, Vite, Recharts, React Router
+- JavaScript: React, Vite, Recharts, React Router , lucide-react icons; fonts Manrope, JetBrains Mono and Instrument Serif via Fontsource
 
 ## Images, icons, fonts
 - [ ] Add every image used in the app, video or project page
