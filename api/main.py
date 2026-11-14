@@ -33,7 +33,6 @@ DATA_DIR = Path(__file__).parent / "placeholder"
 
 CREW_CSV = REPO_ROOT / "data" / "processed" / "crew_daily.csv"
 MODEL_FILE = REPO_ROOT / "model" / "output" / "model_output.json"
-BASELINE_FILE = REPO_ROOT / "model" / "output" / "baseline.json"
 ALERTS_FILE = REPO_ROOT / "explain" / "output" / "alerts.json"
 MISSION = DATA_DIR / "mission.json"
 
@@ -41,7 +40,7 @@ MISSION = DATA_DIR / "mission.json"
 @app.get("/api/mission")
 def mission():
     path = MISSION  
-    if not path.exists():                 
+    if not path.exists():
         raise HTTPException(status_code=404, detail="Not found")   
     with open(path) as f:                
         return json.load(f)
@@ -57,8 +56,6 @@ def crew():
     with open(path) as f:                
         mission = json.load(f)
     return [r for r in records if r['mission_day'] == mission['current_day']]
-    
-
 
 @app.get("/api/crew/{astronaut_id}/timeseries") 
 def timeseries(astronaut_id: str):
@@ -82,12 +79,14 @@ def timeseries(astronaut_id: str):
             'low' : round(mean - 2 * sd,2),
             'high': round(mean + 2 * sd,2),}
     keep = keep.astype(object).where(keep.notna(), None)
-    rows = keep.to_dict(orient="records") 
+    rows = keep.to_dict(orient="records")
 
-    records = MODEL_FILE
-    status_by_day = {s["mission_day"]: s["status"] for s in records if s["astronaut_id"] == astronaut_id}
-    for row in rows:
-        row["status"] = status_by_day.get( row["mission_day"])
+    if MODEL_FILE.exists():
+        with open(MODEL_FILE) as f:
+            records = json.load(f)
+            status_by_day = {s["mission_day"]: s["status"] for s in records if s["astronaut_id"] == astronaut_id}
+        for row in rows:
+            row["status"] = status_by_day.get( row["mission_day"])
     return {"astronaut_id": astronaut_id, "days": rows, "baseline":baseline}
 
 @app.get("/api/alerts")
