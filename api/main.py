@@ -38,7 +38,6 @@ ALERTS_FILE = REPO_ROOT / "explain" / "output" / "alerts.json"
 MISSION = DATA_DIR / "mission.json"
 
 
-
 @app.get("/api/mission")
 def mission():
     path = DATA_DIR / "mission.json" 
@@ -70,10 +69,22 @@ def timeseries(astronaut_id: str):
     df = pd.read_csv(CREW_CSV)
     keep = df[df['astronaut_id'] == astronaut_id]
     keep = keep.drop(columns=["scenario"])
+    SKIP = ["astronaut_id", "mission_day", "cumulative_dose_msv"]
+    signals = [c for c in keep.columns if c not in SKIP]
     if keep.empty:
         raise HTTPException(status_code=404, detail="Astronaut not found")
+    base = keep[keep['mission_day'] <= 14]
+    baseline = {}
+    for col in signals:
+        mean = base[col].mean()
+        sd = base[col].std()
+        baseline[col] = {
+            'mean' : round(mean,2),
+            'low' : round(mean - 2 * sd,2),
+            'high': round(mean + 2 * sd,2),}
+    keep = keep.astype(object).where(keep.notna(), None)
     rows = keep.to_dict(orient="records") 
-    return {"astronaut_id": astronaut_id, "days": rows}
+    return {"astronaut_id": astronaut_id, "days": rows, "baseline":baseline}
 
 @app.get("/api/alerts")
 def alert(astronaut_id: str | None = None):
@@ -88,7 +99,3 @@ def alert(astronaut_id: str | None = None):
 
 
 #python -m uvicorn main:app --reload   
-
-#C:\Users\fahim\nasa-space-apps-health-monitoring\model\output\model_output.json
-# C:\Users\fahim\nasa-space-apps-health-monitoring\data\processed\crew_daily.csv
-# C:\Users\fahim\nasa-space-apps-health-monitoring\explain\output\alerts.json
