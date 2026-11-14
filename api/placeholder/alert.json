@@ -1,0 +1,21 @@
+[{
+    "alert_id": "B-47",
+    "astronaut_id": "B",
+    "status": "amber",
+    "title": "Fatigue building over 3 days",
+    "explanation": "Sleep is 2 hours below your normal and reaction time has slowed by 15%.",
+    "actions": ["Protected 8-hour sleep period", "Repeat reaction test in 12 hours"],
+    "escalate_to_earth": false,
+    "sources": ["https://www.nasa.gov/hrp/bodyinspace/"]
+  },
+  {
+    "alert_id": "C-40",
+    "astronaut_id": "C",
+    "status": "amber",
+    "title": "Resting heart rate and blood pressure drifting up",
+    "explanation": "Resting heart rate has been above your normal range for 4 days, and blood pressure is rising.",
+    "actions": ["Log a resting blood pressure reading tonight", "Review exercise sessions"],
+    "escalate_to_earth": false,
+    "sources": ["https://www.nasa.gov/hrp/bodyinspace/"]
+  }
+]

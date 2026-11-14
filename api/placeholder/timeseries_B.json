@@ -1,0 +1,20 @@
+{
+  "astronaut_id": "B",
+  "days": [
+    {"mission_day": 45, "resting_hr_bpm": 66, "hrv_ms": 44, "sleep_h": 6.1, "spo2_pct": 98, "systolic_bp_mmhg": 120, "body_mass_kg": 72.3, "exercise_min": 45, "reaction_time_ms": 295, "mood_1to5": 3, "radiation_mgy": 0.4, "cumulative_dose_msv": 61.2, "status": "green"},
+    {"mission_day": 46, "resting_hr_bpm": 69, "hrv_ms": 40, "sleep_h": 5.7, "spo2_pct": 97, "systolic_bp_mmhg": 122, "body_mass_kg": 72.2, "exercise_min": 40, "reaction_time_ms": 307, "mood_1to5": 3, "radiation_mgy": 0.7, "cumulative_dose_msv": 61.9, "status": "green"},
+    {"mission_day": 47, "resting_hr_bpm": 71, "hrv_ms": 38, "sleep_h": 5.4, "spo2_pct": 97, "systolic_bp_mmhg": 124, "body_mass_kg": 72.1, "exercise_min": 35, "reaction_time_ms": 318, "mood_1to5": 2, "radiation_mgy": 0.9, "cumulative_dose_msv": 62.4, "status": "amber"}
+  ],
+  "baseline": {
+    "resting_hr_bpm":   {"mean": 62,   "low": 56,   "high": 68},
+    "hrv_ms":           {"mean": 48,   "low": 40,   "high": 56},
+    "sleep_h":          {"mean": 7.1,  "low": 6.3,  "high": 7.9},
+    "spo2_pct":         {"mean": 98,   "low": 97,   "high": 99},
+    "systolic_bp_mmhg": {"mean": 118,  "low": 110,  "high": 126},
+    "body_mass_kg":     {"mean": 72.5, "low": 71.9, "high": 73.1},
+    "exercise_min":     {"mean": 50,   "low": 38,   "high": 62},
+    "reaction_time_ms": {"mean": 276,  "low": 258,  "high": 294},
+    "mood_1to5":        {"mean": 4,    "low": 3,    "high": 5},
+    "radiation_mgy":    {"mean": 0.4,  "low": 0.3,  "high": 0.5}
+  }
+}
