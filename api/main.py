@@ -17,8 +17,16 @@ import json
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi import HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 DATA_DIR = Path(__file__).parent / "placeholder"
 
 @app.get("/api/mission")
@@ -58,4 +66,3 @@ def alert(astronaut_id: str | None = None):
 
 
 #python -m uvicorn main:app --reload   
-#http://localhost:8000/api/greet/Riyaz
