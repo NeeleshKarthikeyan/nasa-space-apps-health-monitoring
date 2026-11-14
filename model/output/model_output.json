@@ -2,7 +2,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 1,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.0,
     "status": "green",
     "top_signals": [
       {
@@ -29,7 +29,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 2,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -56,7 +56,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 3,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -83,7 +83,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 4,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.13,
     "status": "green",
     "top_signals": [
       {
@@ -110,7 +110,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 5,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.0,
     "status": "green",
     "top_signals": [
       {
@@ -137,7 +137,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 6,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -164,7 +164,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 7,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -191,7 +191,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 8,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.05,
     "status": "green",
     "top_signals": [
       {
@@ -218,7 +218,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 9,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -245,7 +245,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 10,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.2,
     "status": "green",
     "top_signals": [
       {
@@ -272,7 +272,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 11,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -299,7 +299,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 12,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.29,
     "status": "green",
     "top_signals": [
       {
@@ -326,7 +326,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 13,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.2,
     "status": "green",
     "top_signals": [
       {
@@ -353,7 +353,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 14,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.36,
     "status": "green",
     "top_signals": [
       {
@@ -380,7 +380,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 15,
-    "anomaly_score": 0.41,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -407,7 +407,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 16,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -434,7 +434,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 17,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.26,
     "status": "green",
     "top_signals": [
       {
@@ -461,7 +461,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 18,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.16,
     "status": "green",
     "top_signals": [
       {
@@ -488,7 +488,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 19,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.31,
     "status": "green",
     "top_signals": [
       {
@@ -515,7 +515,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 20,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -542,7 +542,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 21,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -569,7 +569,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 22,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.31,
     "status": "green",
     "top_signals": [
       {
@@ -596,7 +596,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 23,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.18,
     "status": "green",
     "top_signals": [
       {
@@ -623,7 +623,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 24,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.25,
     "status": "green",
     "top_signals": [
       {
@@ -650,7 +650,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 25,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -677,7 +677,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 26,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.15,
     "status": "green",
     "top_signals": [
       {
@@ -704,7 +704,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 27,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -731,7 +731,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 28,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.2,
     "status": "green",
     "top_signals": [
       {
@@ -758,7 +758,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 29,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.24,
     "status": "green",
     "top_signals": [
       {
@@ -785,7 +785,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 30,
-    "anomaly_score": 0.55,
+    "anomaly_score": 0.33,
     "status": "green",
     "top_signals": [
       {
@@ -812,7 +812,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 31,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -839,7 +839,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 32,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -866,7 +866,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 33,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.2,
     "status": "green",
     "top_signals": [
       {
@@ -893,7 +893,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 34,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -920,7 +920,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 35,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.31,
     "status": "green",
     "top_signals": [
       {
@@ -947,7 +947,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 36,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -974,7 +974,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 37,
-    "anomaly_score": 0.58,
+    "anomaly_score": 0.5,
     "status": "green",
     "top_signals": [
       {
@@ -1001,7 +1001,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 38,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.28,
     "status": "green",
     "top_signals": [
       {
@@ -1028,7 +1028,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 39,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.26,
     "status": "green",
     "top_signals": [
       {
@@ -1055,7 +1055,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 40,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.3,
     "status": "green",
     "top_signals": [
       {
@@ -1082,7 +1082,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 41,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.23,
     "status": "green",
     "top_signals": [
       {
@@ -1109,7 +1109,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 42,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.39,
     "status": "green",
     "top_signals": [
       {
@@ -1136,7 +1136,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 43,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -1163,7 +1163,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 44,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.32,
     "status": "green",
     "top_signals": [
       {
@@ -1190,7 +1190,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 45,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -1217,7 +1217,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 46,
-    "anomaly_score": 0.6,
+    "anomaly_score": 0.12,
     "status": "amber",
     "top_signals": [
       {
@@ -1248,7 +1248,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 47,
-    "anomaly_score": 0.64,
+    "anomaly_score": 0.34,
     "status": "amber",
     "top_signals": [
       {
@@ -1279,7 +1279,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 48,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.28,
     "status": "green",
     "top_signals": [
       {
@@ -1306,7 +1306,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 49,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -1333,7 +1333,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 50,
-    "anomaly_score": 0.55,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -1360,7 +1360,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 51,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -1387,7 +1387,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 52,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -1414,7 +1414,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 53,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.21,
     "status": "green",
     "top_signals": [
       {
@@ -1441,7 +1441,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 54,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -1468,7 +1468,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 55,
-    "anomaly_score": 0.58,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -1495,7 +1495,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 56,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -1522,7 +1522,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 57,
-    "anomaly_score": 0.58,
+    "anomaly_score": 0.41,
     "status": "green",
     "top_signals": [
       {
@@ -1549,7 +1549,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 58,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -1576,7 +1576,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 59,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.19,
     "status": "green",
     "top_signals": [
       {
@@ -1603,7 +1603,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 60,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -1630,7 +1630,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 1,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.0,
     "status": "green",
     "top_signals": [
       {
@@ -1657,7 +1657,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 2,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.21,
     "status": "green",
     "top_signals": [
       {
@@ -1684,7 +1684,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 3,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.05,
     "status": "green",
     "top_signals": [
       {
@@ -1711,7 +1711,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 4,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.03,
     "status": "green",
     "top_signals": [
       {
@@ -1738,7 +1738,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 5,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -1765,7 +1765,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 6,
-    "anomaly_score": 0.56,
+    "anomaly_score": 0.28,
     "status": "green",
     "top_signals": [
       {
@@ -1792,7 +1792,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 7,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.36,
     "status": "green",
     "top_signals": [
       {
@@ -1819,7 +1819,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 8,
-    "anomaly_score": 0.56,
+    "anomaly_score": 0.28,
     "status": "green",
     "top_signals": [
       {
@@ -1846,7 +1846,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 9,
-    "anomaly_score": 0.37,
+    "anomaly_score": 0.0,
     "status": "green",
     "top_signals": [
       {
@@ -1861,7 +1861,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 10,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.18,
     "status": "green",
     "top_signals": [
       {
@@ -1888,7 +1888,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 11,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.02,
     "status": "green",
     "top_signals": [
       {
@@ -1915,7 +1915,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 12,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.11,
     "status": "green",
     "top_signals": [
       {
@@ -1942,7 +1942,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 13,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.21,
     "status": "green",
     "top_signals": [
       {
@@ -1969,7 +1969,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 14,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -1996,7 +1996,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 15,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.3,
     "status": "green",
     "top_signals": [
       {
@@ -2017,7 +2017,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 16,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.25,
     "status": "green",
     "top_signals": [
       {
@@ -2044,7 +2044,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 17,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.2,
     "status": "green",
     "top_signals": [
       {
@@ -2071,7 +2071,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 18,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.44,
     "status": "green",
     "top_signals": [
       {
@@ -2098,7 +2098,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 19,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
       {
@@ -2125,7 +2125,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 20,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.38,
     "status": "green",
     "top_signals": [
       {
@@ -2152,7 +2152,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 21,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -2179,7 +2179,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 22,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.29,
     "status": "green",
     "top_signals": [
       {
@@ -2206,7 +2206,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 23,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.28,
     "status": "green",
     "top_signals": [
       {
@@ -2233,7 +2233,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 24,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.22,
     "status": "green",
     "top_signals": [
       {
@@ -2260,7 +2260,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 25,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.28,
     "status": "green",
     "top_signals": [
       {
@@ -2287,7 +2287,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 26,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.04,
     "status": "green",
     "top_signals": [
       {
@@ -2314,7 +2314,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 27,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.28,
     "status": "green",
     "top_signals": [
       {
@@ -2341,7 +2341,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 28,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.13,
     "status": "green",
     "top_signals": [
       {
@@ -2368,7 +2368,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 29,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -2395,7 +2395,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 30,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.43,
     "status": "green",
     "top_signals": [
       {
@@ -2422,7 +2422,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 31,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.25,
     "status": "green",
     "top_signals": [
       {
@@ -2449,7 +2449,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 32,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.08,
     "status": "green",
     "top_signals": [
       {
@@ -2476,7 +2476,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 33,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.03,
     "status": "green",
     "top_signals": [
       {
@@ -2497,7 +2497,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 34,
-    "anomaly_score": 0.41,
+    "anomaly_score": 0.13,
     "status": "green",
     "top_signals": [
       {
@@ -2524,7 +2524,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 35,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -2551,7 +2551,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 36,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.23,
     "status": "green",
     "top_signals": [
       {
@@ -2578,7 +2578,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 37,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.37,
     "status": "green",
     "top_signals": [
       {
@@ -2605,7 +2605,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 38,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.46,
     "status": "green",
     "top_signals": [
       {
@@ -2632,7 +2632,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 39,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.18,
     "status": "green",
     "top_signals": [
       {
@@ -2659,7 +2659,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 40,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.03,
     "status": "green",
     "top_signals": [
       {
@@ -2674,7 +2674,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 41,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.06,
     "status": "green",
     "top_signals": [
       {
@@ -2695,7 +2695,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 42,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -2722,7 +2722,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 43,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.0,
     "status": "green",
     "top_signals": [
       {
@@ -2743,7 +2743,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 44,
-    "anomaly_score": 0.55,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -2770,7 +2770,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 45,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.24,
     "status": "green",
     "top_signals": [
       {
@@ -2797,7 +2797,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 46,
-    "anomaly_score": 0.58,
+    "anomaly_score": 0.5,
     "status": "amber",
     "top_signals": [
       {
@@ -2827,7 +2827,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 47,
-    "anomaly_score": 0.67,
+    "anomaly_score": 0.86,
     "status": "amber",
     "top_signals": [
       {
@@ -2858,7 +2858,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 48,
-    "anomaly_score": 0.6,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -2888,7 +2888,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 49,
-    "anomaly_score": 0.61,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -2918,7 +2918,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 50,
-    "anomaly_score": 0.65,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -2948,7 +2948,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 51,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.25,
     "status": "green",
     "top_signals": [
       {
@@ -2975,7 +2975,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 52,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.35,
     "status": "green",
     "top_signals": [
       {
@@ -3002,7 +3002,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 53,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.23,
     "status": "green",
     "top_signals": [
       {
@@ -3029,7 +3029,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 54,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -3056,7 +3056,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 55,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.13,
     "status": "green",
     "top_signals": [
       {
@@ -3083,7 +3083,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 56,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.16,
     "status": "green",
     "top_signals": [
       {
@@ -3110,7 +3110,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 57,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.26,
     "status": "green",
     "top_signals": [
       {
@@ -3137,7 +3137,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 58,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.21,
     "status": "green",
     "top_signals": [
       {
@@ -3158,7 +3158,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 59,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -3179,7 +3179,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 60,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.15,
     "status": "green",
     "top_signals": [
       {
@@ -3206,7 +3206,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 1,
-    "anomaly_score": 0.63,
+    "anomaly_score": 0.0,
     "status": "green",
     "top_signals": [
       {
@@ -3233,7 +3233,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 2,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.24,
     "status": "green",
     "top_signals": [
       {
@@ -3260,7 +3260,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 3,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.15,
     "status": "green",
     "top_signals": [
       {
@@ -3287,7 +3287,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 4,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.29,
     "status": "green",
     "top_signals": [
       {
@@ -3314,7 +3314,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 5,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.11,
     "status": "green",
     "top_signals": [
       {
@@ -3341,7 +3341,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 6,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -3368,7 +3368,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 7,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.35,
     "status": "green",
     "top_signals": [
       {
@@ -3395,7 +3395,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 8,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.32,
     "status": "green",
     "top_signals": [
       {
@@ -3422,7 +3422,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 9,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -3449,7 +3449,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 10,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -3476,7 +3476,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 11,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.01,
     "status": "green",
     "top_signals": [
       {
@@ -3503,7 +3503,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 12,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.13,
     "status": "green",
     "top_signals": [
       {
@@ -3524,7 +3524,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 13,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.06,
     "status": "green",
     "top_signals": [
       {
@@ -3545,7 +3545,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 14,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.18,
     "status": "green",
     "top_signals": [
       {
@@ -3572,7 +3572,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 15,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.02,
     "status": "green",
     "top_signals": [
       {
@@ -3599,7 +3599,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 16,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.16,
     "status": "green",
     "top_signals": [
       {
@@ -3626,7 +3626,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 17,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.25,
     "status": "green",
     "top_signals": [
       {
@@ -3653,7 +3653,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 18,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.22,
     "status": "green",
     "top_signals": [
       {
@@ -3680,7 +3680,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 19,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.21,
     "status": "green",
     "top_signals": [
       {
@@ -3707,7 +3707,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 20,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.15,
     "status": "green",
     "top_signals": [
       {
@@ -3734,7 +3734,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 21,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.19,
     "status": "green",
     "top_signals": [
       {
@@ -3761,7 +3761,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 22,
-    "anomaly_score": 0.56,
+    "anomaly_score": 0.11,
     "status": "green",
     "top_signals": [
       {
@@ -3788,7 +3788,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 23,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.02,
     "status": "green",
     "top_signals": [
       {
@@ -3815,7 +3815,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 24,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -3842,7 +3842,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 25,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.18,
     "status": "green",
     "top_signals": [
       {
@@ -3869,7 +3869,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 26,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.16,
     "status": "green",
     "top_signals": [
       {
@@ -3896,7 +3896,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 27,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.4,
     "status": "green",
     "top_signals": [
       {
@@ -3923,7 +3923,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 28,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.21,
     "status": "green",
     "top_signals": [
       {
@@ -3950,7 +3950,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 29,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
       {
@@ -3977,7 +3977,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 30,
-    "anomaly_score": 0.58,
+    "anomaly_score": 0.38,
     "status": "green",
     "top_signals": [
       {
@@ -4004,7 +4004,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 31,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.22,
     "status": "green",
     "top_signals": [
       {
@@ -4019,7 +4019,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 32,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -4046,7 +4046,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 33,
-    "anomaly_score": 0.66,
+    "anomaly_score": 0.29,
     "status": "amber",
     "top_signals": [
       {
@@ -4076,7 +4076,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 34,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.41,
     "status": "green",
     "top_signals": [
       {
@@ -4103,7 +4103,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 35,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -4130,7 +4130,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 36,
-    "anomaly_score": 0.65,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -4157,7 +4157,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 37,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.34,
     "status": "green",
     "top_signals": [
       {
@@ -4184,7 +4184,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 38,
-    "anomaly_score": 0.61,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
       {
@@ -4211,7 +4211,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 39,
-    "anomaly_score": 0.64,
+    "anomaly_score": 0.53,
     "status": "amber",
     "top_signals": [
       {
@@ -4240,7 +4240,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 40,
-    "anomaly_score": 0.6,
+    "anomaly_score": 0.67,
     "status": "amber",
     "top_signals": [
       {
@@ -4269,7 +4269,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 41,
-    "anomaly_score": 0.63,
+    "anomaly_score": 0.82,
     "status": "amber",
     "top_signals": [
       {
@@ -4299,7 +4299,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 42,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.49,
     "status": "amber",
     "top_signals": [
       {
@@ -4328,7 +4328,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 43,
-    "anomaly_score": 0.6,
+    "anomaly_score": 0.55,
     "status": "amber",
     "top_signals": [
       {
@@ -4357,7 +4357,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 44,
-    "anomaly_score": 0.61,
+    "anomaly_score": 0.66,
     "status": "amber",
     "top_signals": [
       {
@@ -4386,7 +4386,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 45,
-    "anomaly_score": 0.61,
+    "anomaly_score": 0.51,
     "status": "amber",
     "top_signals": [
       {
@@ -4415,7 +4415,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 46,
-    "anomaly_score": 0.63,
+    "anomaly_score": 0.8,
     "status": "amber",
     "top_signals": [
       {
@@ -4445,7 +4445,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 47,
-    "anomaly_score": 0.65,
+    "anomaly_score": 0.9,
     "status": "amber",
     "top_signals": [
       {
@@ -4475,7 +4475,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 48,
-    "anomaly_score": 0.56,
+    "anomaly_score": 0.57,
     "status": "amber",
     "top_signals": [
       {
@@ -4504,7 +4504,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 49,
-    "anomaly_score": 0.55,
+    "anomaly_score": 0.93,
     "status": "amber",
     "top_signals": [
       {
@@ -4533,7 +4533,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 50,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.91,
     "status": "amber",
     "top_signals": [
       {
@@ -4562,7 +4562,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 51,
-    "anomaly_score": 0.61,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -4592,7 +4592,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 52,
-    "anomaly_score": 0.59,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -4621,7 +4621,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 53,
-    "anomaly_score": 0.66,
+    "anomaly_score": 0.58,
     "status": "amber",
     "top_signals": [
       {
@@ -4651,7 +4651,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 54,
-    "anomaly_score": 0.65,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -4681,7 +4681,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 55,
-    "anomaly_score": 0.63,
+    "anomaly_score": 1.0,
     "status": "amber",
     "top_signals": [
       {
@@ -4710,7 +4710,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 56,
-    "anomaly_score": 0.63,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -4739,7 +4739,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 57,
-    "anomaly_score": 0.66,
+    "anomaly_score": 0.76,
     "status": "amber",
     "top_signals": [
       {
@@ -4768,7 +4768,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 58,
-    "anomaly_score": 0.6,
+    "anomaly_score": 0.99,
     "status": "amber",
     "top_signals": [
       {
@@ -4797,7 +4797,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 59,
-    "anomaly_score": 0.66,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -4826,7 +4826,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 60,
-    "anomaly_score": 0.6,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -4856,7 +4856,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 1,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.0,
     "status": "green",
     "top_signals": [
       {
@@ -4883,7 +4883,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 2,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.13,
     "status": "green",
     "top_signals": [
       {
@@ -4910,7 +4910,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 3,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.23,
     "status": "green",
     "top_signals": [
       {
@@ -4937,7 +4937,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 4,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.3,
     "status": "green",
     "top_signals": [
       {
@@ -4964,7 +4964,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 5,
-    "anomaly_score": 0.41,
+    "anomaly_score": 0.08,
     "status": "green",
     "top_signals": [
       {
@@ -4991,7 +4991,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 6,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.08,
     "status": "green",
     "top_signals": [
       {
@@ -5018,7 +5018,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 7,
-    "anomaly_score": 0.37,
+    "anomaly_score": 0.05,
     "status": "green",
     "top_signals": [
       {
@@ -5045,7 +5045,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 8,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.08,
     "status": "green",
     "top_signals": [
       {
@@ -5072,7 +5072,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 9,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.06,
     "status": "green",
     "top_signals": [
       {
@@ -5099,7 +5099,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 10,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.04,
     "status": "green",
     "top_signals": [
       {
@@ -5126,7 +5126,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 11,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.14,
     "status": "green",
     "top_signals": [
       {
@@ -5153,7 +5153,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 12,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.16,
     "status": "green",
     "top_signals": [
       {
@@ -5180,7 +5180,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 13,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.04,
     "status": "green",
     "top_signals": [
       {
@@ -5207,7 +5207,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 14,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.22,
     "status": "green",
     "top_signals": [
       {
@@ -5234,7 +5234,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 15,
-    "anomaly_score": 0.59,
+    "anomaly_score": 0.4,
     "status": "green",
     "top_signals": [
       {
@@ -5261,7 +5261,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 16,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.21,
     "status": "green",
     "top_signals": [
       {
@@ -5288,7 +5288,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 17,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.2,
     "status": "green",
     "top_signals": [
       {
@@ -5315,7 +5315,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 18,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.25,
     "status": "green",
     "top_signals": [
       {
@@ -5342,7 +5342,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 19,
-    "anomaly_score": 0.55,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -5369,7 +5369,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 20,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.11,
     "status": "green",
     "top_signals": [
       {
@@ -5396,7 +5396,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 21,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.04,
     "status": "green",
     "top_signals": [
       {
@@ -5423,7 +5423,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 22,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.07,
     "status": "green",
     "top_signals": [
       {
@@ -5450,7 +5450,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 23,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.06,
     "status": "green",
     "top_signals": [
       {
@@ -5477,7 +5477,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 24,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -5504,7 +5504,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 25,
-    "anomaly_score": 0.56,
+    "anomaly_score": 0.31,
     "status": "green",
     "top_signals": [
       {
@@ -5531,7 +5531,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 26,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.35,
     "status": "green",
     "top_signals": [
       {
@@ -5558,7 +5558,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 27,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.09,
     "status": "green",
     "top_signals": [
       {
@@ -5585,7 +5585,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 28,
-    "anomaly_score": 0.41,
+    "anomaly_score": 0.16,
     "status": "green",
     "top_signals": [
       {
@@ -5612,7 +5612,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 29,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.34,
     "status": "green",
     "top_signals": [
       {
@@ -5639,7 +5639,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 30,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.44,
     "status": "green",
     "top_signals": [
       {
@@ -5666,7 +5666,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 31,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.18,
     "status": "green",
     "top_signals": [
       {
@@ -5693,7 +5693,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 32,
-    "anomaly_score": 0.61,
+    "anomaly_score": 0.63,
     "status": "amber",
     "top_signals": [
       {
@@ -5723,7 +5723,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 33,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
       {
@@ -5750,7 +5750,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 34,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.3,
     "status": "green",
     "top_signals": [
       {
@@ -5777,7 +5777,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 35,
-    "anomaly_score": 0.62,
+    "anomaly_score": 0.48,
     "status": "green",
     "top_signals": [
       {
@@ -5804,7 +5804,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 36,
-    "anomaly_score": 0.66,
+    "anomaly_score": 0.69,
     "status": "amber",
     "top_signals": [
       {
@@ -5833,7 +5833,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 37,
-    "anomaly_score": 0.63,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -5862,7 +5862,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 38,
-    "anomaly_score": 0.55,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -5891,7 +5891,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 39,
-    "anomaly_score": 0.66,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -5920,7 +5920,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 40,
-    "anomaly_score": 0.65,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -5949,7 +5949,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 41,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.35,
     "status": "green",
     "top_signals": [
       {
@@ -5976,7 +5976,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 42,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.31,
     "status": "green",
     "top_signals": [
       {
@@ -6003,7 +6003,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 43,
-    "anomaly_score": 0.41,
+    "anomaly_score": 0.19,
     "status": "green",
     "top_signals": [
       {
@@ -6030,7 +6030,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 44,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.18,
     "status": "green",
     "top_signals": [
       {
@@ -6057,7 +6057,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 45,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.19,
     "status": "green",
     "top_signals": [
       {
@@ -6084,7 +6084,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 46,
-    "anomaly_score": 0.6,
+    "anomaly_score": 0.2,
     "status": "amber",
     "top_signals": [
       {
@@ -6115,7 +6115,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 47,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.26,
     "status": "amber",
     "top_signals": [
       {
@@ -6145,7 +6145,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 48,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.13,
     "status": "green",
     "top_signals": [
       {
@@ -6172,7 +6172,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 49,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.27,
     "status": "green",
     "top_signals": [
       {
@@ -6199,7 +6199,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 50,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -6226,7 +6226,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 51,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.25,
     "status": "green",
     "top_signals": [
       {
@@ -6253,7 +6253,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 52,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.4,
     "status": "green",
     "top_signals": [
       {
@@ -6280,7 +6280,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 53,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.17,
     "status": "green",
     "top_signals": [
       {
@@ -6307,7 +6307,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 54,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -6334,7 +6334,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 55,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.07,
     "status": "green",
     "top_signals": [
       {
@@ -6361,7 +6361,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 56,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.23,
     "status": "green",
     "top_signals": [
       {
@@ -6382,7 +6382,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 57,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.26,
     "status": "green",
     "top_signals": [
       {
@@ -6409,7 +6409,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 58,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.07,
     "status": "green",
     "top_signals": [
       {
@@ -6436,7 +6436,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 59,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.07,
     "status": "green",
     "top_signals": [
       {
@@ -6463,7 +6463,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 60,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.15,
     "status": "green",
     "top_signals": [
       {

@@ -99,6 +99,23 @@ def isolation_scores(df: pd.DataFrame) -> np.ndarray:
     model = IsolationForest(n_estimators=300, random_state=SEED).fit(X[train])
     return -model.score_samples(X) # sklearn returns the negated anomaly score, in (0, 1)
 
+def personal_score(row: pd.Series) -> float:
+    """
+    0.1 personal score: how close the worst body signal is to the red level.
+
+    Radiation is left out on purpose: it is the environment, not the astronaut.
+    0 = right at their normal, 1 = at the red threshold or beyond
+    """
+    worst = 0.0
+    for s in SIGNALS:
+        if s in CONTEXT_SIGNALS:
+            continue
+        recent, today = row[f"rbz_{s}"], row[f"bz_{s}"]
+        if pd.notna(recent) and pd.notna(today):
+            worst = max(worst, min(recent, today))
+    return min(worst / RED_SINGLE, 1.0)
+
+
 def num(x):
     return None if pd.isna(x) else round(float(x), 2)
 
@@ -124,11 +141,12 @@ def main():
 
     baselines = compute_baselines(df)
     df = add_z_scores(df, baselines)
-    df["anomaly_score"] = isolation_scores(df)
+    df["if_score"] = isolation_scores(df) # internal second opinion only
+    df["anomaly_score"] = df.apply(personal_score, axis=1) # what the dashboard shows
     
     status = df.apply(rule_status, axis=1)
     max_drift = df[[f"rbz_{s}" for s in SIGNALS]].max(axis=1)
-    upgrade = (status == "green") & (df["anomaly_score"] >= IF_UPGRADE_SCORE) & (max_drift >= IF_UPGRADE_MIN_Z)
+    upgrade = (status == "green") & (df["if_score"] >= IF_UPGRADE_SCORE) & (max_drift >= IF_UPGRADE_MIN_Z)
     status[upgrade] = "amber"
     df["status"] = status
     
