@@ -3,7 +3,7 @@
     "astronaut_id": "A",
     "mission_day": 47,
     "anomaly_score": 0.64,
-    "status": "green",
+    "status": "amber",
     "top_signals": [
       {
         "signal": "radiation_mgy",
@@ -24,7 +24,11 @@
         "z": 1.77
       }
     ],
-    "hazards": []
+    "hazards": [
+      "radiation",
+      "isolation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "B",
@@ -91,7 +95,7 @@
     "astronaut_id": "D",
     "mission_day": 47,
     "anomaly_score": 0.51,
-    "status": "green",
+    "status": "amber",
     "top_signals": [
       {
         "signal": "radiation_mgy",
@@ -112,6 +116,9 @@
         "z": -0.55
       }
     ],
-    "hazards": []
+    "hazards": [
+      "radiation",
+      "isolation"
+    ]
   }
 ]
