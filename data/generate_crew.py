@@ -53,6 +53,55 @@ for a in ASTRONAUTS:
 
 df = pd.DataFrame(rows)
 
+
+def ramp(df, astronaut, start, end, signal, total_change, label):
+    """Shift a signal gradually: no change on day `start`, the full change by day `end`."""
+    for day in range(start, end + 1):
+        frac = (day - start) / max(1, end - start)
+        mask = (df['astronaut_id'] == astronaut) & (df['mission_day'] == day)
+        df.loc[mask, signal] += total_change * frac
+        df.loc[mask, 'scenario'] = label
+
+# fatigue_spe (the hero): B is tired and stressed over several days
+ramp(df, 'B', 44, 50, 'sleep_h', -2.0, 'fatigue_spe')
+ramp(df, 'B', 44, 50, 'resting_hr_bpm', 7, 'fatigue_spe')
+ramp(df, 'B', 44, 50, 'reaction_time_ms', 45, 'fatigue_spe')
+ramp(df, 'B', 44, 50, 'mood_1to5', -1.5, 'fatigue_spe')
+
+# bone_muscle: C slowly loses mass and exercise over the rest of the mission
+ramp(df, 'C', 20, 60, 'body_mass_kg', -2.5, 'bone_muscle')
+ramp(df, 'C', 20, 60, 'exercise_min', -40, 'bone_muscle')
+
+# cardio_drift: D's heart and blood vessels change
+ramp(df, 'D', 30, 40, 'resting_hr_bpm', 8, 'cardio_drift')
+ramp(df, 'D', 30, 40, 'systolic_bp_mmhg', 12, 'cardio_drift')
+ramp(df, 'D', 30, 40, 'hrv_ms', -15, 'cardio_drift')
+
+# exercise_trap: A has one heavy workout day. This must NOT raise an alert.
+ramp(df, 'A', 25, 25, 'exercise_min', 90, 'exercise_trap')
+ramp(df, 'A', 25, 25, 'resting_hr_bpm', 5, 'exercise_trap')
+
+# solar_event: the whole crew is hit on days 46 and 47 (placeholder size: x10).
+# Planted LAST so its label wins over bone_muscle on C's days 46-47.
+# B keeps the fatigue_spe label.
+for day in (46, 47):
+    mask = df['mission_day'] == day
+    df.loc[mask, 'radiation_mgy'] *= 10
+    df.loc[mask & (df['astronaut_id'] != 'B'), 'scenario'] = 'solar_event'
+
+
+# Realistic sensor gaps (empty cells, never filled in)
+gap_cols = ['resting_hr_bpm', 'hrv_ms', 'sleep_h', 'spo2_pct', 'systolic_bp_mmhg',
+            'body_mass_kg', 'exercise_min', 'reaction_time_ms']
+
+# Keep the key demo rows complete so a random gap can't hide the hero story
+protect = (((df['astronaut_id'] == 'B') & df['mission_day'].between(44, 50)) |
+           ((df['astronaut_id'] == 'A') & (df['mission_day'] == 25)))
+
+for col in gap_cols:
+    df.loc[(rng.random(len(df)) < 0.01) & ~protect, col] = np.nan   # about 1% missing
+
+
 # Make values physically sensible
 df['mood_1to5'] = df['mood_1to5'].round().clip(1, 5).astype(int)
 df['spo2_pct'] = df['spo2_pct'].clip(upper=100)
@@ -68,5 +117,4 @@ os.makedirs('data/raw', exist_ok=True)
 os.makedirs('data/processed', exist_ok=True)
 
 df.to_csv('data/raw/crew_daily_raw.csv', index=False)
-df.to_csv('data/processed/crew_daily.csv', index=False)   # temporary, until validate.py exists
 print('Saved', len(df), 'rows')
