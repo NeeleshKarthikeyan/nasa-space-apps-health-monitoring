@@ -64,11 +64,16 @@ def crew():
 
 @app.get("/api/crew/{astronaut_id}/timeseries") 
 def timeseries(astronaut_id: str):
-    path = DATA_DIR / (f"timeseries_{astronaut_id}.json")    
+    path = CREW_CSV
     if not path.exists():                 
         raise HTTPException(status_code=404, detail="Not found")   
-    with open(path) as f:                
-        return json.load(f)
+    df = pd.read_csv(CREW_CSV)
+    keep = df[df['astronaut_id'] == astronaut_id]
+    keep = keep.drop(columns=["scenario"])
+    if keep.empty:
+        raise HTTPException(status_code=404, detail="Astronaut not found")
+    rows = keep.to_dict(orient="records") 
+    return {"astronaut_id": astronaut_id, "days": rows}
 
 @app.get("/api/alerts")
 def alert(astronaut_id: str | None = None):
