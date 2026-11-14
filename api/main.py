@@ -14,6 +14,7 @@ TODO
 """
 
 import json
+import pandas as pd
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi import HTTPException
@@ -27,11 +28,21 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+REPO_ROOT = Path(__file__).parent.parent
 DATA_DIR = Path(__file__).parent / "placeholder"
+
+CREW_CSV = REPO_ROOT / "data" / "processed" / "crew_daily.csv"
+MODEL_FILE = REPO_ROOT / "model" / "output" / "model_output.json"
+BASELINE_FILE = REPO_ROOT / "model" / "output" / "baseline.json"
+ALERTS_FILE = REPO_ROOT / "explain" / "output" / "alerts.json"
+MISSION = DATA_DIR / "mission.json"
+
+
 
 @app.get("/api/mission")
 def mission():
-    path = DATA_DIR / "mission.json"     
+    path = DATA_DIR / "mission.json" 
+    mission_path = MISSION    
     if not path.exists():                 
         raise HTTPException(status_code=404, detail="Not found")   
     with open(path) as f:                
@@ -39,14 +50,20 @@ def mission():
 
 @app.get("/api/crew")
 def crew():
-    path = DATA_DIR / "crew.json"     
+    path = MODEL_FILE   
     if not path.exists():                 
         raise HTTPException(status_code=404, detail="Not found")   
     with open(path) as f:                
-        return json.load(f)
+        records = json.load(f)
+    path = MISSION
+    with open(path) as f:                
+        mission = json.load(f)
+    return [r for r in records if r['mission_day'] == mission['current_day']]
+    
 
-@app.get("/api/crew/{astronaut_id}/timeseries")
-def id(astronaut_id: str):
+
+@app.get("/api/crew/{astronaut_id}/timeseries") 
+def timeseries(astronaut_id: str):
     path = DATA_DIR / (f"timeseries_{astronaut_id}.json")    
     if not path.exists():                 
         raise HTTPException(status_code=404, detail="Not found")   
@@ -55,14 +72,18 @@ def id(astronaut_id: str):
 
 @app.get("/api/alerts")
 def alert(astronaut_id: str | None = None):
-    path = DATA_DIR / "alert.json"   
+    path = ALERTS_FILE  
     if not path.exists():                 
         raise HTTPException(status_code=404, detail="Not found") 
     with open(path) as f: 
-        alerts = json.load(f) 
-        if astronaut_id is None:                
+        alerts = sorted(json.load(f), key=lambda x: x['mission_day'], reverse=True) 
+        if astronaut_id is None:              
             return alerts
         return [n for n in alerts if n['astronaut_id'] == astronaut_id]
 
 
 #python -m uvicorn main:app --reload   
+
+#C:\Users\fahim\nasa-space-apps-health-monitoring\model\output\model_output.json
+# C:\Users\fahim\nasa-space-apps-health-monitoring\data\processed\crew_daily.csv
+# C:\Users\fahim\nasa-space-apps-health-monitoring\explain\output\alerts.json
