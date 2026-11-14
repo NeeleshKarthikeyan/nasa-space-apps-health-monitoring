@@ -1,12 +1,12 @@
 """
-generate_crew.py  (Phase 1: rough version)
+generate_crew.py
 
-Creates simulated daily health data for 4 fictional astronauts over 60 mission days.
-All values are SYNTHETIC. They are plausible for a simulation, not medical references.
+Creates simulated daily health data for 4 fictional astronauts over 60 mission days,
+with planted health scenarios and sensor gaps. All values are SYNTHETIC.
+They are plausible for a simulation, not medical references.
 
-Run from the repo root:  python data/generate_crew.py
-Output:  data/raw/crew_daily_raw.csv
-         data/processed/crew_daily.csv   (temporary, until validate.py exists)
+Run from the repo root:  python data/generate_crew.py   then   python data/validate.py
+Output:  data/raw/crew_daily_raw.csv   (validate.py checks it and writes data/processed/crew_daily.csv)
 """
 
 import os
@@ -39,7 +39,7 @@ NOISE = {'resting_hr_bpm': 2, 'hrv_ms': 4, 'sleep_h': 0.4, 'spo2_pct': 0.5,
          'systolic_bp_mmhg': 3, 'body_mass_kg': 0.2, 'exercise_min': 10,
          'reaction_time_ms': 12, 'mood_1to5': 0.4}
 
-RADIATION_PER_DAY = 0.5  # placeholder: replace with a sourced value in Phase 2
+RADIATION_PER_DAY = 0.5  # placeholder: not a sourced value
 
 rows = []
 for a in ASTRONAUTS:
@@ -55,12 +55,14 @@ df = pd.DataFrame(rows)
 
 
 def ramp(df, astronaut, start, end, signal, total_change, label):
-    """Shift a signal gradually: no change on day `start`, the full change by day `end`."""
+    """Shift a signal gradually: a small change on day `start`, the full change on day `end`.
+    A one-day event (start == end) gets the full change."""
     for day in range(start, end + 1):
-        frac = (day - start) / max(1, end - start)
+        frac = (day - start + 1) / (end - start + 1)
         mask = (df['astronaut_id'] == astronaut) & (df['mission_day'] == day)
         df.loc[mask, signal] += total_change * frac
         df.loc[mask, 'scenario'] = label
+
 
 # fatigue_spe (the hero): B is tired and stressed over several days
 ramp(df, 'B', 44, 50, 'sleep_h', -2.0, 'fatigue_spe')
@@ -81,9 +83,9 @@ ramp(df, 'D', 30, 40, 'hrv_ms', -15, 'cardio_drift')
 ramp(df, 'A', 25, 25, 'exercise_min', 90, 'exercise_trap')
 ramp(df, 'A', 25, 25, 'resting_hr_bpm', 5, 'exercise_trap')
 
-# solar_event: the whole crew is hit on days 46 and 47 (placeholder size: x10).
-# Planted LAST so its label wins over bone_muscle on C's days 46-47.
-# B keeps the fatigue_spe label.
+# solar_event TIMING is modelled on the real NASA DONKI solar energetic particle episode of
+# 9-13 May 2024 (e.g. sepID 2024-05-11T02:10:00-SEP-001). Mission days 46-47 are a fictional
+# timeline; the dose SIZE (x10) is a PLACEHOLDER because DONKI records event times, not doses.
 for day in (46, 47):
     mask = df['mission_day'] == day
     df.loc[mask, 'radiation_mgy'] *= 10
