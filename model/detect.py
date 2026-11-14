@@ -44,6 +44,7 @@ HEAVY_EXERCISE_Z = 1.5 # on heavy exercise days, ignore resting HR (the exercise
 IF_UPGRADE_SCORE = 0.65 # Isolation Forest score that may lift green -> amber...
 IF_UPGRADE_MIN_Z = 1.0 #....only if at least one signal is also drifting 
 Z_CLIP = 5.0
+RADIATION_SPIKE_Z = 5.0 # a radiation spike this big -> amber for everyone 
 SEED = 2026
 
 def add_z_scores(df: pd.DataFrame, baselines: dict) -> pd.DataFrame:
@@ -61,12 +62,16 @@ def add_z_scores(df: pd.DataFrame, baselines: dict) -> pd.DataFrame:
     
     for sig in SIGNALS:
         df[f"rbz_{sig}"] = df.groupby("astronaut_id")[f"bz_{sig}"].transform(
-            lambda s: s.rolling(ROLLING_DAYS, min_periods=1).mean()
+            lambda s: s.rolling(ROLLING_DAYS, min_periods=2).mean()
         )
     return df
 
 def rule_status(row: pd.Series) -> str:
-    rolled = {s: row[f"rbz_{s}"] for s in SIGNALS if pd.notna(row[f"rbz_{s}"])}
+    rolled = {}
+    for s in SIGNALS:
+        recent, today = row[f"rbz_{s}"], row[f"bz_{s}"]
+        if pd.notna(recent) and pd.notna(today):
+            rolled[s] = min(recent, today)
     body = {s: v for s, v in rolled.items() if s not in CONTEXT_SIGNALS}
     
     if (any(v >= RED_SINGLE for v in body.values())
@@ -74,7 +79,9 @@ def rule_status(row: pd.Series) -> str:
         return "red"
     if (any(v >= AMBER_SINGLE for v in body.values())
         or sum(v >= AMBER_MULTI for v in rolled.values()) >= AMBER_MULTI_COUNT):
-      return "amber"        
+      return "amber"  
+    if pd.notna(row["bz_radiation_mgy"]) and row["bz_radiation_mgy"] >= RADIATION_SPIKE_Z:
+        return "amber"
     return "green"
 
 
