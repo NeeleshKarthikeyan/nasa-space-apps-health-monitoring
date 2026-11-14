@@ -1,9 +1,24 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 import { getTimeseries } from '../api'
+import BaselineChart from '../components/BaselineChart'
+import AlertPanel from '../components/AlertPanel'   
 
-export default function AstronautDetail({ day }) {
+// Friendly chart titles for each signal name in the data
+const LABELS = {
+  sleep_h: 'Sleep',
+  resting_hr_bpm: 'Resting heart rate',
+  hrv_ms: 'Heart rate variability',
+  spo2_pct: 'Blood oxygen',
+  systolic_bp_mmhg: 'Blood pressure (systolic)',
+  body_mass_kg: 'Body mass',
+  exercise_min: 'Exercise',
+  reaction_time_ms: 'Reaction time',
+  mood_1to5: 'Mood',
+  radiation_mgy: 'Radiation dose',
+}
+
+export default function AstronautDetail({ day, delay }) {
   const { id } = useParams() // "B" when the address is #/astronaut/B
   const [ts, setTs] = useState(null)
 
@@ -13,22 +28,23 @@ export default function AstronautDetail({ day }) {
 
   if (!ts) return <p className="loading">Loading…</p>
 
-  const sleep = ts.signals.sleep_h.points.filter((p) => p.day <= day)
-
   return (
     <section>
       <Link to="/">← Back to crew</Link>
       <h2 className="section-title">Astronaut {id}</h2>
-      <div className="chart-card">
-        <h3>Sleep (hours)</h3>
-        <ResponsiveContainer width="100%" height={240}>
-          <LineChart data={sleep}>
-            <XAxis dataKey="day" />
-            <YAxis domain={['auto', 'auto']} />
-            <Tooltip />
-            <Line type="monotone" dataKey="value" stroke="#7dd3fc" strokeWidth={2} />
-          </LineChart>
-        </ResponsiveContainer>
+
+      <AlertPanel id={id} day={day} delay={delay} />
+
+      <div className="chart-grid">
+        {Object.entries(ts.signals).map(([key, signal]) => (
+          <BaselineChart
+            key={key}
+            name={LABELS[key] ?? key}
+            unit={signal.unit}
+            points={signal.points}
+            day={day}
+          />
+        ))}
       </div>
     </section>
   )
