@@ -45,13 +45,17 @@ def id(astronaut_id: str):
     with open(path) as f:                
         return json.load(f)
 
-@app.get("/api/alert")
-def alert():
-    path = DATA_DIR / "alert.json"     
+@app.get("/api/alerts")
+def alert(astronaut_id: str | None = None):
+    path = DATA_DIR / "alert.json"   
     if not path.exists():                 
-        raise HTTPException(status_code=404, detail="Not found")   
-    with open(path) as f:                
-        return json.load(f)
+        raise HTTPException(status_code=404, detail="Not found") 
+    with open(path) as f: 
+        alerts = json.load(f) 
+        if astronaut_id is None:                
+            return alerts
+        return [n for n in alerts if n['astronaut_id'] == astronaut_id]
+
 
 #python -m uvicorn main:app --reload   
 #http://localhost:8000/api/greet/Riyaz
