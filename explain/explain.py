@@ -18,8 +18,8 @@ MAP_FILE = ROOT/"explain"/"hazard_map.csv"
 ALERT_FILE = ROOT / "explain" / "output" / "alerts.json"
 
 #need to confirm with Neelesh - prototype escalation rule
-AMBER_DAYS_TO_ESCALATE = 3
-ESCALATION_RULE = "red_immediate_amber_3_days"
+AMBER_DAYS_TO_ESCALATE = 2
+ESCALATION_RULE = "red_immediate_amber_2_days"
 
 SIGNALS = {
     "sleep_h": ("Sleep duration", "h"),
@@ -206,6 +206,55 @@ def generate_alerts(records, mappings):
             else "Health measurement"
         )
 
+        # Build a concise two-sentence dashboard explanation.
+        valid_signals = [
+            item for item in top_signals
+            if item.get("signal") in SIGNALS
+            and item.get("value") is not None
+            and item.get("baseline") is not None
+        ]
+
+        if valid_signals:
+            primary = valid_signals[0]
+            signal = primary["signal"]
+            label, unit = SIGNALS[signal]
+
+            value = float(primary["value"])
+            baseline = float(primary["baseline"])
+            difference = value - baseline
+
+            if difference > 0:
+                direction = "above"
+            elif difference < 0:
+                direction = "below"
+            else:
+                direction = "equal to"
+
+            explanation = (
+                f"{label} is {display_number(value)} {unit}, "
+                f"compared with a personal baseline of "
+                f"{display_number(baseline)} {unit} "
+                f"({display_number(abs(difference))} {unit} "
+                f"{direction} baseline). "
+            )
+
+            if signal == "radiation_mgy":
+                explanation += (
+                    "This is a simulated radiation reading, "
+                    "not a measured astronaut dose."
+                )
+            else:
+                risk = mappings[signal]["nasa_risk"]
+                explanation += (
+                    f"Relevant NASA research risk: {risk}; "
+                    "this simulated flag is not a diagnosis."
+                )
+        else:
+            explanation = (
+                "An anomaly was flagged, but usable comparison "
+                "readings are unavailable; verify the data."
+            )
+
         # Exact fields required by docs/data-contract.md section 3.
         alerts.append({
             "alert_id": f"{astronaut}-{day}",
@@ -216,10 +265,7 @@ def generate_alerts(records, mappings):
                 f"{status.capitalize()} alert: "
                 f"{title_signal} change"
             ),
-            "explanation": (
-                " ".join(details)
-                + " These are monitoring flags, not medical diagnoses."
-            ),
+            "explanation": explanation,
             "actions": list(dict.fromkeys(actions)),
             "escalate_to_earth": escalate,
             "sources": list(dict.fromkeys(sources))
