@@ -40,8 +40,7 @@ MISSION = DATA_DIR / "mission.json"
 
 @app.get("/api/mission")
 def mission():
-    path = DATA_DIR / "mission.json" 
-    mission_path = MISSION    
+    path = MISSION  
     if not path.exists():                 
         raise HTTPException(status_code=404, detail="Not found")   
     with open(path) as f:                
@@ -84,6 +83,11 @@ def timeseries(astronaut_id: str):
             'high': round(mean + 2 * sd,2),}
     keep = keep.astype(object).where(keep.notna(), None)
     rows = keep.to_dict(orient="records") 
+
+    records = MODEL_FILE
+    status_by_day = {s["mission_day"]: s["status"] for s in records if s["astronaut_id"] == astronaut_id}
+    for row in rows:
+        row["status"] = status_by_day.get( row["mission_day"])
     return {"astronaut_id": astronaut_id, "days": rows, "baseline":baseline}
 
 @app.get("/api/alerts")
