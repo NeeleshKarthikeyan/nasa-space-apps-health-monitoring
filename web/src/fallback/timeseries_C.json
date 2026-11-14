@@ -15,7 +15,7 @@
       "mood_1to5": 2,
       "radiation_mgy": 0.61,
       "cumulative_dose_mgy": 0.61,
-      "status": "amber"
+      "status": "green"
     },
     {
       "astronaut_id": "C",
@@ -911,7 +911,7 @@
       "mood_1to5": 3,
       "radiation_mgy": 0.45,
       "cumulative_dose_mgy": 37.9,
-      "status": "red"
+      "status": "amber"
     },
     {
       "astronaut_id": "C",
@@ -927,7 +927,7 @@
       "mood_1to5": 3,
       "radiation_mgy": 0.47,
       "cumulative_dose_mgy": 38.38,
-      "status": "red"
+      "status": "amber"
     },
     {
       "astronaut_id": "C",

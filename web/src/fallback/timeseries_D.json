@@ -15,7 +15,7 @@
       "mood_1to5": 4,
       "radiation_mgy": 0.47,
       "cumulative_dose_mgy": 0.47,
-      "status": "amber"
+      "status": "green"
     },
     {
       "astronaut_id": "D",
@@ -655,7 +655,7 @@
       "mood_1to5": 4,
       "radiation_mgy": 0.58,
       "cumulative_dose_mgy": 20.73,
-      "status": "amber"
+      "status": "green"
     },
     {
       "astronaut_id": "D",
@@ -671,7 +671,7 @@
       "mood_1to5": 4,
       "radiation_mgy": 0.47,
       "cumulative_dose_mgy": 21.2,
-      "status": "amber"
+      "status": "green"
     },
     {
       "astronaut_id": "D",
@@ -735,7 +735,7 @@
       "mood_1to5": 4,
       "radiation_mgy": 4.63,
       "cumulative_dose_mgy": 27.3,
-      "status": "green"
+      "status": "amber"
     },
     {
       "astronaut_id": "D",
@@ -751,7 +751,7 @@
       "mood_1to5": 4,
       "radiation_mgy": 5.19,
       "cumulative_dose_mgy": 32.49,
-      "status": "green"
+      "status": "amber"
     },
     {
       "astronaut_id": "D",
