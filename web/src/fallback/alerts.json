@@ -1,0 +1,70 @@
+[
+  {
+    "alert_id": "C-58",
+    "astronaut_id": "C",
+    "mission_day": 58,
+    "status": "amber",
+    "title": "Amber alert: Resting heart rate change",
+    "explanation": "Primary change: Resting heart rate: 73.27 bpm versus a personal baseline of 70.23 bpm (3.04 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Relevant NASA research risk: Cardiovascular adaptations. Other monitored reading: Systolic blood pressure: 124.4 mmHg versus a personal baseline of 121.44 mmHg (2.96 mmHg above baseline). Spaceflight cardiovascular adaptation is a NASA research area; this flag is not a diagnosis. Other monitored reading: Blood oxygen saturation: 97.49 % versus a personal baseline of 97.93 % (0.44 % below baseline). NASA studies hypoxia and environmental risks; this deviation alone does not establish hypoxia. These are monitoring flags, not medical diagnoses.",
+    "actions": [
+      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-1",
+    "astronaut_id": "D",
+    "mission_day": 1,
+    "status": "amber",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Primary change: Exercise duration: 113.73 min versus a personal baseline of 132.82 min (19.09 min below baseline). Activity changes can be reviewed alongside fitness monitoring data. Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness. Other monitored reading: Resting heart rate: 63.7 bpm versus a personal baseline of 60.93 bpm (2.77 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Other monitored reading: Body mass: 64.78 kg versus a personal baseline of 65.02 kg (0.24 kg below baseline). NASA researches changes in fitness and musculoskeletal condition during spaceflight. These are monitoring flags, not medical diagnoses.",
+    "actions": [
+      "Review the planned exercise log and check the following day's activity record.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-1",
+    "astronaut_id": "C",
+    "mission_day": 1,
+    "status": "amber",
+    "title": "Amber alert: Resting heart rate change",
+    "explanation": "Primary change: Resting heart rate: 75.02 bpm versus a personal baseline of 70.23 bpm (4.79 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Relevant NASA research risk: Cardiovascular adaptations. Additional notable change: Systolic blood pressure: 126.74 mmHg versus a personal baseline of 121.44 mmHg (5.3 mmHg above baseline). Spaceflight cardiovascular adaptation is a NASA research area; this flag is not a diagnosis. Relevant NASA research risk: Cardiovascular adaptations. Additional notable change: Radiation dose: 0.61 mGy/day versus a personal baseline of 0.5 mGy/day (0.11 mGy/day above baseline). Exposure monitoring informs radiation risk assessment; a daily change does not imply a health outcome. Relevant NASA research risk: Radiation-induced cancers. These are monitoring flags, not medical diagnoses.",
+    "actions": [
+      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Verify the reading using the onboard measurement procedure.",
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/",
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp"
+    ]
+  },
+  {
+    "alert_id": "B-1",
+    "astronaut_id": "B",
+    "mission_day": 1,
+    "status": "amber",
+    "title": "Amber alert: Reaction time change",
+    "explanation": "Primary change: Reaction time: 309.6 ms versus a personal baseline of 288.12 ms (21.48 ms above baseline). Reaction-time changes may be relevant to crew performance and sleep research; the cause is not established. Relevant NASA research risk: Inadequate sleep and irregular schedules. Other monitored reading: Resting heart rate: 65.84 bpm versus a personal baseline of 63.85 bpm (1.99 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Other monitored reading: Blood oxygen saturation: 96.67 % versus a personal baseline of 97.43 % (0.76 % below baseline). NASA studies hypoxia and environmental risks; this deviation alone does not establish hypoxia. These are monitoring flags, not medical diagnoses.",
+    "actions": [
+      "Repeat the reaction-time test at the next scheduled check-in.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  }
+]
