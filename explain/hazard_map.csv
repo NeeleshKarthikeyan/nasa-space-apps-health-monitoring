@@ -1,0 +1,11 @@
+signal,nasa_risk,hazard,explanation_template,action,escalate_rule,source_url
+sleep_h,Inadequate sleep and irregular schedules,isolation,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+reaction_time_ms,Inadequate sleep and irregular schedules,isolation,TODO,TODO,TODO,https://www.nasa.gov/hrp/ongoing-hrp-research/
+mood_1to5,Behavioral changes and psychiatric disorders,isolation,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+resting_hr_bpm,Cardiovascular adaptations,gravity,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+hrv_ms,Cardiovascular adaptations,gravity,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+systolic_bp_mmhg,Cardiovascular adaptations,gravity,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+body_mass_kg,Reduced cardiorespiratory and musculoskeletal fitness,gravity,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+exercise_min,Reduced cardiorespiratory and musculoskeletal fitness,gravity,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+spo2_pct,Hypoxia,environment,TODO,TODO,TODO,https://www.nasa.gov/hrp/risks/
+radiation_mgy,Radiation-induced cancers,radiation,TODO,TODO,TODO,https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp

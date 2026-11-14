@@ -1,0 +1,5 @@
+# Python pipeline: data/, model/, explain/
+pandas
+numpy
+scikit-learn
+requests
