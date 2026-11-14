@@ -8,6 +8,7 @@ param([string]$base = "http://localhost:8000")
 $tests = @(
     @("/api/mission", 200),
     @("/api/crew", 200),
+    @("/api/crew?day=47", 200),
     @("/api/crew/A/timeseries", 200),
     @("/api/crew/B/timeseries", 200),
     @("/api/crew/C/timeseries", 200),

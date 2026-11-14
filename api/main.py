@@ -45,7 +45,7 @@ def mission():
 
 # Crew overview: one status card per astronaut for the current mission day
 @app.get("/api/crew")
-def crew():
+def crew(day: int | None = None):
     path = MODEL_FILE
     if not path.exists():
         raise HTTPException(status_code=404, detail="Not found")
@@ -54,9 +54,11 @@ def crew():
     path = MISSION
     with open(path) as f:
         mission = json.load(f)
-    # The model file has every astronaut on every day, so keep only the current day
-    return [r for r in records if r['mission_day'] == mission['current_day']]
+        if day is None:
+            return [r for r in records if r['mission_day'] == mission['current_day']]
+    return [r for r in records if r['mission_day'] == day]
 
+    # The model file has every astronaut on every day, so keep only the current day
 
 # One astronaut's full history for the charts: daily readings, a status per day,
 # and their personal normal range for each signal
