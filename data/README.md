@@ -40,7 +40,7 @@ with a fixed random seed. Baseline values are plausible simulation values, not m
 | Base radiation rate (~0.5 mGy/day) | Simulated placeholder | Not a sourced value |
 | Timing of the solar event (days 46 to 47) | Modelled on a real event | NASA DONKI solar energetic particle episode of 9 to 13 May 2024 (14 records; reference event `2024-05-11T02:10:00-SEP-001`, GOES-P >100 MeV). Mission days are fictional. |
 | Size of the solar event dose (x10) | **Simulated placeholder** | DONKI gives event times, not astronaut doses |
-| `cumulative_dose_msv` | Simulated, unit under review | Currently a running sum of mGy values under an mSv name; see note to the team |
+| `cumulative_dose_mgy` | Simulated | Running total of `radiation_mgy` (mGy). Renamed from `cumulative_dose_msv` because the values are absorbed dose in mGy, not dose equivalent in mSv. |
 
 ### Sources
 - NASA DONKI (Space Weather Database Of Notifications, Knowledge, Information) API: https://api.nasa.gov
