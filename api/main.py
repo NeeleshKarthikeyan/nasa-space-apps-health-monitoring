@@ -23,23 +23,35 @@ DATA_DIR = Path(__file__).parent / "placeholder"
 
 @app.get("/api/mission")
 def mission():
-    with open(DATA_DIR / "mission.json") as f:
+    path = DATA_DIR / "mission.json"     
+    if not path.exists():                 
+        raise HTTPException(status_code=404, detail="Not found")   
+    with open(path) as f:                
         return json.load(f)
 
 @app.get("/api/crew")
 def crew():
-    with open(DATA_DIR / "crew.json") as f:
+    path = DATA_DIR / "crew.json"     
+    if not path.exists():                 
+        raise HTTPException(status_code=404, detail="Not found")   
+    with open(path) as f:                
         return json.load(f)
 
 @app.get("/api/crew/{astronaut_id}/timeseries")
 def id(astronaut_id: str):
-    return {"message": f"hello {astronaut_id}"}
-
-@app.get("/alert")
-def alert():
-    with open(DATA_DIR / "alert.json") as f:
+    path = DATA_DIR / (f"timeseries_{astronaut_id}.json")    
+    if not path.exists():                 
+        raise HTTPException(status_code=404, detail="Not found")   
+    with open(path) as f:                
         return json.load(f)
 
-raise HTTPException(status_code=404, detail="Astronaut not found")
+@app.get("/api/alert")
+def alert():
+    path = DATA_DIR / "alert.json"     
+    if not path.exists():                 
+        raise HTTPException(status_code=404, detail="Not found")   
+    with open(path) as f:                
+        return json.load(f)
+
 #python -m uvicorn main:app --reload   
 #http://localhost:8000/api/greet/Riyaz
