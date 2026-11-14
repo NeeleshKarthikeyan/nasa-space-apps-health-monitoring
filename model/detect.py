@@ -152,4 +152,4 @@ def main():
     print(df.groupby(["astronaut_id", "status"]).size().unstack(fill_value=0))
 
 if __name__ == "__main__":
-    raise main("Write the detector: see the TODO above")
+    main()
