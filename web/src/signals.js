@@ -44,19 +44,19 @@ export const GROUPS = [
   },
 ]
 
-// Friendly name, icon and decimal places for each signal in the data
+// Friendly name, icon, decimal places and unit for each signal in the data
 export const SIGNALS = {
-  sleep_h: { label: 'Sleep', icon: Moon, digits: 1 },
-  reaction_time_ms: { label: 'Reaction time', icon: Timer, digits: 0 },
+  sleep_h: { label: 'Sleep', icon: Moon, digits: 1, unit: 'hours' },
+  reaction_time_ms: { label: 'Reaction time', icon: Timer, digits: 0, unit: 'ms' },
   // Mood is a whole number from 1 to 5 and is never missing: show it as "3 / 5" on a fixed 1-5 scale
-  mood_1to5: { label: 'Mood', icon: Smile, digits: 0, unitLabel: '/ 5', range: [1, 5] },
-  resting_hr_bpm: { label: 'Resting heart rate', icon: HeartPulse, digits: 0 },
-  hrv_ms: { label: 'Heart rate variability', icon: Activity, digits: 0 },
-  systolic_bp_mmhg: { label: 'Blood pressure', icon: Gauge, digits: 0 },
-  spo2_pct: { label: 'Blood oxygen', icon: Droplets, digits: 1 },
-  body_mass_kg: { label: 'Body mass', icon: Scale, digits: 1 },
-  exercise_min: { label: 'Exercise', icon: Dumbbell, digits: 0 },
-  radiation_mgy: { label: 'Radiation dose', icon: Radiation, digits: 2 },
+  mood_1to5: { label: 'Mood', icon: Smile, digits: 0, unit: '1 to 5', unitLabel: '/ 5', range: [1, 5] },
+  resting_hr_bpm: { label: 'Resting heart rate', icon: HeartPulse, digits: 0, unit: 'beats/min' },
+  hrv_ms: { label: 'Heart rate variability', icon: Activity, digits: 0, unit: 'ms' },
+  systolic_bp_mmhg: { label: 'Blood pressure', icon: Gauge, digits: 0, unit: 'mmHg' },
+  spo2_pct: { label: 'Blood oxygen', icon: Droplets, digits: 1, unit: '%' },
+  body_mass_kg: { label: 'Body mass', icon: Scale, digits: 1, unit: 'kg' },
+  exercise_min: { label: 'Exercise', icon: Dumbbell, digits: 0, unit: 'min' },
+  radiation_mgy: { label: 'Radiation dose', icon: Radiation, digits: 2, unit: 'mGy/day' },
 }
 
 export function signalInfo(key) {

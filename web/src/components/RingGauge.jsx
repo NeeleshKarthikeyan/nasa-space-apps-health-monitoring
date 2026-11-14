@@ -1,13 +1,20 @@
-// A circular gauge like the CPU/Memory rings in the inspiration. value is 0 to 1.
+// A circular gauge like the CPU/Memory rings in the inspiration. value is 0 to 1, or null if unknown.
 export default function RingGauge({ value, color, label, size = 76 }) {
   const stroke = 7
   const r = (size - stroke) / 2
   const circumference = 2 * Math.PI * r
-  const pct = Math.max(0, Math.min(1, value ?? 0))
+  const known = value != null
+  const pct = known ? Math.max(0, Math.min(1, value)) : 0
   const centre = size / 2
 
   return (
-    <svg width={size} height={size} className="ring" role="img" aria-label={`${label}: ${Math.round(pct * 100)}%`}>
+    <svg
+      width={size}
+      height={size}
+      className="ring"
+      role="img"
+      aria-label={known ? `${label}: ${Math.round(pct * 100)}%` : `${label}: not available`}
+    >
       <circle cx={centre} cy={centre} r={r} stroke="#1f2430" strokeWidth={stroke} fill="none" />
       <circle
         cx={centre}
@@ -23,7 +30,7 @@ export default function RingGauge({ value, color, label, size = 76 }) {
         style={{ transition: 'stroke-dashoffset 0.4s ease, stroke 0.4s ease', filter: `drop-shadow(0 0 4px ${color}66)` }}
       />
       <text x="50%" y="50%" textAnchor="middle" dominantBaseline="central" className="ring-value">
-        {Math.round(pct * 100)}%
+        {known ? `${Math.round(pct * 100)}%` : '--'}
       </text>
     </svg>
   )

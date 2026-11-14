@@ -7,6 +7,7 @@ import EscalateCard from './EscalateCard'
 export default function AlertPanel({ id, day, delay }) {
   const [alerts, setAlerts] = useState(null)
   const [done, setDone] = useState({}) // ticked actions, keyed "alertId:action"
+  const [expanded, setExpanded] = useState(false) // long explanations start folded to 3 lines
 
   useEffect(() => {
     getAlerts(id, day).then(({ data }) => setAlerts(data))
@@ -41,7 +42,12 @@ export default function AlertPanel({ id, day, delay }) {
         </span>
         <div>
           <h3>{today.title}</h3>
-          <p className="alert-text">{today.explanation}</p>
+          <p className={`alert-text ${expanded ? '' : 'is-clamped'}`}>{today.explanation}</p>
+          {today.explanation?.length > 180 && (
+            <button type="button" className="link-button" onClick={() => setExpanded(!expanded)}>
+              {expanded ? 'Show less' : 'Show more'}
+            </button>
+          )}
         </div>
       </div>
 

@@ -116,6 +116,9 @@ h1 em, h2 em { font-style: italic; color: var(--muted); }
 .alert-head { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 18px; }
 .alert-head h3 { margin: 0 0 4px; font-size: 1.1rem; }
 .alert-text { margin: 0; color: #c4c9d4; }
+/* Long explanations are folded to 3 lines until "Show more" is pressed */
+.alert-text.is-clamped { display: -webkit-box; -webkit-line-clamp: 3; line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.link-button { background: none; border: none; padding: 0; margin-top: 4px; color: #93c5fd; cursor: pointer; font-size: 0.85rem; }
 .alert-body { display: grid; grid-template-columns: 1fr; gap: 16px; }
 .checklist { list-style: none; padding: 0; margin: 0 0 12px; display: flex; flex-direction: column; gap: 8px; }
 .checklist label { display: flex; gap: 10px; align-items: flex-start; cursor: pointer; }
