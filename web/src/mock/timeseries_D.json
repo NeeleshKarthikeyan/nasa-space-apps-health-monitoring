@@ -1,0 +1,35 @@
+{
+  "astronaut_id": "D",
+  "signals": {
+    "sleep_h": {
+      "unit": "hours",
+      "points": [
+        { "day": 38, "value": 7.2, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 39, "value": 6.9, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 40, "value": 7.4, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 41, "value": 7.0, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 42, "value": 7.1, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 43, "value": 6.8, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 44, "value": 6.6, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 45, "value": 6.2, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
+        { "day": 46, "value": 5.8, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": true },
+        { "day": 47, "value": 5.4, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": true }
+      ]
+    },
+    "resting_hr_bpm": {
+      "unit": "beats/min",
+      "points": [
+        { "day": 38, "value": 62, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 39, "value": 61, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 40, "value": 63, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 41, "value": null, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 42, "value": 62, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 43, "value": 63, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 44, "value": 64, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 45, "value": 65, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 46, "value": 67, "baseline_low": 57, "baseline_high": 67, "flagged": false },
+        { "day": 47, "value": 69, "baseline_low": 57, "baseline_high": 67, "flagged": true }
+      ]
+    }
+  }
+}

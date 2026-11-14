@@ -1,0 +1,17 @@
+[
+  {
+    "alert_id": "B-47",
+    "astronaut_id": "B",
+    "mission_day": 47,
+    "status": "amber",
+    "title": "Watch: Inadequate sleep and irregular schedules",
+    "explanation": "Sleep is 1.7 hours below your normal of 7.1 hours. Reaction time is 15% slower than your normal.",
+    "actions": [
+      "Protect a full sleep period tonight and repeat the check-in tomorrow.",
+      "Avoid critical tasks until a repeat test is back to normal."
+    ],
+    "escalate_to_earth": true,
+    "sources": ["https://www.nasa.gov/hrp/risks/"],
+    "earth_message": "Astronaut B, day 47: amber for 2 days. Sleep is 1.7 hours below normal and reaction time is 15% slower. Actions taken onboard: protected sleep period, critical tasks paused. Requesting flight surgeon review."
+  }
+]

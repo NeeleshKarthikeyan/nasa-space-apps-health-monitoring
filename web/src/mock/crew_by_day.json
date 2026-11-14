@@ -1,0 +1,12 @@
+{
+  "47": [
+    { "astronaut_id": "A", "name": "Astronaut A", "status": "green", "anomaly_score": 0.12,
+      "top_reason": "All signals within your normal range" },
+    { "astronaut_id": "B", "name": "Astronaut B", "status": "amber", "anomaly_score": 0.62,
+      "top_reason": "Watch: Inadequate sleep and irregular schedules" },
+    { "astronaut_id": "C", "name": "Astronaut C", "status": "amber", "anomaly_score": 0.41,
+      "top_reason": "Watch: Reduced cardiorespiratory and musculoskeletal fitness" },
+    { "astronaut_id": "D", "name": "Astronaut D", "status": "green", "anomaly_score": 0.08,
+      "top_reason": "All signals within your normal range" }
+  ]
+}
