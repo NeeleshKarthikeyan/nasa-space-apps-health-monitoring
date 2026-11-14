@@ -49,8 +49,8 @@ SEED = 2026
 def add_z_scores(df: pd.DataFrame, baselines: dict) -> pd.DataFrame:
     df = df.copy()
     for sig in SIGNALS: 
-        mean = df["astronaut"].map(lambda a: baselines[a][sig]["mean"])
-        std = df["astronaut"].map(lambda a: baselines[a][sig]["std"])
+        mean = df["astronaut_id"].map(lambda a: baselines[a][sig]["mean"])
+        std = df["astronaut_id"].map(lambda a: baselines[a][sig]["std"])
         df[f"base_{sig}"] = mean
         df[f"z_{sig}"] = (df[sig] - mean) / std
         df[f"bz_{sig}"] = df[f"z_{sig}"] * BAD_DIRECTION[sig]
@@ -87,22 +87,22 @@ def isolation_scores(df: pd.DataFrame) -> np.ndarray:
     """
 
     cols = [f"bz_{s}" for s in SIGNALS] 
-    X = df[cols].clip(loweer=0, upper=Z_CLIP).fillna(0.0).to_numpy()
+    X = df[cols].clip(lower=0, upper=Z_CLIP).fillna(0.0).to_numpy()
     train = (df["mission_day"] <= BASELINE_LAST_DAY).to_numpy()
-    model = IsolationForest(n_estimators=300, random_seed=SEED).fit(X[train])
+    model = IsolationForest(n_estimators=300, random_state=SEED).fit(X[train])
     return -model.score_samples(X) # sklearn returns the negated anomaly score, in (0, 1)
 
 def num(x):
     return None if pd.isna(x) else round(float(x), 2)
 
-def top_signals(row: pd.Seriues, n: int = 3) -> list:
+def top_signals(row: pd.Series, n: int = 3) -> list:
     candidates = [
         (row[f"bz_{s}"], s) for s in SIGNALS 
-        if pd.notna(row["bz_{s}"]) and row[f"bz_{s}"] > 0
+        if pd.notna(row[f"bz_{s}"]) and row[f"bz_{s}"] > 0
     ]
     candidates.sort(reverse=True)
     return [
-        {"signal": s, "value": num(row[s]), "baseline": num(row[f"Base_{s}"]), "z": num(row[f"z_{s}"])}
+        {"signal": s, "value": num(row[s]), "baseline": num(row[f"base_{s}"]), "z": num(row[f"z_{s}"])}
         for _, s in candidates[:n]
     ]
     
@@ -116,7 +116,40 @@ def main():
     df = df.sort_values(["astronaut_id", "mission_day"]).reset_index(drop=True)
 
     baselines = compute_baselines(df)
+    df = add_z_scores(df, baselines)
+    df["anomaly_score"] = isolation_scores(df)
+    
+    status = df.apply(rule_status, axis=1)
+    max_drift = df[[f"rbz_{s}" for s in SIGNALS]].max(axis=1)
+    upgrade = (status == "green") & (df["anomaly_score"] >= IF_UPGRADE_SCORE) & (max_drift >= IF_UPGRADE_MIN_Z)
+    status[upgrade] = "amber"
+    df["status"] = status
+    
+    hazard_lookup = load_hazard_lookup()
+    records = []
+    for _, row in df.iterrows():
+        tops = top_signals(row)
+        hazards = []
+        if row["status"] != "green":
+            for t in tops:
+                h = hazard_lookup.get(t["signal"])
+                if h and h not in hazards:
+                    hazards.append(h)
+        records.append({
+            "astronaut_id": str(row["astronaut_id"]),
+            "mission_day": int(row["mission_day"]),
+            "anomaly_score": num(row["anomaly_score"]),
+            "status": row["status"],
+            "top_signals": tops,
+            "hazards": hazards,
+        })
+        
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True) 
+    with open(OUTPUT_PATH, "w") as f:
+        json.dump(records, f, indent=2)
 
+    print(f"Wrote {len(records)} records to {OUTPUT_PATH.relative_to(ROOT)}")
+    print(df.groupby(["astronaut_id", "status"]).size().unstack(fill_value=0))
 
 if __name__ == "__main__":
-    raise NotImplementedError("Write the detector: see the TODO above")
+    raise main("Write the detector: see the TODO above")

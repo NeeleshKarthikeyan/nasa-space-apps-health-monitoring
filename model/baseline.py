@@ -12,13 +12,13 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 # Override with CREW_CSV=path/to/file.csv to test on fake data.
-CREW_CSV = Path(os.environ.get("GET_CSV", ROOT / "Data" / "Processed" / "crew_daily.csv"))
+CREW_CSV = Path(os.environ.get("CREW_CSV", ROOT / "data" / "processed" / "crew_daily.csv"))
 
 
 # Cumulative_dose_msv is left out on purpose: It only ever rises, so it always looks "abnormal".
 SIGNALS = [
-    "resting_hr_bpm", "hrv_ms", "sleep_h", "spo2_pct", "systolic_mmhg",
-    "body_mass_kg", "exercise_min", "reaction_time_ms", "Mood_1to5", "radiation_mgy"
+    "resting_hr_bpm", "hrv_ms", "sleep_h", "spo2_pct", "systolic_bp_mmhg",
+    "body_mass_kg", "exercise_min", "reaction_time_ms", "mood_1to5", "radiation_mgy"
 ]
 
 BASELINE_LAST_DAY = 14
@@ -32,7 +32,7 @@ MIN_STD_ABS = {
     "sleep_h": 0.2,
 }
 
-def compute_baseline(df: pd.Dataframe, last_day: int = BASELINE_LAST_DAY) -> dict:
+def compute_baselines(df: pd.DataFrame, last_day: int = BASELINE_LAST_DAY) -> dict:
     """Mean and spread per astronaut per signal, from mission days 1..last_day."""
     base_days = df[df["mission_day"] <= last_day] 
     baselines = {}
@@ -41,7 +41,7 @@ def compute_baseline(df: pd.Dataframe, last_day: int = BASELINE_LAST_DAY) -> dic
         for sig in SIGNALS:
             values = group[sig].dropna()
             if len(values) < MIN_READINGS:
-                baselines[astronaut_id][sig] = {"mean": np.man, "std": np.nan}
+                baselines[astronaut_id][sig] = {"mean": np.nan, "std": np.nan}
                 continue
             mean = float(values.mean())
             std = float(values.std(ddof=1))
