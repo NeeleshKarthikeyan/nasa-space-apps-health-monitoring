@@ -29,7 +29,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 2,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.43,
     "status": "green",
     "top_signals": [
       {
@@ -47,8 +47,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.88,
-        "baseline": 78.15,
-        "z": -0.34
+        "baseline": 78.16,
+        "z": -0.35
       }
     ],
     "hazards": []
@@ -153,10 +153,10 @@
         "z": -0.46
       },
       {
-        "signal": "exercise_min",
-        "value": 117.1,
-        "baseline": 118.62,
-        "z": -0.19
+        "signal": "body_mass_kg",
+        "value": 78.0,
+        "baseline": 78.16,
+        "z": -0.2
       }
     ],
     "hazards": []
@@ -218,7 +218,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 9,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.45,
     "status": "green",
     "top_signals": [
       {
@@ -234,10 +234,10 @@
         "z": -0.65
       },
       {
-        "signal": "body_mass_kg",
-        "value": 77.75,
-        "baseline": 78.15,
-        "z": -0.51
+        "signal": "radiation_mgy",
+        "value": 0.53,
+        "baseline": 0.5,
+        "z": 0.46
       }
     ],
     "hazards": []
@@ -425,8 +425,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.71,
-        "baseline": 78.15,
-        "z": -0.56
+        "baseline": 78.16,
+        "z": -0.57
       }
     ],
     "hazards": []
@@ -473,8 +473,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.64,
-        "baseline": 78.15,
-        "z": -0.65
+        "baseline": 78.16,
+        "z": -0.66
       },
       {
         "signal": "sleep_h",
@@ -527,8 +527,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.7,
-        "baseline": 78.15,
-        "z": -0.57
+        "baseline": 78.16,
+        "z": -0.58
       },
       {
         "signal": "mood_1to5",
@@ -596,7 +596,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 23,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.45,
     "status": "green",
     "top_signals": [
       {
@@ -641,8 +641,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.76,
-        "baseline": 78.15,
-        "z": -0.49
+        "baseline": 78.16,
+        "z": -0.51
       }
     ],
     "hazards": []
@@ -650,15 +650,9 @@
   {
     "astronaut_id": "A",
     "mission_day": 25,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
-      {
-        "signal": "resting_hr_bpm",
-        "value": 63.08,
-        "baseline": 57.4,
-        "z": 2.25
-      },
       {
         "signal": "spo2_pct",
         "value": 97.44,
@@ -670,6 +664,12 @@
         "value": 4.0,
         "baseline": 4.21,
         "z": -0.43
+      },
+      {
+        "signal": "radiation_mgy",
+        "value": 0.52,
+        "baseline": 0.5,
+        "z": 0.31
       }
     ],
     "hazards": []
@@ -677,7 +677,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 26,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.53,
     "status": "green",
     "top_signals": [
       {
@@ -695,8 +695,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.77,
-        "baseline": 78.15,
-        "z": -0.48
+        "baseline": 78.16,
+        "z": -0.49
       }
     ],
     "hazards": []
@@ -758,7 +758,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 29,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.53,
     "status": "green",
     "top_signals": [
       {
@@ -785,7 +785,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 30,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.55,
     "status": "green",
     "top_signals": [
       {
@@ -812,7 +812,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 31,
-    "anomaly_score": 0.41,
+    "anomaly_score": 0.4,
     "status": "green",
     "top_signals": [
       {
@@ -839,7 +839,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 32,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.46,
     "status": "green",
     "top_signals": [
       {
@@ -911,8 +911,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.91,
-        "baseline": 78.15,
-        "z": -0.3
+        "baseline": 78.16,
+        "z": -0.31
       }
     ],
     "hazards": []
@@ -920,7 +920,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 35,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.5,
     "status": "green",
     "top_signals": [
       {
@@ -938,8 +938,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.95,
-        "baseline": 78.15,
-        "z": -0.25
+        "baseline": 78.16,
+        "z": -0.26
       }
     ],
     "hazards": []
@@ -1028,7 +1028,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 39,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.51,
     "status": "green",
     "top_signals": [
       {
@@ -1148,8 +1148,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.79,
-        "baseline": 78.15,
-        "z": -0.46
+        "baseline": 78.16,
+        "z": -0.47
       },
       {
         "signal": "mood_1to5",
@@ -1217,9 +1217,15 @@
   {
     "astronaut_id": "A",
     "mission_day": 46,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.6,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "radiation_mgy",
+        "value": 4.7,
+        "baseline": 0.5,
+        "z": 63.06
+      },
       {
         "signal": "systolic_bp_mmhg",
         "value": 118.67,
@@ -1231,12 +1237,6 @@
         "value": 6.81,
         "baseline": 7.14,
         "z": -0.73
-      },
-      {
-        "signal": "exercise_min",
-        "value": 113.43,
-        "baseline": 118.62,
-        "z": -0.64
       }
     ],
     "hazards": []
@@ -1244,9 +1244,15 @@
   {
     "astronaut_id": "A",
     "mission_day": 47,
-    "anomaly_score": 0.58,
+    "anomaly_score": 0.64,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "radiation_mgy",
+        "value": 5.06,
+        "baseline": 0.5,
+        "z": 68.46
+      },
       {
         "signal": "mood_1to5",
         "value": 3.0,
@@ -1258,12 +1264,6 @@
         "value": 61.86,
         "baseline": 57.4,
         "z": 1.77
-      },
-      {
-        "signal": "spo2_pct",
-        "value": 97.06,
-        "baseline": 98.02,
-        "z": -0.98
       }
     ],
     "hazards": []
@@ -1271,7 +1271,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 48,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.48,
     "status": "green",
     "top_signals": [
       {
@@ -1316,8 +1316,8 @@
       {
         "signal": "body_mass_kg",
         "value": 78.08,
-        "baseline": 78.15,
-        "z": -0.08
+        "baseline": 78.16,
+        "z": -0.1
       }
     ],
     "hazards": []
@@ -1343,8 +1343,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.38,
-        "baseline": 78.15,
-        "z": -0.98
+        "baseline": 78.16,
+        "z": -0.99
       }
     ],
     "hazards": []
@@ -1352,7 +1352,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 51,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.46,
     "status": "green",
     "top_signals": [
       {
@@ -1379,7 +1379,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 52,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.46,
     "status": "green",
     "top_signals": [
       {
@@ -1514,7 +1514,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 57,
-    "anomaly_score": 0.57,
+    "anomaly_score": 0.58,
     "status": "green",
     "top_signals": [
       {
@@ -1541,14 +1541,14 @@
   {
     "astronaut_id": "A",
     "mission_day": 58,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.46,
     "status": "green",
     "top_signals": [
       {
         "signal": "body_mass_kg",
         "value": 77.74,
-        "baseline": 78.15,
-        "z": -0.52
+        "baseline": 78.16,
+        "z": -0.53
       },
       {
         "signal": "resting_hr_bpm",
@@ -1595,7 +1595,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 60,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.5,
     "status": "green",
     "top_signals": [
       {
@@ -1613,8 +1613,8 @@
       {
         "signal": "body_mass_kg",
         "value": 77.76,
-        "baseline": 78.15,
-        "z": -0.49
+        "baseline": 78.16,
+        "z": -0.51
       }
     ],
     "hazards": []
@@ -1965,7 +1965,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 14,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.47,
     "status": "green",
     "top_signals": [
       {
@@ -2175,7 +2175,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 22,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.52,
     "status": "green",
     "top_signals": [
       {
@@ -2202,7 +2202,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 23,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.48,
     "status": "green",
     "top_signals": [
       {
@@ -2229,7 +2229,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 24,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.5,
     "status": "green",
     "top_signals": [
       {
@@ -2283,15 +2283,9 @@
   {
     "astronaut_id": "B",
     "mission_day": 26,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.4,
     "status": "green",
     "top_signals": [
-      {
-        "signal": "reaction_time_ms",
-        "value": 300.38,
-        "baseline": 288.12,
-        "z": 1.28
-      },
       {
         "signal": "radiation_mgy",
         "value": 0.54,
@@ -2303,6 +2297,12 @@
         "value": 99.35,
         "baseline": 102.17,
         "z": -0.29
+      },
+      {
+        "signal": "spo2_pct",
+        "value": 97.24,
+        "baseline": 97.43,
+        "z": -0.19
       }
     ],
     "hazards": []
@@ -2391,7 +2391,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 30,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.5,
     "status": "green",
     "top_signals": [
       {
@@ -2418,7 +2418,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 31,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.54,
     "status": "green",
     "top_signals": [
       {
@@ -2718,7 +2718,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 43,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.43,
     "status": "green",
     "top_signals": [
       {
@@ -2739,26 +2739,26 @@
   {
     "astronaut_id": "B",
     "mission_day": 44,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.55,
     "status": "green",
     "top_signals": [
       {
         "signal": "resting_hr_bpm",
-        "value": 66.58,
+        "value": 67.58,
         "baseline": 63.85,
-        "z": 1.41
+        "z": 1.93
       },
       {
         "signal": "reaction_time_ms",
-        "value": 297.99,
+        "value": 304.42,
         "baseline": 288.12,
-        "z": 1.03
+        "z": 1.7
       },
       {
-        "signal": "body_mass_kg",
-        "value": 69.78,
-        "baseline": 69.96,
-        "z": -0.26
+        "signal": "mood_1to5",
+        "value": 3.0,
+        "baseline": 4.0,
+        "z": -1.47
       }
     ],
     "hazards": []
@@ -2766,9 +2766,15 @@
   {
     "astronaut_id": "B",
     "mission_day": 45,
-    "anomaly_score": 0.45,
+    "anomaly_score": 0.53,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "sleep_h",
+        "value": 6.79,
+        "baseline": 7.48,
+        "z": -2.63
+      },
       {
         "signal": "systolic_bp_mmhg",
         "value": 122.97,
@@ -2776,16 +2782,10 @@
         "z": 1.36
       },
       {
-        "signal": "exercise_min",
-        "value": 93.06,
-        "baseline": 102.17,
-        "z": -0.95
-      },
-      {
-        "signal": "sleep_h",
-        "value": 7.36,
-        "baseline": 7.48,
-        "z": -0.44
+        "signal": "resting_hr_bpm",
+        "value": 65.79,
+        "baseline": 63.85,
+        "z": 1.0
       }
     ],
     "hazards": []
@@ -2793,119 +2793,159 @@
   {
     "astronaut_id": "B",
     "mission_day": 46,
-    "anomaly_score": 0.37,
-    "status": "green",
+    "anomaly_score": 0.58,
+    "status": "amber",
     "top_signals": [
       {
+        "signal": "radiation_mgy",
+        "value": 4.42,
+        "baseline": 0.51,
+        "z": 80.98
+      },
+      {
+        "signal": "sleep_h",
+        "value": 6.71,
+        "baseline": 7.48,
+        "z": -2.93
+      },
+      {
         "signal": "reaction_time_ms",
-        "value": 289.0,
+        "value": 308.29,
         "baseline": 288.12,
-        "z": 0.09
+        "z": 2.1
       }
     ],
-    "hazards": []
+    "hazards": [
+      "radiation",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "B",
     "mission_day": 47,
-    "anomaly_score": 0.43,
-    "status": "green",
+    "anomaly_score": 0.67,
+    "status": "amber",
     "top_signals": [
       {
+        "signal": "radiation_mgy",
+        "value": 4.18,
+        "baseline": 0.51,
+        "z": 76.01
+      },
+      {
         "signal": "resting_hr_bpm",
-        "value": 66.89,
+        "value": 70.89,
         "baseline": 63.85,
-        "z": 1.57
+        "z": 3.63
       },
       {
-        "signal": "systolic_bp_mmhg",
-        "value": 120.54,
-        "baseline": 119.66,
-        "z": 0.36
-      },
-      {
-        "signal": "exercise_min",
-        "value": 99.85,
-        "baseline": 102.17,
-        "z": -0.24
+        "signal": "sleep_h",
+        "value": 6.58,
+        "baseline": 7.48,
+        "z": -3.43
       }
     ],
-    "hazards": []
+    "hazards": [
+      "radiation",
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "B",
     "mission_day": 48,
-    "anomaly_score": 0.42,
-    "status": "green",
+    "anomaly_score": 0.6,
+    "status": "red",
     "top_signals": [
       {
         "signal": "sleep_h",
-        "value": 7.3,
+        "value": 5.88,
         "baseline": 7.48,
-        "z": -0.67
+        "z": -6.12
       },
       {
-        "signal": "body_mass_kg",
-        "value": 69.68,
-        "baseline": 69.96,
-        "z": -0.41
+        "signal": "resting_hr_bpm",
+        "value": 68.65,
+        "baseline": 63.85,
+        "z": 2.48
       },
       {
-        "signal": "systolic_bp_mmhg",
-        "value": 119.9,
-        "baseline": 119.66,
-        "z": 0.1
+        "signal": "mood_1to5",
+        "value": 3.0,
+        "baseline": 4.0,
+        "z": -1.47
       }
     ],
-    "hazards": []
+    "hazards": [
+      "isolation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "B",
     "mission_day": 49,
-    "anomaly_score": 0.38,
-    "status": "green",
+    "anomaly_score": 0.61,
+    "status": "red",
     "top_signals": [
       {
-        "signal": "exercise_min",
-        "value": 91.41,
-        "baseline": 102.17,
-        "z": -1.12
+        "signal": "sleep_h",
+        "value": 6.09,
+        "baseline": 7.48,
+        "z": -5.31
+      },
+      {
+        "signal": "resting_hr_bpm",
+        "value": 69.32,
+        "baseline": 63.85,
+        "z": 2.82
+      },
+      {
+        "signal": "reaction_time_ms",
+        "value": 306.03,
+        "baseline": 288.12,
+        "z": 1.86
       }
     ],
-    "hazards": []
+    "hazards": [
+      "isolation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "B",
     "mission_day": 50,
-    "anomaly_score": 0.49,
-    "status": "green",
+    "anomaly_score": 0.65,
+    "status": "red",
     "top_signals": [
       {
         "signal": "sleep_h",
-        "value": 6.96,
+        "value": 4.96,
         "baseline": 7.48,
-        "z": -1.98
+        "z": -9.64
       },
       {
-        "signal": "radiation_mgy",
-        "value": 0.57,
-        "baseline": 0.51,
-        "z": 1.23
+        "signal": "reaction_time_ms",
+        "value": 319.79,
+        "baseline": 288.12,
+        "z": 3.3
       },
       {
-        "signal": "exercise_min",
-        "value": 94.19,
-        "baseline": 102.17,
-        "z": -0.83
+        "signal": "resting_hr_bpm",
+        "value": 69.53,
+        "baseline": 63.85,
+        "z": 2.93
       }
     ],
-    "hazards": []
+    "hazards": [
+      "isolation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "B",
     "mission_day": 51,
     "anomaly_score": 0.4,
-    "status": "green",
+    "status": "red",
     "top_signals": [
       {
         "signal": "sleep_h",
@@ -2926,13 +2966,16 @@
         "z": 0.25
       }
     ],
-    "hazards": []
+    "hazards": [
+      "isolation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "B",
     "mission_day": 52,
     "anomaly_score": 0.51,
-    "status": "green",
+    "status": "red",
     "top_signals": [
       {
         "signal": "exercise_min",
@@ -2953,7 +2996,10 @@
         "z": 0.91
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "B",
@@ -3066,7 +3112,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 57,
-    "anomaly_score": 0.54,
+    "anomaly_score": 0.53,
     "status": "green",
     "top_signals": [
       {
@@ -3135,7 +3181,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 60,
-    "anomaly_score": 0.51,
+    "anomaly_score": 0.5,
     "status": "green",
     "top_signals": [
       {
@@ -3198,8 +3244,8 @@
       {
         "signal": "sleep_h",
         "value": 6.41,
-        "baseline": 6.88,
-        "z": -1.13
+        "baseline": 6.89,
+        "z": -1.11
       },
       {
         "signal": "resting_hr_bpm",
@@ -3231,8 +3277,8 @@
       {
         "signal": "sleep_h",
         "value": 6.51,
-        "baseline": 6.88,
-        "z": -0.89
+        "baseline": 6.89,
+        "z": -0.88
       },
       {
         "signal": "reaction_time_ms",
@@ -3252,8 +3298,8 @@
       {
         "signal": "sleep_h",
         "value": 6.44,
-        "baseline": 6.88,
-        "z": -1.06
+        "baseline": 6.89,
+        "z": -1.04
       },
       {
         "signal": "exercise_min",
@@ -3279,8 +3325,8 @@
       {
         "signal": "sleep_h",
         "value": 6.72,
-        "baseline": 6.88,
-        "z": -0.38
+        "baseline": 6.89,
+        "z": -0.39
       },
       {
         "signal": "systolic_bp_mmhg",
@@ -3354,7 +3400,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 8,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
       {
@@ -3393,8 +3439,8 @@
       {
         "signal": "sleep_h",
         "value": 6.7,
-        "baseline": 6.88,
-        "z": -0.43
+        "baseline": 6.89,
+        "z": -0.44
       },
       {
         "signal": "radiation_mgy",
@@ -3414,8 +3460,8 @@
       {
         "signal": "sleep_h",
         "value": 6.39,
-        "baseline": 6.88,
-        "z": -1.18
+        "baseline": 6.89,
+        "z": -1.16
       },
       {
         "signal": "exercise_min",
@@ -3462,7 +3508,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 12,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.39,
     "status": "green",
     "top_signals": [
       {
@@ -3470,12 +3516,6 @@
         "value": 321.43,
         "baseline": 299.87,
         "z": 1.38
-      },
-      {
-        "signal": "sleep_h",
-        "value": 6.75,
-        "baseline": 6.88,
-        "z": -0.31
       },
       {
         "signal": "spo2_pct",
@@ -3510,7 +3550,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 14,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.54,
     "status": "green",
     "top_signals": [
       {
@@ -3549,7 +3589,7 @@
       {
         "signal": "sleep_h",
         "value": 6.63,
-        "baseline": 6.88,
+        "baseline": 6.89,
         "z": -0.6
       },
       {
@@ -3603,8 +3643,8 @@
       {
         "signal": "sleep_h",
         "value": 6.27,
-        "baseline": 6.88,
-        "z": -1.46
+        "baseline": 6.89,
+        "z": -1.44
       },
       {
         "signal": "exercise_min",
@@ -3618,7 +3658,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 18,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.46,
     "status": "green",
     "top_signals": [
       {
@@ -3645,14 +3685,14 @@
   {
     "astronaut_id": "C",
     "mission_day": 19,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.48,
     "status": "green",
     "top_signals": [
       {
         "signal": "sleep_h",
         "value": 6.54,
-        "baseline": 6.88,
-        "z": -0.82
+        "baseline": 6.89,
+        "z": -0.81
       },
       {
         "signal": "systolic_bp_mmhg",
@@ -3672,7 +3712,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 20,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.47,
     "status": "green",
     "top_signals": [
       {
@@ -3683,9 +3723,9 @@
       },
       {
         "signal": "exercise_min",
-        "value": 85.81,
+        "value": 84.84,
         "baseline": 90.55,
-        "z": -0.51
+        "z": -0.61
       },
       {
         "signal": "hrv_ms",
@@ -3717,8 +3757,8 @@
       {
         "signal": "sleep_h",
         "value": 6.85,
-        "baseline": 6.88,
-        "z": -0.07
+        "baseline": 6.89,
+        "z": -0.09
       }
     ],
     "hazards": []
@@ -3726,7 +3766,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 22,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.56,
     "status": "green",
     "top_signals": [
       {
@@ -3767,6 +3807,12 @@
         "value": 70.48,
         "baseline": 70.23,
         "z": 0.12
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 84.84,
+        "baseline": 84.91,
+        "z": -0.08
       }
     ],
     "hazards": []
@@ -3774,14 +3820,14 @@
   {
     "astronaut_id": "C",
     "mission_day": 24,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.57,
     "status": "green",
     "top_signals": [
       {
         "signal": "sleep_h",
         "value": 5.69,
-        "baseline": 6.88,
-        "z": -2.86
+        "baseline": 6.89,
+        "z": -2.78
       },
       {
         "signal": "systolic_bp_mmhg",
@@ -3801,7 +3847,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 25,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.54,
     "status": "green",
     "top_signals": [
       {
@@ -3812,15 +3858,15 @@
       },
       {
         "signal": "exercise_min",
-        "value": 80.8,
+        "value": 74.95,
         "baseline": 90.55,
-        "z": -1.05
+        "z": -1.68
       },
       {
         "signal": "sleep_h",
         "value": 6.56,
-        "baseline": 6.88,
-        "z": -0.77
+        "baseline": 6.89,
+        "z": -0.76
       }
     ],
     "hazards": []
@@ -3828,7 +3874,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 26,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.51,
     "status": "green",
     "top_signals": [
       {
@@ -3838,16 +3884,16 @@
         "z": 1.57
       },
       {
+        "signal": "body_mass_kg",
+        "value": 84.06,
+        "baseline": 84.91,
+        "z": -1.0
+      },
+      {
         "signal": "systolic_bp_mmhg",
         "value": 122.71,
         "baseline": 121.44,
         "z": 0.53
-      },
-      {
-        "signal": "body_mass_kg",
-        "value": 84.49,
-        "baseline": 84.91,
-        "z": -0.49
       }
     ],
     "hazards": []
@@ -3855,20 +3901,20 @@
   {
     "astronaut_id": "C",
     "mission_day": 27,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.57,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 70.23,
+        "baseline": 90.55,
+        "z": -2.18
+      },
       {
         "signal": "hrv_ms",
         "value": 43.37,
         "baseline": 49.11,
         "z": -1.43
-      },
-      {
-        "signal": "exercise_min",
-        "value": 78.04,
-        "baseline": 90.55,
-        "z": -1.34
       },
       {
         "signal": "resting_hr_bpm",
@@ -3882,14 +3928,14 @@
   {
     "astronaut_id": "C",
     "mission_day": 28,
-    "anomaly_score": 0.41,
+    "anomaly_score": 0.49,
     "status": "green",
     "top_signals": [
       {
         "signal": "sleep_h",
         "value": 6.49,
-        "baseline": 6.88,
-        "z": -0.94
+        "baseline": 6.89,
+        "z": -0.93
       },
       {
         "signal": "radiation_mgy",
@@ -3899,9 +3945,9 @@
       },
       {
         "signal": "body_mass_kg",
-        "value": 84.84,
+        "value": 84.29,
         "baseline": 84.91,
-        "z": -0.08
+        "z": -0.73
       }
     ],
     "hazards": []
@@ -3909,26 +3955,26 @@
   {
     "astronaut_id": "C",
     "mission_day": 29,
-    "anomaly_score": 0.39,
+    "anomaly_score": 0.52,
     "status": "green",
     "top_signals": [
       {
         "signal": "exercise_min",
-        "value": 80.03,
+        "value": 70.28,
         "baseline": 90.55,
-        "z": -1.13
+        "z": -2.18
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 84.38,
+        "baseline": 84.91,
+        "z": -0.62
       },
       {
         "signal": "reaction_time_ms",
         "value": 308.64,
         "baseline": 299.87,
         "z": 0.56
-      },
-      {
-        "signal": "hrv_ms",
-        "value": 48.91,
-        "baseline": 49.11,
-        "z": -0.05
       }
     ],
     "hazards": []
@@ -3936,26 +3982,26 @@
   {
     "astronaut_id": "C",
     "mission_day": 30,
-    "anomaly_score": 0.46,
+    "anomaly_score": 0.58,
     "status": "green",
     "top_signals": [
       {
+        "signal": "exercise_min",
+        "value": 74.52,
+        "baseline": 90.55,
+        "z": -1.72
+      },
+      {
         "signal": "sleep_h",
         "value": 6.54,
-        "baseline": 6.88,
-        "z": -0.82
+        "baseline": 6.89,
+        "z": -0.81
       },
       {
         "signal": "radiation_mgy",
         "value": 0.54,
         "baseline": 0.5,
         "z": 0.8
-      },
-      {
-        "signal": "reaction_time_ms",
-        "value": 310.35,
-        "baseline": 299.87,
-        "z": 0.67
       }
     ],
     "hazards": []
@@ -3963,14 +4009,14 @@
   {
     "astronaut_id": "C",
     "mission_day": 31,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.45,
     "status": "green",
     "top_signals": [
       {
         "signal": "body_mass_kg",
-        "value": 84.81,
+        "value": 84.08,
         "baseline": 84.91,
-        "z": -0.12
+        "z": -0.98
       }
     ],
     "hazards": []
@@ -3978,9 +4024,15 @@
   {
     "astronaut_id": "C",
     "mission_day": 32,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.52,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 75.88,
+        "baseline": 90.55,
+        "z": -1.58
+      },
       {
         "signal": "hrv_ms",
         "value": 45.02,
@@ -3992,12 +4044,6 @@
         "value": 0.53,
         "baseline": 0.5,
         "z": 0.61
-      },
-      {
-        "signal": "exercise_min",
-        "value": 88.57,
-        "baseline": 90.55,
-        "z": -0.21
       }
     ],
     "hazards": []
@@ -4005,8 +4051,8 @@
   {
     "astronaut_id": "C",
     "mission_day": 33,
-    "anomaly_score": 0.6,
-    "status": "green",
+    "anomaly_score": 0.66,
+    "status": "amber",
     "top_signals": [
       {
         "signal": "hrv_ms",
@@ -4023,35 +4069,38 @@
       {
         "signal": "sleep_h",
         "value": 6.24,
-        "baseline": 6.88,
-        "z": -1.54
+        "baseline": 6.89,
+        "z": -1.51
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 34,
-    "anomaly_score": 0.4,
+    "anomaly_score": 0.53,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 75.79,
+        "baseline": 90.55,
+        "z": -1.59
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 84.16,
+        "baseline": 84.91,
+        "z": -0.88
+      },
       {
         "signal": "reaction_time_ms",
         "value": 311.83,
         "baseline": 299.87,
         "z": 0.76
-      },
-      {
-        "signal": "spo2_pct",
-        "value": 97.47,
-        "baseline": 97.93,
-        "z": -0.47
-      },
-      {
-        "signal": "exercise_min",
-        "value": 90.43,
-        "baseline": 90.55,
-        "z": -0.01
       }
     ],
     "hazards": []
@@ -4059,7 +4108,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 35,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.5,
     "status": "green",
     "top_signals": [
       {
@@ -4073,6 +4122,12 @@
         "value": 320.05,
         "baseline": 299.87,
         "z": 1.29
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 84.29,
+        "baseline": 84.91,
+        "z": -0.73
       }
     ],
     "hazards": []
@@ -4080,20 +4135,20 @@
   {
     "astronaut_id": "C",
     "mission_day": 36,
-    "anomaly_score": 0.59,
+    "anomaly_score": 0.65,
     "status": "green",
     "top_signals": [
-      {
-        "signal": "sleep_h",
-        "value": 6.09,
-        "baseline": 6.88,
-        "z": -1.9
-      },
       {
         "signal": "mood_1to5",
         "value": 2.0,
         "baseline": 2.93,
         "z": -1.86
+      },
+      {
+        "signal": "sleep_h",
+        "value": 6.09,
+        "baseline": 6.89,
+        "z": -1.85
       },
       {
         "signal": "systolic_bp_mmhg",
@@ -4107,26 +4162,26 @@
   {
     "astronaut_id": "C",
     "mission_day": 37,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.54,
     "status": "green",
     "top_signals": [
       {
+        "signal": "body_mass_kg",
+        "value": 83.5,
+        "baseline": 84.91,
+        "z": -1.66
+      },
+      {
         "signal": "sleep_h",
         "value": 6.23,
-        "baseline": 6.88,
-        "z": -1.56
+        "baseline": 6.89,
+        "z": -1.53
       },
       {
-        "signal": "hrv_ms",
-        "value": 45.8,
-        "baseline": 49.11,
-        "z": -0.82
-      },
-      {
-        "signal": "body_mass_kg",
-        "value": 84.59,
-        "baseline": 84.91,
-        "z": -0.38
+        "signal": "exercise_min",
+        "value": 80.73,
+        "baseline": 90.55,
+        "z": -1.06
       }
     ],
     "hazards": []
@@ -4134,7 +4189,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 38,
-    "anomaly_score": 0.52,
+    "anomaly_score": 0.61,
     "status": "green",
     "top_signals": [
       {
@@ -4150,10 +4205,10 @@
         "z": 1.57
       },
       {
-        "signal": "radiation_mgy",
-        "value": 0.56,
-        "baseline": 0.5,
-        "z": 1.19
+        "signal": "body_mass_kg",
+        "value": 83.66,
+        "baseline": 84.91,
+        "z": -1.47
       }
     ],
     "hazards": []
@@ -4161,8 +4216,8 @@
   {
     "astronaut_id": "C",
     "mission_day": 39,
-    "anomaly_score": 0.55,
-    "status": "green",
+    "anomaly_score": 0.64,
+    "status": "amber",
     "top_signals": [
       {
         "signal": "systolic_bp_mmhg",
@@ -4172,25 +4227,33 @@
       },
       {
         "signal": "exercise_min",
-        "value": 82.08,
+        "value": 62.57,
         "baseline": 90.55,
-        "z": -0.91
+        "z": -3.01
       },
       {
-        "signal": "resting_hr_bpm",
-        "value": 71.53,
-        "baseline": 70.23,
-        "z": 0.63
+        "signal": "body_mass_kg",
+        "value": 83.58,
+        "baseline": 84.91,
+        "z": -1.57
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 40,
-    "anomaly_score": 0.46,
-    "status": "green",
+    "anomaly_score": 0.6,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 66.89,
+        "baseline": 90.55,
+        "z": -2.54
+      },
       {
         "signal": "hrv_ms",
         "value": 41.21,
@@ -4198,26 +4261,28 @@
         "z": -1.96
       },
       {
-        "signal": "sleep_h",
-        "value": 6.58,
-        "baseline": 6.88,
-        "z": -0.72
-      },
-      {
-        "signal": "exercise_min",
-        "value": 87.38,
-        "baseline": 90.55,
-        "z": -0.34
+        "signal": "body_mass_kg",
+        "value": 83.96,
+        "baseline": 84.91,
+        "z": -1.12
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 41,
-    "anomaly_score": 0.52,
-    "status": "green",
+    "anomaly_score": 0.63,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 61.88,
+        "baseline": 90.55,
+        "z": -3.08
+      },
       {
         "signal": "mood_1to5",
         "value": 2.0,
@@ -4225,25 +4290,22 @@
         "z": -1.86
       },
       {
-        "signal": "hrv_ms",
-        "value": 44.82,
-        "baseline": 49.11,
-        "z": -1.07
-      },
-      {
-        "signal": "exercise_min",
-        "value": 83.35,
-        "baseline": 90.55,
-        "z": -0.77
+        "signal": "body_mass_kg",
+        "value": 83.93,
+        "baseline": 84.91,
+        "z": -1.15
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 42,
-    "anomaly_score": 0.46,
-    "status": "green",
+    "anomaly_score": 0.57,
+    "status": "amber",
     "top_signals": [
       {
         "signal": "hrv_ms",
@@ -4252,79 +4314,85 @@
         "z": -1.96
       },
       {
-        "signal": "radiation_mgy",
-        "value": 0.54,
-        "baseline": 0.5,
-        "z": 0.8
+        "signal": "exercise_min",
+        "value": 74.58,
+        "baseline": 90.55,
+        "z": -1.72
       },
       {
-        "signal": "resting_hr_bpm",
-        "value": 71.02,
-        "baseline": 70.23,
-        "z": 0.38
+        "signal": "body_mass_kg",
+        "value": 83.54,
+        "baseline": 84.91,
+        "z": -1.61
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 43,
-    "anomaly_score": 0.48,
-    "status": "green",
+    "anomaly_score": 0.6,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 72.7,
+        "baseline": 90.55,
+        "z": -1.92
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.39,
+        "baseline": 84.91,
+        "z": -1.79
+      },
       {
         "signal": "resting_hr_bpm",
         "value": 73.07,
         "baseline": 70.23,
         "z": 1.38
-      },
-      {
-        "signal": "systolic_bp_mmhg",
-        "value": 123.84,
-        "baseline": 121.44,
-        "z": 0.99
-      },
-      {
-        "signal": "hrv_ms",
-        "value": 46.29,
-        "baseline": 49.11,
-        "z": -0.7
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 44,
-    "anomaly_score": 0.47,
-    "status": "green",
+    "anomaly_score": 0.61,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 59.78,
+        "baseline": 90.55,
+        "z": -3.31
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.4,
+        "baseline": 84.91,
+        "z": -1.78
+      },
       {
         "signal": "systolic_bp_mmhg",
         "value": 123.84,
         "baseline": 121.44,
         "z": 0.99
-      },
-      {
-        "signal": "hrv_ms",
-        "value": 45.31,
-        "baseline": 49.11,
-        "z": -0.94
-      },
-      {
-        "signal": "sleep_h",
-        "value": 6.55,
-        "baseline": 6.88,
-        "z": -0.79
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 45,
-    "anomaly_score": 0.52,
-    "status": "green",
+    "anomaly_score": 0.61,
+    "status": "amber",
     "top_signals": [
       {
         "signal": "resting_hr_bpm",
@@ -4333,215 +4401,240 @@
         "z": 2.26
       },
       {
-        "signal": "systolic_bp_mmhg",
-        "value": 124.97,
-        "baseline": 121.44,
-        "z": 1.46
+        "signal": "body_mass_kg",
+        "value": 83.35,
+        "baseline": 84.91,
+        "z": -1.84
       },
       {
-        "signal": "hrv_ms",
-        "value": 43.76,
-        "baseline": 49.11,
-        "z": -1.33
+        "signal": "exercise_min",
+        "value": 76.14,
+        "baseline": 90.55,
+        "z": -1.55
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 46,
-    "anomaly_score": 0.43,
-    "status": "green",
+    "anomaly_score": 0.63,
+    "status": "amber",
     "top_signals": [
       {
-        "signal": "hrv_ms",
-        "value": 46.0,
-        "baseline": 49.11,
-        "z": -0.77
-      },
-      {
-        "signal": "resting_hr_bpm",
-        "value": 71.77,
-        "baseline": 70.23,
-        "z": 0.75
+        "signal": "radiation_mgy",
+        "value": 4.93,
+        "baseline": 0.5,
+        "z": 84.65
       },
       {
         "signal": "exercise_min",
-        "value": 83.8,
+        "value": 57.46,
         "baseline": 90.55,
-        "z": -0.73
+        "z": -3.56
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.3,
+        "baseline": 84.91,
+        "z": -1.9
       }
     ],
-    "hazards": []
+    "hazards": [
+      "radiation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 47,
-    "anomaly_score": 0.55,
-    "status": "green",
+    "anomaly_score": 0.65,
+    "status": "amber",
     "top_signals": [
       {
-        "signal": "exercise_min",
-        "value": 76.98,
-        "baseline": 90.55,
-        "z": -1.46
-      },
-      {
         "signal": "radiation_mgy",
-        "value": 0.57,
+        "value": 5.66,
         "baseline": 0.5,
-        "z": 1.38
+        "z": 98.6
       },
       {
-        "signal": "resting_hr_bpm",
-        "value": 72.87,
-        "baseline": 70.23,
-        "z": 1.28
+        "signal": "exercise_min",
+        "value": 49.66,
+        "baseline": 90.55,
+        "z": -4.4
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.39,
+        "baseline": 84.91,
+        "z": -1.79
       }
     ],
-    "hazards": []
+    "hazards": [
+      "radiation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 48,
-    "anomaly_score": 0.41,
-    "status": "green",
+    "anomaly_score": 0.56,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "body_mass_kg",
+        "value": 83.2,
+        "baseline": 84.91,
+        "z": -2.01
+      },
+      {
+        "signal": "exercise_min",
+        "value": 71.95,
+        "baseline": 90.55,
+        "z": -2.0
+      },
       {
         "signal": "resting_hr_bpm",
         "value": 72.82,
         "baseline": 70.23,
         "z": 1.26
-      },
-      {
-        "signal": "hrv_ms",
-        "value": 47.93,
-        "baseline": 49.11,
-        "z": -0.29
-      },
-      {
-        "signal": "reaction_time_ms",
-        "value": 301.45,
-        "baseline": 299.87,
-        "z": 0.1
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 49,
-    "anomaly_score": 0.42,
-    "status": "green",
+    "anomaly_score": 0.55,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 59.14,
+        "baseline": 90.55,
+        "z": -3.38
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.2,
+        "baseline": 84.91,
+        "z": -2.01
+      },
       {
         "signal": "systolic_bp_mmhg",
         "value": 125.18,
         "baseline": 121.44,
         "z": 1.55
-      },
-      {
-        "signal": "reaction_time_ms",
-        "value": 304.21,
-        "baseline": 299.87,
-        "z": 0.28
-      },
-      {
-        "signal": "exercise_min",
-        "value": 88.41,
-        "baseline": 90.55,
-        "z": -0.23
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 50,
-    "anomaly_score": 0.41,
-    "status": "green",
+    "anomaly_score": 0.54,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 51.2,
+        "baseline": 90.55,
+        "z": -4.23
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.24,
+        "baseline": 84.91,
+        "z": -1.97
+      },
       {
         "signal": "resting_hr_bpm",
         "value": 72.28,
         "baseline": 70.23,
         "z": 1.0
-      },
-      {
-        "signal": "exercise_min",
-        "value": 81.44,
-        "baseline": 90.55,
-        "z": -0.98
-      },
-      {
-        "signal": "sleep_h",
-        "value": 6.81,
-        "baseline": 6.88,
-        "z": -0.17
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 51,
-    "anomaly_score": 0.49,
-    "status": "green",
+    "anomaly_score": 0.61,
+    "status": "red",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 56.02,
+        "baseline": 90.55,
+        "z": -3.71
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.26,
+        "baseline": 84.91,
+        "z": -1.94
+      },
       {
         "signal": "mood_1to5",
         "value": 2.0,
         "baseline": 2.93,
         "z": -1.86
-      },
-      {
-        "signal": "sleep_h",
-        "value": 6.57,
-        "baseline": 6.88,
-        "z": -0.74
-      },
-      {
-        "signal": "hrv_ms",
-        "value": 46.6,
-        "baseline": 49.11,
-        "z": -0.62
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 52,
-    "anomaly_score": 0.47,
-    "status": "green",
+    "anomaly_score": 0.59,
+    "status": "red",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 48.78,
+        "baseline": 90.55,
+        "z": -4.49
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 83.29,
+        "baseline": 84.91,
+        "z": -1.91
+      },
       {
         "signal": "resting_hr_bpm",
         "value": 73.18,
         "baseline": 70.23,
         "z": 1.43
-      },
-      {
-        "signal": "hrv_ms",
-        "value": 44.47,
-        "baseline": 49.11,
-        "z": -1.15
-      },
-      {
-        "signal": "exercise_min",
-        "value": 80.97,
-        "baseline": 90.55,
-        "z": -1.03
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 53,
-    "anomaly_score": 0.59,
-    "status": "green",
+    "anomaly_score": 0.66,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "body_mass_kg",
+        "value": 83.02,
+        "baseline": 84.91,
+        "z": -2.23
+      },
       {
         "signal": "hrv_ms",
         "value": 40.87,
@@ -4553,212 +4646,222 @@
         "value": 2.0,
         "baseline": 2.93,
         "z": -1.86
-      },
-      {
-        "signal": "radiation_mgy",
-        "value": 0.59,
-        "baseline": 0.5,
-        "z": 1.76
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 54,
-    "anomaly_score": 0.58,
-    "status": "green",
+    "anomaly_score": 0.65,
+    "status": "red",
     "top_signals": [
       {
-        "signal": "sleep_h",
-        "value": 6.14,
-        "baseline": 6.88,
-        "z": -1.78
+        "signal": "exercise_min",
+        "value": 47.4,
+        "baseline": 90.55,
+        "z": -4.64
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 82.96,
+        "baseline": 84.91,
+        "z": -2.3
       },
       {
         "signal": "radiation_mgy",
         "value": 0.59,
         "baseline": 0.5,
         "z": 1.76
-      },
-      {
-        "signal": "spo2_pct",
-        "value": 96.71,
-        "baseline": 97.93,
-        "z": -1.25
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "radiation"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 55,
-    "anomaly_score": 0.52,
-    "status": "green",
+    "anomaly_score": 0.63,
+    "status": "amber",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 53.21,
+        "baseline": 90.55,
+        "z": -4.01
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 82.84,
+        "baseline": 84.91,
+        "z": -2.44
+      },
       {
         "signal": "systolic_bp_mmhg",
         "value": 124.95,
         "baseline": 121.44,
         "z": 1.45
-      },
-      {
-        "signal": "radiation_mgy",
-        "value": 0.56,
-        "baseline": 0.5,
-        "z": 1.19
-      },
-      {
-        "signal": "reaction_time_ms",
-        "value": 315.02,
-        "baseline": 299.87,
-        "z": 0.97
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 56,
-    "anomaly_score": 0.54,
-    "status": "green",
+    "anomaly_score": 0.63,
+    "status": "red",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 48.7,
+        "baseline": 90.55,
+        "z": -4.5
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 82.5,
+        "baseline": 84.91,
+        "z": -2.84
+      },
       {
         "signal": "resting_hr_bpm",
         "value": 75.19,
         "baseline": 70.23,
         "z": 2.41
-      },
-      {
-        "signal": "systolic_bp_mmhg",
-        "value": 126.56,
-        "baseline": 121.44,
-        "z": 2.12
-      },
-      {
-        "signal": "exercise_min",
-        "value": 84.79,
-        "baseline": 90.55,
-        "z": -0.62
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 57,
-    "anomaly_score": 0.54,
-    "status": "green",
+    "anomaly_score": 0.66,
+    "status": "red",
     "top_signals": [
+      {
+        "signal": "body_mass_kg",
+        "value": 82.57,
+        "baseline": 84.91,
+        "z": -2.76
+      },
+      {
+        "signal": "exercise_min",
+        "value": 66.5,
+        "baseline": 90.55,
+        "z": -2.59
+      },
       {
         "signal": "systolic_bp_mmhg",
         "value": 127.19,
         "baseline": 121.44,
         "z": 2.38
-      },
-      {
-        "signal": "sleep_h",
-        "value": 5.94,
-        "baseline": 6.88,
-        "z": -2.26
-      },
-      {
-        "signal": "resting_hr_bpm",
-        "value": 71.75,
-        "baseline": 70.23,
-        "z": 0.74
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 58,
-    "anomaly_score": 0.47,
-    "status": "amber",
+    "anomaly_score": 0.6,
+    "status": "red",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 58.2,
+        "baseline": 90.55,
+        "z": -3.48
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 82.4,
+        "baseline": 84.91,
+        "z": -2.96
+      },
       {
         "signal": "resting_hr_bpm",
         "value": 73.27,
         "baseline": 70.23,
         "z": 1.48
-      },
-      {
-        "signal": "systolic_bp_mmhg",
-        "value": 124.4,
-        "baseline": 121.44,
-        "z": 1.22
-      },
-      {
-        "signal": "spo2_pct",
-        "value": 97.49,
-        "baseline": 97.93,
-        "z": -0.45
       }
     ],
     "hazards": [
-      "gravity",
-      "environment"
+      "gravity"
     ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 59,
-    "anomaly_score": 0.6,
-    "status": "green",
+    "anomaly_score": 0.66,
+    "status": "red",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 35.38,
+        "baseline": 90.55,
+        "z": -5.93
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 82.8,
+        "baseline": 84.91,
+        "z": -2.48
+      },
       {
         "signal": "hrv_ms",
         "value": 40.98,
         "baseline": 49.11,
         "z": -2.02
-      },
-      {
-        "signal": "radiation_mgy",
-        "value": 0.6,
-        "baseline": 0.5,
-        "z": 1.95
-      },
-      {
-        "signal": "exercise_min",
-        "value": 74.4,
-        "baseline": 90.55,
-        "z": -1.74
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "C",
     "mission_day": 60,
-    "anomaly_score": 0.46,
-    "status": "green",
+    "anomaly_score": 0.6,
+    "status": "red",
     "top_signals": [
+      {
+        "signal": "exercise_min",
+        "value": 54.83,
+        "baseline": 90.55,
+        "z": -3.84
+      },
+      {
+        "signal": "body_mass_kg",
+        "value": 82.45,
+        "baseline": 84.91,
+        "z": -2.9
+      },
       {
         "signal": "sleep_h",
         "value": 6.14,
-        "baseline": 6.88,
-        "z": -1.78
-      },
-      {
-        "signal": "systolic_bp_mmhg",
-        "value": 123.42,
-        "baseline": 121.44,
-        "z": 0.82
-      },
-      {
-        "signal": "spo2_pct",
-        "value": 97.54,
-        "baseline": 97.93,
-        "z": -0.4
+        "baseline": 6.89,
+        "z": -1.74
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 1,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.51,
     "status": "amber",
     "top_signals": [
       {
@@ -4841,7 +4944,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 4,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.51,
     "status": "green",
     "top_signals": [
       {
@@ -4868,7 +4971,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 5,
-    "anomaly_score": 0.42,
+    "anomaly_score": 0.41,
     "status": "green",
     "top_signals": [
       {
@@ -5462,7 +5565,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 27,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.52,
     "status": "green",
     "top_signals": [
       {
@@ -5543,7 +5646,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 30,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.49,
     "status": "green",
     "top_signals": [
       {
@@ -5554,9 +5657,9 @@
       },
       {
         "signal": "hrv_ms",
-        "value": 65.32,
+        "value": 63.95,
         "baseline": 69.28,
-        "z": -1.42
+        "z": -1.91
       },
       {
         "signal": "radiation_mgy",
@@ -5570,26 +5673,26 @@
   {
     "astronaut_id": "D",
     "mission_day": 31,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "systolic_bp_mmhg",
+        "value": 114.53,
+        "baseline": 112.2,
+        "z": 0.86
+      },
+      {
+        "signal": "hrv_ms",
+        "value": 67.48,
+        "baseline": 69.28,
+        "z": -0.64
+      },
       {
         "signal": "radiation_mgy",
         "value": 0.5,
         "baseline": 0.49,
         "z": 0.17
-      },
-      {
-        "signal": "mood_1to5",
-        "value": 4.0,
-        "baseline": 4.07,
-        "z": -0.14
-      },
-      {
-        "signal": "spo2_pct",
-        "value": 98.34,
-        "baseline": 98.42,
-        "z": -0.08
       }
     ],
     "hazards": []
@@ -5597,14 +5700,14 @@
   {
     "astronaut_id": "D",
     "mission_day": 32,
-    "anomaly_score": 0.59,
-    "status": "green",
+    "anomaly_score": 0.61,
+    "status": "amber",
     "top_signals": [
       {
         "signal": "hrv_ms",
-        "value": 62.02,
+        "value": 57.93,
         "baseline": 69.28,
-        "z": -2.6
+        "z": -4.07
       },
       {
         "signal": "mood_1to5",
@@ -5619,12 +5722,15 @@
         "z": -0.91
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "isolation"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 33,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.51,
     "status": "green",
     "top_signals": [
       {
@@ -5634,16 +5740,16 @@
         "z": -2.14
       },
       {
+        "signal": "systolic_bp_mmhg",
+        "value": 114.61,
+        "baseline": 112.2,
+        "z": 0.89
+      },
+      {
         "signal": "reaction_time_ms",
         "value": 263.53,
         "baseline": 255.14,
         "z": 0.82
-      },
-      {
-        "signal": "exercise_min",
-        "value": 129.78,
-        "baseline": 132.82,
-        "z": -0.32
       }
     ],
     "hazards": []
@@ -5651,20 +5757,20 @@
   {
     "astronaut_id": "D",
     "mission_day": 34,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.49,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "resting_hr_bpm",
+        "value": 66.71,
+        "baseline": 60.93,
+        "z": 2.35
+      },
       {
         "signal": "exercise_min",
         "value": 115.35,
         "baseline": 132.82,
         "z": -1.84
-      },
-      {
-        "signal": "resting_hr_bpm",
-        "value": 63.07,
-        "baseline": 60.93,
-        "z": 0.87
       },
       {
         "signal": "mood_1to5",
@@ -5678,26 +5784,26 @@
   {
     "astronaut_id": "D",
     "mission_day": 35,
-    "anomaly_score": 0.47,
+    "anomaly_score": 0.62,
     "status": "green",
     "top_signals": [
       {
-        "signal": "exercise_min",
-        "value": 120.18,
-        "baseline": 132.82,
-        "z": -1.33
-      },
-      {
-        "signal": "sleep_h",
-        "value": 6.49,
-        "baseline": 6.92,
-        "z": -1.18
+        "signal": "hrv_ms",
+        "value": 60.66,
+        "baseline": 69.28,
+        "z": -3.09
       },
       {
         "signal": "resting_hr_bpm",
-        "value": 62.76,
+        "value": 67.12,
         "baseline": 60.93,
-        "z": 0.75
+        "z": 2.52
+      },
+      {
+        "signal": "systolic_bp_mmhg",
+        "value": 116.24,
+        "baseline": 112.2,
+        "z": 1.49
       }
     ],
     "hazards": []
@@ -5705,143 +5811,153 @@
   {
     "astronaut_id": "D",
     "mission_day": 36,
-    "anomaly_score": 0.47,
-    "status": "green",
+    "anomaly_score": 0.66,
+    "status": "amber",
     "top_signals": [
       {
-        "signal": "radiation_mgy",
-        "value": 0.53,
-        "baseline": 0.49,
-        "z": 0.83
+        "signal": "hrv_ms",
+        "value": 60.52,
+        "baseline": 69.28,
+        "z": -3.14
       },
       {
-        "signal": "spo2_pct",
-        "value": 97.61,
-        "baseline": 98.42,
-        "z": -0.82
+        "signal": "systolic_bp_mmhg",
+        "value": 119.69,
+        "baseline": 112.2,
+        "z": 2.76
       },
       {
         "signal": "resting_hr_bpm",
-        "value": 61.74,
+        "value": 66.83,
         "baseline": 60.93,
-        "z": 0.33
+        "z": 2.4
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 37,
-    "anomaly_score": 0.47,
-    "status": "green",
+    "anomaly_score": 0.63,
+    "status": "red",
     "top_signals": [
       {
-        "signal": "radiation_mgy",
-        "value": 0.55,
-        "baseline": 0.49,
-        "z": 1.27
+        "signal": "hrv_ms",
+        "value": 57.11,
+        "baseline": 69.28,
+        "z": -4.37
       },
       {
         "signal": "resting_hr_bpm",
-        "value": 63.78,
+        "value": 69.6,
         "baseline": 60.93,
-        "z": 1.16
+        "z": 3.53
       },
       {
-        "signal": "sleep_h",
-        "value": 6.72,
-        "baseline": 6.92,
-        "z": -0.55
+        "signal": "systolic_bp_mmhg",
+        "value": 117.56,
+        "baseline": 112.2,
+        "z": 1.98
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 38,
-    "anomaly_score": 0.47,
-    "status": "green",
+    "anomaly_score": 0.55,
+    "status": "red",
     "top_signals": [
       {
         "signal": "hrv_ms",
-        "value": 61.4,
+        "value": 49.13,
         "baseline": 69.28,
-        "z": -2.83
+        "z": -7.23
       },
       {
         "signal": "systolic_bp_mmhg",
-        "value": 114.04,
+        "value": 123.86,
         "baseline": 112.2,
-        "z": 0.68
+        "z": 4.3
       },
       {
-        "signal": "sleep_h",
-        "value": 6.74,
-        "baseline": 6.92,
-        "z": -0.49
+        "signal": "resting_hr_bpm",
+        "value": 63.18,
+        "baseline": 60.93,
+        "z": 0.92
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 39,
-    "anomaly_score": 0.54,
-    "status": "green",
+    "anomaly_score": 0.66,
+    "status": "red",
     "top_signals": [
       {
         "signal": "hrv_ms",
-        "value": 63.56,
+        "value": 49.93,
         "baseline": 69.28,
-        "z": -2.05
+        "z": -6.94
       },
       {
-        "signal": "radiation_mgy",
-        "value": 0.58,
-        "baseline": 0.49,
-        "z": 1.93
+        "signal": "systolic_bp_mmhg",
+        "value": 121.18,
+        "baseline": 112.2,
+        "z": 3.31
       },
       {
-        "signal": "reaction_time_ms",
-        "value": 264.17,
-        "baseline": 255.14,
-        "z": 0.88
+        "signal": "resting_hr_bpm",
+        "value": 66.6,
+        "baseline": 60.93,
+        "z": 2.31
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 40,
-    "anomaly_score": 0.45,
-    "status": "green",
+    "anomaly_score": 0.65,
+    "status": "red",
     "top_signals": [
       {
-        "signal": "sleep_h",
-        "value": 6.66,
-        "baseline": 6.92,
-        "z": -0.71
-      },
-      {
-        "signal": "reaction_time_ms",
-        "value": 260.07,
-        "baseline": 255.14,
-        "z": 0.48
-      },
-      {
         "signal": "systolic_bp_mmhg",
-        "value": 113.49,
+        "value": 125.49,
         "baseline": 112.2,
-        "z": 0.48
+        "z": 4.9
+      },
+      {
+        "signal": "hrv_ms",
+        "value": 58.0,
+        "baseline": 69.28,
+        "z": -4.05
+      },
+      {
+        "signal": "resting_hr_bpm",
+        "value": 67.1,
+        "baseline": 60.93,
+        "z": 2.51
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 41,
     "anomaly_score": 0.5,
-    "status": "green",
+    "status": "amber",
     "top_signals": [
       {
         "signal": "sleep_h",
@@ -5862,13 +5978,17 @@
         "z": 0.54
       }
     ],
-    "hazards": []
+    "hazards": [
+      "isolation",
+      "radiation",
+      "gravity"
+    ]
   },
   {
     "astronaut_id": "D",
     "mission_day": 42,
     "anomaly_score": 0.46,
-    "status": "green",
+    "status": "amber",
     "top_signals": [
       {
         "signal": "systolic_bp_mmhg",
@@ -5889,7 +6009,10 @@
         "z": -0.56
       }
     ],
-    "hazards": []
+    "hazards": [
+      "gravity",
+      "environment"
+    ]
   },
   {
     "astronaut_id": "D",
@@ -5921,7 +6044,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 44,
-    "anomaly_score": 0.56,
+    "anomaly_score": 0.57,
     "status": "green",
     "top_signals": [
       {
@@ -5948,7 +6071,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 45,
-    "anomaly_score": 0.48,
+    "anomaly_score": 0.49,
     "status": "green",
     "top_signals": [
       {
@@ -5975,9 +6098,15 @@
   {
     "astronaut_id": "D",
     "mission_day": 46,
-    "anomaly_score": 0.53,
+    "anomaly_score": 0.6,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "radiation_mgy",
+        "value": 4.63,
+        "baseline": 0.49,
+        "z": 91.07
+      },
       {
         "signal": "hrv_ms",
         "value": 60.32,
@@ -5989,12 +6118,6 @@
         "value": 97.55,
         "baseline": 98.42,
         "z": -0.88
-      },
-      {
-        "signal": "resting_hr_bpm",
-        "value": 62.78,
-        "baseline": 60.93,
-        "z": 0.75
       }
     ],
     "hazards": []
@@ -6002,20 +6125,20 @@
   {
     "astronaut_id": "D",
     "mission_day": 47,
-    "anomaly_score": 0.44,
+    "anomaly_score": 0.51,
     "status": "green",
     "top_signals": [
+      {
+        "signal": "radiation_mgy",
+        "value": 5.19,
+        "baseline": 0.49,
+        "z": 103.4
+      },
       {
         "signal": "reaction_time_ms",
         "value": 265.27,
         "baseline": 255.14,
         "z": 0.99
-      },
-      {
-        "signal": "radiation_mgy",
-        "value": 0.52,
-        "baseline": 0.49,
-        "z": 0.61
       },
       {
         "signal": "sleep_h",
@@ -6029,7 +6152,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 48,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.48,
     "status": "green",
     "top_signals": [
       {
@@ -6083,15 +6206,9 @@
   {
     "astronaut_id": "D",
     "mission_day": 50,
-    "anomaly_score": 0.49,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
-      {
-        "signal": "reaction_time_ms",
-        "value": 277.03,
-        "baseline": 255.14,
-        "z": 2.14
-      },
       {
         "signal": "sleep_h",
         "value": 6.55,
@@ -6103,6 +6220,12 @@
         "value": 64.87,
         "baseline": 65.02,
         "z": -0.24
+      },
+      {
+        "signal": "radiation_mgy",
+        "value": 0.5,
+        "baseline": 0.49,
+        "z": 0.17
       }
     ],
     "hazards": []
@@ -6110,7 +6233,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 51,
-    "anomaly_score": 0.43,
+    "anomaly_score": 0.42,
     "status": "green",
     "top_signals": [
       {
