@@ -5,7 +5,7 @@ import pandas as pd
 
 COLUMNS = ['astronaut_id', 'mission_day', 'resting_hr_bpm', 'hrv_ms', 'sleep_h', 'spo2_pct',
            'systolic_bp_mmhg', 'body_mass_kg', 'exercise_min', 'reaction_time_ms',
-           'mood_1to5', 'radiation_mgy', 'cumulative_dose_msv', 'scenario']
+           'mood_1to5', 'radiation_mgy', 'cumulative_dose_mgy', 'scenario']
 GAP_COLS = ['resting_hr_bpm', 'hrv_ms', 'sleep_h', 'spo2_pct', 'systolic_bp_mmhg',
             'body_mass_kg', 'exercise_min', 'reaction_time_ms']
 

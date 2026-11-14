@@ -108,11 +108,11 @@ for col in gap_cols:
 df['mood_1to5'] = df['mood_1to5'].round().clip(1, 5).astype(int)
 df['spo2_pct'] = df['spo2_pct'].clip(upper=100)
 df['sleep_h'] = df['sleep_h'].clip(lower=0)
-df['cumulative_dose_msv'] = df.groupby('astronaut_id')['radiation_mgy'].cumsum()
+df['cumulative_dose_mgy'] = df.groupby('astronaut_id')['radiation_mgy'].cumsum()
 
 COLUMNS = ['astronaut_id', 'mission_day', 'resting_hr_bpm', 'hrv_ms', 'sleep_h', 'spo2_pct',
            'systolic_bp_mmhg', 'body_mass_kg', 'exercise_min', 'reaction_time_ms',
-           'mood_1to5', 'radiation_mgy', 'cumulative_dose_msv', 'scenario']
+           'mood_1to5', 'radiation_mgy', 'cumulative_dose_mgy', 'scenario']
 df = df[COLUMNS].round(2)
 
 os.makedirs('data/raw', exist_ok=True)
