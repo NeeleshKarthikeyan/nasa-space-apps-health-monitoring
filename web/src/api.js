@@ -43,3 +43,15 @@ export const getAlerts = (id, day) =>
       .filter((a) => a.astronaut_id === id && a.mission_day <= day)
       .sort((x, y) => y.mission_day - x.mission_day),
   )
+
+// Every day's crew status at once: { 1: [...], 2: [...], ... }.
+// Used by the mission timeline, the sparklines and the sidebar.
+export async function getCrewHistory(lastDay) {
+  const days = Array.from({ length: lastDay }, (_, i) => i + 1)
+  const results = await Promise.all(days.map((d) => getCrew(d)))
+  const history = {}
+  days.forEach((d, i) => {
+    history[d] = results[i].data
+  })
+  return { data: history, live: results.every((r) => r.live) }
+}

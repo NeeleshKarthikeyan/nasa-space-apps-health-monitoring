@@ -1,17 +1,661 @@
 [
-  {
-    "alert_id": "B-47",
-    "astronaut_id": "B",
-    "mission_day": 47,
-    "status": "amber",
-    "title": "Watch: Inadequate sleep and irregular schedules",
-    "explanation": "Sleep is 1.7 hours below your normal of 7.1 hours. Reaction time is 15% slower than your normal.",
-    "actions": [
-      "Protect a full sleep period tonight and repeat the check-in tomorrow.",
-      "Avoid critical tasks until a repeat test is back to normal."
-    ],
-    "escalate_to_earth": true,
-    "sources": ["https://www.nasa.gov/hrp/risks/"],
-    "earth_message": "Astronaut B, day 47: amber for 2 days. Sleep is 1.7 hours below normal and reaction time is 15% slower. Actions taken onboard: protected sleep period, critical tasks paused. Requesting flight surgeon review."
-  }
+ {
+  "alert_id": "C-60",
+  "astronaut_id": "C",
+  "mission_day": 60,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 2.5 kg below your normal. Exercise is 36 minutes below your normal. Blood pressure is 2 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 60: amber for 11 day(s). Body mass is 2.5 kg below your normal. Exercise is 36 minutes below your normal. Blood pressure is 2 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-59",
+  "astronaut_id": "C",
+  "mission_day": 59,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 2.1 kg below your normal. Exercise is 55 minutes below your normal. Blood pressure is 3 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 59: amber for 10 day(s). Body mass is 2.1 kg below your normal. Exercise is 55 minutes below your normal. Blood pressure is 3 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-58",
+  "astronaut_id": "C",
+  "mission_day": 58,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 2.5 kg below your normal. Exercise is 32 minutes below your normal. Blood pressure is 3 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 58: amber for 9 day(s). Body mass is 2.5 kg below your normal. Exercise is 32 minutes below your normal. Blood pressure is 3 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-57",
+  "astronaut_id": "C",
+  "mission_day": 57,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 2.3 kg below your normal. Exercise is 24 minutes below your normal. Blood pressure is 6 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 57: amber for 8 day(s). Body mass is 2.3 kg below your normal. Exercise is 24 minutes below your normal. Blood pressure is 6 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-56",
+  "astronaut_id": "C",
+  "mission_day": 56,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 2.4 kg below your normal. Exercise is 42 minutes below your normal. Blood oxygen is below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood oxygen and check cabin oxygen levels."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 56: amber for 7 day(s). Body mass is 2.4 kg below your normal. Exercise is 42 minutes below your normal. Blood oxygen is below your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood oxygen and check cabin oxygen levels. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-55",
+  "astronaut_id": "C",
+  "mission_day": 55,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 2.1 kg below your normal. Exercise is 37 minutes below your normal. Radiation dose today is 13% above this mission's normal level.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 55: amber for 6 day(s). Body mass is 2.1 kg below your normal. Exercise is 37 minutes below your normal. Radiation dose today is 13% above this mission's normal level. Actions taken onboard: complete the full resistance exercise session today; follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-54",
+  "astronaut_id": "C",
+  "mission_day": 54,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.9 kg below your normal. Exercise is 43 minutes below your normal. Heart rate variability is 1% below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 54: amber for 5 day(s). Body mass is 1.9 kg below your normal. Exercise is 43 minutes below your normal. Heart rate variability is 1% below your normal. Actions taken onboard: complete the full resistance exercise session today; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-53",
+  "astronaut_id": "C",
+  "mission_day": 53,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.9 kg below your normal. Exercise is 17 minutes below your normal. Heart rate variability is 14% below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 53: amber for 4 day(s). Body mass is 1.9 kg below your normal. Exercise is 17 minutes below your normal. Heart rate variability is 14% below your normal. Actions taken onboard: complete the full resistance exercise session today; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-52",
+  "astronaut_id": "C",
+  "mission_day": 52,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.6 kg below your normal. Exercise is 42 minutes below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 52: amber for 3 day(s). Body mass is 1.6 kg below your normal. Exercise is 42 minutes below your normal. Actions taken onboard: complete the full resistance exercise session today. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "B-51",
+  "astronaut_id": "B",
+  "mission_day": 51,
+  "status": "amber",
+  "title": "Watch: Inadequate sleep and irregular schedules",
+  "explanation": "Sleep is 0.2 hours below your normal. Resting heart rate is 2 beats/min above your normal.",
+  "actions": [
+   "Protect a full sleep period tonight and repeat the check-in tomorrow.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": false,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ]
+ },
+ {
+  "alert_id": "C-51",
+  "astronaut_id": "C",
+  "mission_day": 51,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.6 kg below your normal. Exercise is 34 minutes below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 51: amber for 2 day(s). Body mass is 1.6 kg below your normal. Exercise is 34 minutes below your normal. Actions taken onboard: complete the full resistance exercise session today. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "B-50",
+  "astronaut_id": "B",
+  "mission_day": 50,
+  "status": "red",
+  "title": "Act: Inadequate sleep and irregular schedules",
+  "explanation": "Sleep is 2.5 hours below your normal. Resting heart rate is 6 beats/min above your normal. Reaction time is 11% slower than your normal.",
+  "actions": [
+   "Protect a full sleep period tonight and repeat the check-in tomorrow.",
+   "Rest, hydrate and re-measure in 12 hours.",
+   "Avoid critical tasks until a repeat test is back to normal."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut B, day 50: red for 1 day(s). Sleep is 2.5 hours below your normal. Resting heart rate is 6 beats/min above your normal. Reaction time is 11% slower than your normal. Actions taken onboard: protect a full sleep period tonight and repeat the check-in tomorrow; rest, hydrate and re-measure in 12 hours; avoid critical tasks until a repeat test is back to normal. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-50",
+  "astronaut_id": "C",
+  "mission_day": 50,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.7 kg below your normal. Exercise is 39 minutes below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today."
+  ],
+  "escalate_to_earth": false,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ]
+ },
+ {
+  "alert_id": "B-49",
+  "astronaut_id": "B",
+  "mission_day": 49,
+  "status": "red",
+  "title": "Act: Inadequate sleep and irregular schedules",
+  "explanation": "Sleep is 1.3 hours below your normal. Resting heart rate is 5 beats/min above your normal. Radiation dose today is 13% above this mission's normal level.",
+  "actions": [
+   "Protect a full sleep period tonight and repeat the check-in tomorrow.",
+   "Rest, hydrate and re-measure in 12 hours.",
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut B, day 49: red for 1 day(s). Sleep is 1.3 hours below your normal. Resting heart rate is 5 beats/min above your normal. Radiation dose today is 13% above this mission's normal level. Actions taken onboard: protect a full sleep period tonight and repeat the check-in tomorrow; rest, hydrate and re-measure in 12 hours; follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-49",
+  "astronaut_id": "C",
+  "mission_day": 49,
+  "status": "red",
+  "title": "Act: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.7 kg below your normal. Exercise is 31 minutes below your normal. Radiation dose today is 17% above this mission's normal level.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 49: red for 1 day(s). Body mass is 1.7 kg below your normal. Exercise is 31 minutes below your normal. Radiation dose today is 17% above this mission's normal level. Actions taken onboard: complete the full resistance exercise session today; follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "B-48",
+  "astronaut_id": "B",
+  "mission_day": 48,
+  "status": "red",
+  "title": "Act: Inadequate sleep and irregular schedules",
+  "explanation": "Sleep is 1.5 hours below your normal. Resting heart rate is 4 beats/min above your normal. Radiation dose today is 3% above this mission's normal level.",
+  "actions": [
+   "Protect a full sleep period tonight and repeat the check-in tomorrow.",
+   "Rest, hydrate and re-measure in 12 hours.",
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut B, day 48: red for 1 day(s). Sleep is 1.5 hours below your normal. Resting heart rate is 4 beats/min above your normal. Radiation dose today is 3% above this mission's normal level. Actions taken onboard: protect a full sleep period tonight and repeat the check-in tomorrow; rest, hydrate and re-measure in 12 hours; follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-48",
+  "astronaut_id": "C",
+  "mission_day": 48,
+  "status": "red",
+  "title": "Act: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.7 kg below your normal. Exercise is 18 minutes below your normal. Radiation dose today is 1% above this mission's normal level.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 48: red for 1 day(s). Body mass is 1.7 kg below your normal. Exercise is 18 minutes below your normal. Radiation dose today is 1% above this mission's normal level. Actions taken onboard: complete the full resistance exercise session today; follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "A-47",
+  "astronaut_id": "A",
+  "mission_day": 47,
+  "status": "amber",
+  "title": "Watch: Radiation-induced cancers",
+  "explanation": "Radiation dose today is 914% above this mission's normal level. Mood is lower than your normal. Resting heart rate is 4 beats/min above your normal.",
+  "actions": [
+   "Follow the crew radiation procedure and move to the most shielded area if instructed.",
+   "Talk to the crew medical officer and schedule a private conference with family.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut A, day 47: amber for 2 day(s). Radiation dose today is 914% above this mission's normal level. Mood is lower than your normal. Resting heart rate is 4 beats/min above your normal. Actions taken onboard: follow the crew radiation procedure and move to the most shielded area if instructed; talk to the crew medical officer and schedule a private conference with family; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "B-47",
+  "astronaut_id": "B",
+  "mission_day": 47,
+  "status": "amber",
+  "title": "Watch: Radiation-induced cancers",
+  "explanation": "Radiation dose today is 720% above this mission's normal level. Sleep is 0.8 hours below your normal. Resting heart rate is 7 beats/min above your normal.",
+  "actions": [
+   "Follow the crew radiation procedure and move to the most shielded area if instructed.",
+   "Protect a full sleep period tonight and repeat the check-in tomorrow.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut B, day 47: amber for 2 day(s). Radiation dose today is 720% above this mission's normal level. Sleep is 0.8 hours below your normal. Resting heart rate is 7 beats/min above your normal. Actions taken onboard: follow the crew radiation procedure and move to the most shielded area if instructed; protect a full sleep period tonight and repeat the check-in tomorrow; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-47",
+  "astronaut_id": "C",
+  "mission_day": 47,
+  "status": "red",
+  "title": "Act: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.5 kg below your normal. Exercise is 41 minutes below your normal. Radiation dose today is 1033% above this mission's normal level.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 47: red for 1 day(s). Body mass is 1.5 kg below your normal. Exercise is 41 minutes below your normal. Radiation dose today is 1033% above this mission's normal level. Actions taken onboard: complete the full resistance exercise session today; follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "D-47",
+  "astronaut_id": "D",
+  "mission_day": 47,
+  "status": "amber",
+  "title": "Watch: Radiation-induced cancers",
+  "explanation": "Radiation dose today is 953% above this mission's normal level.",
+  "actions": [
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut D, day 47: amber for 2 day(s). Radiation dose today is 953% above this mission's normal level. Actions taken onboard: follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "A-46",
+  "astronaut_id": "A",
+  "mission_day": 46,
+  "status": "amber",
+  "title": "Watch: Radiation-induced cancers",
+  "explanation": "Radiation dose today is 842% above this mission's normal level. Body mass is 0.5 kg below your normal. Resting heart rate is 0 beats/min above your normal.",
+  "actions": [
+   "Follow the crew radiation procedure and move to the most shielded area if instructed.",
+   "Complete the full resistance exercise session today.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut A, day 46: amber for 1 day(s). Radiation dose today is 842% above this mission's normal level. Body mass is 0.5 kg below your normal. Resting heart rate is 0 beats/min above your normal. Actions taken onboard: follow the crew radiation procedure and move to the most shielded area if instructed; complete the full resistance exercise session today; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "B-46",
+  "astronaut_id": "B",
+  "mission_day": 46,
+  "status": "amber",
+  "title": "Watch: Radiation-induced cancers",
+  "explanation": "Radiation dose today is 766% above this mission's normal level.",
+  "actions": [
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut B, day 46: amber for 1 day(s). Radiation dose today is 766% above this mission's normal level. Actions taken onboard: follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-46",
+  "astronaut_id": "C",
+  "mission_day": 46,
+  "status": "red",
+  "title": "Act: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.6 kg below your normal. Exercise is 33 minutes below your normal. Radiation dose today is 887% above this mission's normal level.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Follow the crew radiation procedure and move to the most shielded area if instructed."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 46: red for 1 day(s). Body mass is 1.6 kg below your normal. Exercise is 33 minutes below your normal. Radiation dose today is 887% above this mission's normal level. Actions taken onboard: complete the full resistance exercise session today; follow the crew radiation procedure and move to the most shielded area if instructed. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "D-46",
+  "astronaut_id": "D",
+  "mission_day": 46,
+  "status": "amber",
+  "title": "Watch: Radiation-induced cancers",
+  "explanation": "Radiation dose today is 840% above this mission's normal level. Body mass is 0.0 kg below your normal.",
+  "actions": [
+   "Follow the crew radiation procedure and move to the most shielded area if instructed.",
+   "Complete the full resistance exercise session today."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut D, day 46: amber for 1 day(s). Radiation dose today is 840% above this mission's normal level. Body mass is 0.0 kg below your normal. Actions taken onboard: follow the crew radiation procedure and move to the most shielded area if instructed; complete the full resistance exercise session today. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-45",
+  "astronaut_id": "C",
+  "mission_day": 45,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.5 kg below your normal. Exercise is 14 minutes below your normal. Blood pressure is 4 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 45: amber for 9 day(s). Body mass is 1.5 kg below your normal. Exercise is 14 minutes below your normal. Blood pressure is 4 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-44",
+  "astronaut_id": "C",
+  "mission_day": 44,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.5 kg below your normal. Exercise is 30 minutes below your normal. Heart rate variability is 6% below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 44: amber for 8 day(s). Body mass is 1.5 kg below your normal. Exercise is 30 minutes below your normal. Heart rate variability is 6% below your normal. Actions taken onboard: complete the full resistance exercise session today; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-43",
+  "astronaut_id": "C",
+  "mission_day": 43,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.5 kg below your normal. Exercise is 17 minutes below your normal. Heart rate variability is 5% below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 43: amber for 7 day(s). Body mass is 1.5 kg below your normal. Exercise is 17 minutes below your normal. Heart rate variability is 5% below your normal. Actions taken onboard: complete the full resistance exercise session today; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-42",
+  "astronaut_id": "C",
+  "mission_day": 42,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.3 kg below your normal. Exercise is 16 minutes below your normal. Heart rate variability is 13% below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 42: amber for 6 day(s). Body mass is 1.3 kg below your normal. Exercise is 16 minutes below your normal. Heart rate variability is 13% below your normal. Actions taken onboard: complete the full resistance exercise session today; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-41",
+  "astronaut_id": "C",
+  "mission_day": 41,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 0.9 kg below your normal. Exercise is 28 minutes below your normal. Blood pressure is 2 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 41: amber for 5 day(s). Body mass is 0.9 kg below your normal. Exercise is 28 minutes below your normal. Blood pressure is 2 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "D-41",
+  "astronaut_id": "D",
+  "mission_day": 41,
+  "status": "red",
+  "title": "Act: Cardiovascular adaptations",
+  "explanation": "Blood pressure is 1 mmHg above your normal. Resting heart rate is 6 beats/min above your normal. Heart rate variability is 17% below your normal.",
+  "actions": [
+   "Re-measure blood pressure tonight and tell the crew medical officer.",
+   "Rest, hydrate and re-measure in 12 hours."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut D, day 41: red for 1 day(s). Blood pressure is 1 mmHg above your normal. Resting heart rate is 6 beats/min above your normal. Heart rate variability is 17% below your normal. Actions taken onboard: re-measure blood pressure tonight and tell the crew medical officer; rest, hydrate and re-measure in 12 hours. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-40",
+  "astronaut_id": "C",
+  "mission_day": 40,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 0.9 kg below your normal. Exercise is 23 minutes below your normal. Blood pressure is 0 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 40: amber for 4 day(s). Body mass is 0.9 kg below your normal. Exercise is 23 minutes below your normal. Blood pressure is 0 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "D-40",
+  "astronaut_id": "D",
+  "mission_day": 40,
+  "status": "amber",
+  "title": "Watch: Cardiovascular adaptations",
+  "explanation": "Heart rate variability is 23% below your normal. Blood pressure is 13 mmHg above your normal. Resting heart rate is 6 beats/min above your normal.",
+  "actions": [
+   "Rest, hydrate and re-measure in 12 hours.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": false,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ]
+ },
+ {
+  "alert_id": "C-39",
+  "astronaut_id": "C",
+  "mission_day": 39,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.3 kg below your normal. Exercise is 27 minutes below your normal. Blood pressure is 10 mmHg above your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 39: amber for 3 day(s). Body mass is 1.3 kg below your normal. Exercise is 27 minutes below your normal. Blood pressure is 10 mmHg above your normal. Actions taken onboard: complete the full resistance exercise session today; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "D-39",
+  "astronaut_id": "D",
+  "mission_day": 39,
+  "status": "red",
+  "title": "Act: Cardiovascular adaptations",
+  "explanation": "Heart rate variability is 39% below your normal. Blood pressure is 9 mmHg above your normal. Resting heart rate is 6 beats/min above your normal.",
+  "actions": [
+   "Rest, hydrate and re-measure in 12 hours.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut D, day 39: red for 1 day(s). Heart rate variability is 39% below your normal. Blood pressure is 9 mmHg above your normal. Resting heart rate is 6 beats/min above your normal. Actions taken onboard: rest, hydrate and re-measure in 12 hours; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-38",
+  "astronaut_id": "C",
+  "mission_day": 38,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.2 kg below your normal. Mood is lower than your normal. Sleep is 0.0 hours below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today.",
+   "Talk to the crew medical officer and schedule a private conference with family.",
+   "Protect a full sleep period tonight and repeat the check-in tomorrow."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut C, day 38: amber for 2 day(s). Body mass is 1.2 kg below your normal. Mood is lower than your normal. Sleep is 0.0 hours below your normal. Actions taken onboard: complete the full resistance exercise session today; talk to the crew medical officer and schedule a private conference with family; protect a full sleep period tonight and repeat the check-in tomorrow. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "D-38",
+  "astronaut_id": "D",
+  "mission_day": 38,
+  "status": "red",
+  "title": "Act: Cardiovascular adaptations",
+  "explanation": "Heart rate variability is 40% below your normal. Blood pressure is 11 mmHg above your normal. Resting heart rate is 2 beats/min above your normal.",
+  "actions": [
+   "Rest, hydrate and re-measure in 12 hours.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": true,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ],
+  "earth_message": "Astronaut D, day 38: red for 1 day(s). Heart rate variability is 40% below your normal. Blood pressure is 11 mmHg above your normal. Resting heart rate is 2 beats/min above your normal. Actions taken onboard: rest, hydrate and re-measure in 12 hours; re-measure blood pressure tonight and tell the crew medical officer. Requesting flight surgeon review."
+ },
+ {
+  "alert_id": "C-37",
+  "astronaut_id": "C",
+  "mission_day": 37,
+  "status": "amber",
+  "title": "Watch: Reduced cardiorespiratory and musculoskeletal fitness",
+  "explanation": "Body mass is 1.4 kg below your normal.",
+  "actions": [
+   "Complete the full resistance exercise session today."
+  ],
+  "escalate_to_earth": false,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ]
+ },
+ {
+  "alert_id": "D-37",
+  "astronaut_id": "D",
+  "mission_day": 37,
+  "status": "amber",
+  "title": "Watch: Cardiovascular adaptations",
+  "explanation": "Heart rate variability is 24% below your normal. Resting heart rate is 8 beats/min above your normal. Blood pressure is 5 mmHg above your normal.",
+  "actions": [
+   "Rest, hydrate and re-measure in 12 hours.",
+   "Re-measure blood pressure tonight and tell the crew medical officer."
+  ],
+  "escalate_to_earth": false,
+  "sources": [
+   "https://www.nasa.gov/hrp/risks/"
+  ]
+ }
 ]

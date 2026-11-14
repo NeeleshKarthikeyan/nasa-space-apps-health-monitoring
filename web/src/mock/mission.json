@@ -1,1 +1,5 @@
-{ "mission": "mars", "day": 47, "one_way_delay_min": 12 }
+{
+ "mission": "mars",
+ "day": 60,
+ "one_way_delay_min": 12
+}

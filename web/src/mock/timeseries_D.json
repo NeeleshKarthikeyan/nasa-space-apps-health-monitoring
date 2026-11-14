@@ -1,35 +1,4255 @@
 {
-  "astronaut_id": "D",
-  "signals": {
-    "sleep_h": {
-      "unit": "hours",
-      "points": [
-        { "day": 38, "value": 7.2, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 39, "value": 6.9, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 40, "value": 7.4, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 41, "value": 7.0, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 42, "value": 7.1, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 43, "value": 6.8, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 44, "value": 6.6, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 45, "value": 6.2, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": false },
-        { "day": 46, "value": 5.8, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": true },
-        { "day": 47, "value": 5.4, "baseline_low": 6.3, "baseline_high": 7.9, "flagged": true }
-      ]
+ "astronaut_id": "D",
+ "signals": {
+  "sleep_h": {
+   "unit": "hours",
+   "points": [
+    {
+     "day": 1,
+     "value": 7.73,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
     },
-    "resting_hr_bpm": {
-      "unit": "beats/min",
-      "points": [
-        { "day": 38, "value": 62, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 39, "value": 61, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 40, "value": 63, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 41, "value": null, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 42, "value": 62, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 43, "value": 63, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 44, "value": 64, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 45, "value": 65, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 46, "value": 67, "baseline_low": 57, "baseline_high": 67, "flagged": false },
-        { "day": 47, "value": 69, "baseline_low": 57, "baseline_high": 67, "flagged": true }
-      ]
+    {
+     "day": 2,
+     "value": 6.83,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 6.79,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 7.37,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 7.66,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 6.87,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 7.23,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 7.94,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 7.68,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 7.16,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 7.67,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 7.15,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 7.15,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 7.26,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 6.4,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 7.15,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 7.24,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 7.26,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 6.74,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 7.2,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 7.39,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 7.78,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 7.05,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 7.35,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 6.86,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 7.65,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 7.1,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 7.75,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 7.72,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 7.79,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 8.2,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 7.41,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 7.51,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 7.73,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 6.89,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 7.26,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 7.12,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 38,
+     "value": 7.14,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 39,
+     "value": 7.04,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 40,
+     "value": 7.06,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 41,
+     "value": 6.52,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 42,
+     "value": 8.06,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 7.49,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 6.91,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 7.32,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 7.99,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 7.12,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 7.92,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 6.43,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 6.95,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 7.75,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 7.91,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 7.11,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 7.78,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 7.31,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 7.33,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 7.47,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 6.9,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 7.34,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 7.74,
+     "baseline_low": 6.59,
+     "baseline_high": 8.05,
+     "flagged": false
     }
+   ]
+  },
+  "resting_hr_bpm": {
+   "unit": "beats/min",
+   "points": [
+    {
+     "day": 1,
+     "value": 66.7,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 65.01,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 66.04,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 62.09,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 65.55,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 66.17,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 60.51,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 61.13,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 62.63,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 66.45,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 66.41,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 61.94,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 59.93,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 64.48,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 65.52,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 61.52,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 62.99,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 62.23,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 64.82,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 65.1,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 63.18,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 63.5,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 66.64,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 66.01,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 67.08,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 67.76,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 63.9,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 65.27,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 63.76,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 60.82,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 65.94,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 64.88,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 63.85,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 69.27,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 69.76,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 69.54,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 72.38,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": true
+    },
+    {
+     "day": 38,
+     "value": 66.04,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": true
+    },
+    {
+     "day": 39,
+     "value": 69.52,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": true
+    },
+    {
+     "day": 40,
+     "value": 70.1,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": true
+    },
+    {
+     "day": 41,
+     "value": 69.64,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": true
+    },
+    {
+     "day": 42,
+     "value": 66.43,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 65.55,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 64.43,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 66.73,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 65.78,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 63.79,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 67.2,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 64.79,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 60.83,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 67.65,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 63.67,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 62.16,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 61.59,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 67.44,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 63.67,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 63.32,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 65.71,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 64.57,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 62.31,
+     "baseline_low": 59.02,
+     "baseline_high": 68.84,
+     "flagged": false
+    }
+   ]
+  },
+  "hrv_ms": {
+   "unit": "ms",
+   "points": [
+    {
+     "day": 1,
+     "value": 49.65,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 46.65,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 45.47,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 51.02,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 50.54,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 50.06,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 49.59,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 54.62,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 47.58,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 50.29,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 53.02,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 49.96,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 46.64,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 44.78,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 44.65,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 48.03,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 52.2,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 49.48,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 51.68,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 50.31,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 48.26,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 48.79,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 57.46,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 45.83,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 46.27,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 53.12,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 46.9,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 47.23,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 43.69,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 45.32,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 48.71,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 39.02,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 49.93,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 50.82,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 41.34,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 41.07,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 37.52,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": true
+    },
+    {
+     "day": 38,
+     "value": 29.4,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": true
+    },
+    {
+     "day": 39,
+     "value": 30.06,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": true
+    },
+    {
+     "day": 40,
+     "value": 38.0,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": true
+    },
+    {
+     "day": 41,
+     "value": 57.53,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": true
+    },
+    {
+     "day": 42,
+     "value": 59.14,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 47.82,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 60.82,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 52.82,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 40.32,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 50.69,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 48.05,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 50.25,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 49.1,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 51.35,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 44.61,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 52.44,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 47.41,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 53.48,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 55.72,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 52.74,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 55.5,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 44.72,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 51.47,
+     "baseline_low": 43.7,
+     "baseline_high": 54.85,
+     "flagged": false
+    }
+   ]
+  },
+  "spo2_pct": {
+   "unit": "%",
+   "points": [
+    {
+     "day": 1,
+     "value": 97.85,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 97.24,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 97.96,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 97.84,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 97.77,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 97.51,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 97.89,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 97.48,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 97.72,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 98.19,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 98.51,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 98.46,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 98.14,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 98.25,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 98.15,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 98.26,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 97.91,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 98.48,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 97.82,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 98.33,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 98.06,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 98.35,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 98.09,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 98.9,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 98.56,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 98.28,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 98.82,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 97.93,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 98.56,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 98.23,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 97.84,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 98.88,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 98.33,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 98.07,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 97.75,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 97.11,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 98.45,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 38,
+     "value": 98.25,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 39,
+     "value": 97.69,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 40,
+     "value": 97.93,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 41,
+     "value": 98.06,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 42,
+     "value": 97.36,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 98.24,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 98.61,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 98.28,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 97.05,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 98.16,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 97.33,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 98.19,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 98.67,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 97.81,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 97.68,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 97.3,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 98.09,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 97.64,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 98.21,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 98.56,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 97.81,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 97.52,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 98.81,
+     "baseline_low": 97.18,
+     "baseline_high": 98.65,
+     "flagged": false
+    }
+   ]
+  },
+  "systolic_bp_mmhg": {
+   "unit": "mmHg",
+   "points": [
+    {
+     "day": 1,
+     "value": 121.2,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 122.84,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 121.25,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 127.99,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 119.97,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 120.57,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 118.11,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 119.5,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 118.76,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 121.81,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 124.47,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 121.02,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 117.34,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 121.97,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 125.6,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 123.09,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 118.52,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 118.3,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 117.28,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 126.25,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 120.39,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 117.02,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 124.1,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 120.44,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 124.83,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 119.34,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 119.38,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 122.98,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 121.97,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 118.5,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 122.55,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 121.58,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 122.84,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 120.69,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 124.69,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 128.25,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 126.23,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": true
+    },
+    {
+     "day": 38,
+     "value": 132.64,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": true
+    },
+    {
+     "day": 39,
+     "value": 130.07,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": true
+    },
+    {
+     "day": 40,
+     "value": 134.49,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": true
+    },
+    {
+     "day": 41,
+     "value": 122.66,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": true
+    },
+    {
+     "day": 42,
+     "value": 124.1,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 119.4,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 125.26,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 122.06,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 121.03,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 118.39,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 122.91,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 120.63,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 121.66,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 119.76,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 117.31,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 115.92,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 119.5,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 121.07,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 123.6,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 117.25,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 123.93,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 122.19,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 121.42,
+     "baseline_low": 115.77,
+     "baseline_high": 126.63,
+     "flagged": false
+    }
+   ]
+  },
+  "body_mass_kg": {
+   "unit": "kg",
+   "points": [
+    {
+     "day": 1,
+     "value": 83.78,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 83.83,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 83.9,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 83.79,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 84.37,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 84.3,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 84.06,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 83.95,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 83.78,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 84.04,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 83.91,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 84.15,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 84.34,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 84.13,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 83.83,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 83.81,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 84.11,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 84.14,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 83.62,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 83.59,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 84.23,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 83.77,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 84.05,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 84.04,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 83.81,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 83.95,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 83.76,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 84.45,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 84.23,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 84.04,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 83.98,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 83.43,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 83.99,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 84.03,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 84.21,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 83.89,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 83.83,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 38,
+     "value": 84.28,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 39,
+     "value": 84.35,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 40,
+     "value": 83.73,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 41,
+     "value": 84.07,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 42,
+     "value": 83.94,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 83.94,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 83.57,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 83.75,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 84.03,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": true
+    },
+    {
+     "day": 47,
+     "value": 83.88,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 83.96,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 84.01,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 83.87,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 84.16,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 84.01,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 84.13,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 84.02,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 84.2,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 84.16,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 83.64,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 84.04,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 83.92,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 84.04,
+     "baseline_low": 83.6,
+     "baseline_high": 84.44,
+     "flagged": false
+    }
+   ]
+  },
+  "exercise_min": {
+   "unit": "min",
+   "points": [
+    {
+     "day": 1,
+     "value": 88.73,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 109.61,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 121.44,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 106.57,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 113.94,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 114.59,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 105.19,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 105.28,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 114.55,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 101.68,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 97.6,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 112.28,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 121.51,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 96.46,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 101.57,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 101.34,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 104.29,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 121.58,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 109.5,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 117.19,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 94.31,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 105.85,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 113.48,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 118.11,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 118.98,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 108.99,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 95.58,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 108.27,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 106.77,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 120.18,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 126.5,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 113.8,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 104.78,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 90.35,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 95.18,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 112.7,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 106.82,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 38,
+     "value": 112.83,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 39,
+     "value": 110.96,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 40,
+     "value": 106.13,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 41,
+     "value": 123.91,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 42,
+     "value": 112.09,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 121.51,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 96.58,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 103.98,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 108.54,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 107.52,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 130.96,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 102.01,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 107.86,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 109.19,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 103.1,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 94.05,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 113.81,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 122.26,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 110.67,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 115.69,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 101.76,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 107.04,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 100.13,
+     "baseline_low": 88.8,
+     "baseline_high": 126.83,
+     "flagged": false
+    }
+   ]
+  },
+  "reaction_time_ms": {
+   "unit": "ms",
+   "points": [
+    {
+     "day": 1,
+     "value": 279.54,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 267.45,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 263.46,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 289.9,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 295.65,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 274.96,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 274.91,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 267.54,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 286.51,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 282.87,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 286.03,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 289.02,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 271.97,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 292.11,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 286.36,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 287.79,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 287.53,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 292.32,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 289.96,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 271.03,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 278.96,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 283.34,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 279.57,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 292.01,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 289.62,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 274.97,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 279.87,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 269.3,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 302.1,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 299.77,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 279.77,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 271.58,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 288.53,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 274.19,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 278.97,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 267.36,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 271.27,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 38,
+     "value": 272.14,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 39,
+     "value": 289.17,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 40,
+     "value": 285.07,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 41,
+     "value": 250.67,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 42,
+     "value": 285.67,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 264.6,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 284.75,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 290.61,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 287.25,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 290.27,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 278.74,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 300.41,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 302.03,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 288.91,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 299.73,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 270.44,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 271.35,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 284.49,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 277.9,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 305.96,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 281.08,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 266.08,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 276.33,
+     "baseline_low": 259.68,
+     "baseline_high": 300.6,
+     "flagged": false
+    }
+   ]
+  },
+  "mood_1to5": {
+   "unit": "1 to 5",
+   "points": [
+    {
+     "day": 1,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 5.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 5.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 3.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 5.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 5.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 3.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 3.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 5.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 38,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 39,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 40,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 41,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 42,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 47,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 48,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 3.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 4.0,
+     "baseline_low": 3.12,
+     "baseline_high": 5.02,
+     "flagged": false
+    }
+   ]
+  },
+  "radiation_mgy": {
+   "unit": "mGy/day",
+   "points": [
+    {
+     "day": 1,
+     "value": 0.47,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 2,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 3,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 4,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 5,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 6,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 7,
+     "value": 0.48,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 8,
+     "value": 0.6,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 9,
+     "value": 0.47,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 10,
+     "value": 0.53,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 11,
+     "value": 0.43,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 12,
+     "value": 0.46,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 13,
+     "value": 0.42,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 14,
+     "value": 0.54,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 15,
+     "value": 0.53,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 16,
+     "value": 0.46,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 17,
+     "value": 0.48,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 18,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 19,
+     "value": 0.52,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 20,
+     "value": 0.55,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 21,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 22,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 23,
+     "value": 0.51,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 24,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 25,
+     "value": 0.51,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 26,
+     "value": 0.56,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 27,
+     "value": 0.56,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 28,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 29,
+     "value": 0.59,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 30,
+     "value": 0.51,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 31,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 32,
+     "value": 0.48,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 33,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 34,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 35,
+     "value": 0.46,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 36,
+     "value": 0.53,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 37,
+     "value": 0.55,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 38,
+     "value": 0.44,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 39,
+     "value": 0.58,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 40,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 41,
+     "value": 0.58,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 42,
+     "value": 0.47,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 43,
+     "value": 0.43,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 44,
+     "value": 0.51,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 45,
+     "value": 0.52,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 46,
+     "value": 4.63,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": true
+    },
+    {
+     "day": 47,
+     "value": 5.19,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": true
+    },
+    {
+     "day": 48,
+     "value": 0.55,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 49,
+     "value": 0.49,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 50,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 51,
+     "value": 0.5,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 52,
+     "value": 0.47,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 53,
+     "value": 0.54,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 54,
+     "value": 0.55,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 55,
+     "value": 0.43,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 56,
+     "value": 0.44,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 57,
+     "value": 0.47,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 58,
+     "value": 0.43,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 59,
+     "value": 0.48,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    },
+    {
+     "day": 60,
+     "value": 0.48,
+     "baseline_low": 0.4,
+     "baseline_high": 0.59,
+     "flagged": false
+    }
+   ]
   }
+ }
 }

@@ -1,25 +1,27 @@
 import { Link } from 'react-router-dom'
+import { crewInfo } from '../crew'
+import { statusOf } from '../status'
+import StatusPill from './StatusPill'
+import RingGauge from './RingGauge'
 
-// Status is shown as colour AND a word AND an icon, so it works for colour-blind viewers
-const STATUS = {
-  green: { word: 'Nominal', icon: '✓' },
-  amber: { word: 'Watch', icon: '!' },
-  red: { word: 'Act', icon: '✕' },
-}
-
+// One crew widget: who, status, anomaly ring and the reason. Nothing else.
 export default function StatusCard({ astronaut }) {
-  const s = STATUS[astronaut.status] ?? STATUS.green
+  const info = crewInfo(astronaut.astronaut_id)
+  const s = statusOf(astronaut.status)
 
   return (
-    <Link to={`/astronaut/${astronaut.astronaut_id}`} className={`card status-${astronaut.status}`}>
-      <div className="card-top">
-        <h2>{astronaut.name}</h2>
-        <span className="badge">
-          <span aria-hidden="true">{s.icon}</span> {s.word}
-        </span>
+    <Link to={`/astronaut/${astronaut.astronaut_id}`} className="crew-card" style={{ '--accent': s.color }}>
+      <div className="crew-card-top">
+        <div className="crew-name">
+          <h3>{info.callsign}</h3>
+          <p>{info.role}</p>
+        </div>
+        <StatusPill status={astronaut.status} />
       </div>
-      <p className="score">Anomaly score {Math.round(astronaut.anomaly_score * 100)}%</p>
-      <p className="reason">{astronaut.top_reason}</p>
+      <div className="crew-card-mid">
+        <RingGauge value={astronaut.anomaly_score} color={s.color} label="Anomaly score" size={84} />
+        <p className="reason">{astronaut.top_reason}</p>
+      </div>
     </Link>
   )
 }
