@@ -41,6 +41,7 @@ Riyaz:
 - Commenting on code for readability
 - Image generation for logo
 
+<<<<<<< HEAD
 Fahim:
 
 - Learn FastAPI and pandas through step-by-step explanations
@@ -48,6 +49,12 @@ Fahim:
 - Write helper scripts (endpoint test script, parts of the fallback export)
 - Commenting on code for readability and drafting the API README
 - Guidance on deploying to Render and resolving Git merges
+=======
+Talal:
+- Writing and debugging the isolation and anomaly detection code (baselin.py, detect.py and evaluate.py)
+- commenting on the code for readability and explainablity 
+- Validating the code correctly and making sure it is reproducible as possible
+>>>>>>> 4e6347743346170c79c5770892032ba6710863e7
 
 ## Repo layout
 | Folder | Owner | What goes there |
