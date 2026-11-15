@@ -2,7 +2,7 @@
   {
     "astronaut_id": "A",
     "mission_day": 60,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.12,
     "status": "green",
     "top_signals": [
       {
@@ -29,7 +29,7 @@
   {
     "astronaut_id": "B",
     "mission_day": 60,
-    "anomaly_score": 0.5,
+    "anomaly_score": 0.15,
     "status": "green",
     "top_signals": [
       {
@@ -56,7 +56,7 @@
   {
     "astronaut_id": "C",
     "mission_day": 60,
-    "anomaly_score": 0.6,
+    "anomaly_score": 1.0,
     "status": "red",
     "top_signals": [
       {
@@ -86,7 +86,7 @@
   {
     "astronaut_id": "D",
     "mission_day": 60,
-    "anomaly_score": 0.38,
+    "anomaly_score": 0.15,
     "status": "green",
     "top_signals": [
       {

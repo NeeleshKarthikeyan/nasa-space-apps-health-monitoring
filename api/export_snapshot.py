@@ -37,3 +37,15 @@ for path, filename in EXPORTS:
     with open(OUT_DIR / filename, "w") as f:
         json.dump(resp.json(), f, indent=2)
     print("saved", filename)
+
+# Crew status for every day up to the current one, so the day slider works offline.
+# Saved as {"1": [...], "2": [...], ...}. JSON keys are always strings.
+mission = requests.get(BASE + "/api/mission").json()
+crew_by_day = {}
+for day in range(1, mission["current_day"] + 1):
+    resp = requests.get(BASE + "/api/crew", params={"day": day})
+    resp.raise_for_status()
+    crew_by_day[day] = resp.json()
+with open(OUT_DIR / "crew_by_day.json", "w") as f:
+    json.dump(crew_by_day, f, indent=2)
+print("saved crew_by_day.json")

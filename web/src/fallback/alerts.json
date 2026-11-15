@@ -1,13 +1,68 @@
 [
   {
+    "alert_id": "C-60",
+    "astronaut_id": "C",
+    "mission_day": 60,
+    "status": "red",
+    "title": "Red alert: Exercise duration change",
+    "explanation": "Exercise duration is 54.83 min, compared with a personal baseline of 90.55 min (35.72 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Review the sleep log and repeat the scheduled sleep check-in."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-59",
+    "astronaut_id": "C",
+    "mission_day": 59,
+    "status": "red",
+    "title": "Red alert: Exercise duration change",
+    "explanation": "Exercise duration is 35.38 min, compared with a personal baseline of 90.55 min (55.17 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
     "alert_id": "C-58",
     "astronaut_id": "C",
     "mission_day": 58,
     "status": "amber",
-    "title": "Amber alert: Resting heart rate change",
-    "explanation": "Primary change: Resting heart rate: 73.27 bpm versus a personal baseline of 70.23 bpm (3.04 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Relevant NASA research risk: Cardiovascular adaptations. Other monitored reading: Systolic blood pressure: 124.4 mmHg versus a personal baseline of 121.44 mmHg (2.96 mmHg above baseline). Spaceflight cardiovascular adaptation is a NASA research area; this flag is not a diagnosis. Other monitored reading: Blood oxygen saturation: 97.49 % versus a personal baseline of 97.93 % (0.44 % below baseline). NASA studies hypoxia and environmental risks; this deviation alone does not establish hypoxia. These are monitoring flags, not medical diagnoses.",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Exercise duration is 58.2 min, compared with a personal baseline of 90.55 min (32.35 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
     "actions": [
-      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-57",
+    "astronaut_id": "C",
+    "mission_day": 57,
+    "status": "amber",
+    "title": "Amber alert: Body mass change",
+    "explanation": "Body mass is 82.57 kg, compared with a personal baseline of 84.91 kg (2.34 kg below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Verify the reading using the onboard measurement procedure.",
       "Continue onboard monitoring and review the next scheduled reading."
     ],
     "escalate_to_earth": false,
@@ -16,14 +71,33 @@
     ]
   },
   {
-    "alert_id": "D-1",
-    "astronaut_id": "D",
-    "mission_day": 1,
+    "alert_id": "C-56",
+    "astronaut_id": "C",
+    "mission_day": 56,
+    "status": "red",
+    "title": "Red alert: Exercise duration change",
+    "explanation": "Exercise duration is 48.7 min, compared with a personal baseline of 90.55 min (41.85 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Confirm the reading and review the next scheduled heart-rate measurement."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-55",
+    "astronaut_id": "C",
+    "mission_day": 55,
     "status": "amber",
     "title": "Amber alert: Exercise duration change",
-    "explanation": "Primary change: Exercise duration: 113.73 min versus a personal baseline of 132.82 min (19.09 min below baseline). Activity changes can be reviewed alongside fitness monitoring data. Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness. Other monitored reading: Resting heart rate: 63.7 bpm versus a personal baseline of 60.93 bpm (2.77 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Other monitored reading: Body mass: 64.78 kg versus a personal baseline of 65.02 kg (0.24 kg below baseline). NASA researches changes in fitness and musculoskeletal condition during spaceflight. These are monitoring flags, not medical diagnoses.",
+    "explanation": "Exercise duration is 53.21 min, compared with a personal baseline of 90.55 min (37.34 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
     "actions": [
       "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
       "Continue onboard monitoring and review the next scheduled reading."
     ],
     "escalate_to_earth": false,
@@ -32,38 +106,576 @@
     ]
   },
   {
-    "alert_id": "C-1",
+    "alert_id": "C-54",
     "astronaut_id": "C",
-    "mission_day": 1,
-    "status": "amber",
-    "title": "Amber alert: Resting heart rate change",
-    "explanation": "Primary change: Resting heart rate: 75.02 bpm versus a personal baseline of 70.23 bpm (4.79 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Relevant NASA research risk: Cardiovascular adaptations. Additional notable change: Systolic blood pressure: 126.74 mmHg versus a personal baseline of 121.44 mmHg (5.3 mmHg above baseline). Spaceflight cardiovascular adaptation is a NASA research area; this flag is not a diagnosis. Relevant NASA research risk: Cardiovascular adaptations. Additional notable change: Radiation dose: 0.61 mGy/day versus a personal baseline of 0.5 mGy/day (0.11 mGy/day above baseline). Exposure monitoring informs radiation risk assessment; a daily change does not imply a health outcome. Relevant NASA research risk: Radiation-induced cancers. These are monitoring flags, not medical diagnoses.",
+    "mission_day": 54,
+    "status": "red",
+    "title": "Red alert: Exercise duration change",
+    "explanation": "Exercise duration is 47.4 min, compared with a personal baseline of 90.55 min (43.15 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
     "actions": [
-      "Confirm the reading and review the next scheduled heart-rate measurement.",
-      "Verify the reading using the onboard measurement procedure.",
-      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
-      "Continue onboard monitoring and review the next scheduled reading."
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure."
     ],
-    "escalate_to_earth": false,
+    "escalate_to_earth": true,
     "sources": [
       "https://www.nasa.gov/hrp/risks/",
       "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp"
     ]
   },
   {
-    "alert_id": "B-1",
-    "astronaut_id": "B",
-    "mission_day": 1,
+    "alert_id": "C-53",
+    "astronaut_id": "C",
+    "mission_day": 53,
     "status": "amber",
-    "title": "Amber alert: Reaction time change",
-    "explanation": "Primary change: Reaction time: 309.6 ms versus a personal baseline of 288.12 ms (21.48 ms above baseline). Reaction-time changes may be relevant to crew performance and sleep research; the cause is not established. Relevant NASA research risk: Inadequate sleep and irregular schedules. Other monitored reading: Resting heart rate: 65.84 bpm versus a personal baseline of 63.85 bpm (1.99 bpm above baseline). NASA monitors cardiovascular adaptation in spaceflight; this comparison alone does not identify a cause. Other monitored reading: Blood oxygen saturation: 96.67 % versus a personal baseline of 97.43 % (0.76 % below baseline). NASA studies hypoxia and environmental risks; this deviation alone does not establish hypoxia. These are monitoring flags, not medical diagnoses.",
+    "title": "Amber alert: Body mass change",
+    "explanation": "Body mass is 83.02 kg, compared with a personal baseline of 84.91 kg (1.89 kg below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
     "actions": [
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Repeat the self-reported mood check-in and review the recent trend.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-52",
+    "astronaut_id": "C",
+    "mission_day": 52,
+    "status": "red",
+    "title": "Red alert: Exercise duration change",
+    "explanation": "Exercise duration is 48.78 min, compared with a personal baseline of 90.55 min (41.77 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-51",
+    "astronaut_id": "C",
+    "mission_day": 51,
+    "status": "red",
+    "title": "Red alert: Exercise duration change",
+    "explanation": "Exercise duration is 56.02 min, compared with a personal baseline of 90.55 min (34.53 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Repeat the self-reported mood check-in and review the recent trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-50",
+    "astronaut_id": "C",
+    "mission_day": 50,
+    "status": "amber",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Exercise duration is 51.2 min, compared with a personal baseline of 90.55 min (39.35 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "B-50",
+    "astronaut_id": "B",
+    "mission_day": 50,
+    "status": "red",
+    "title": "Red alert: Sleep duration change",
+    "explanation": "Sleep duration is 4.96 h, compared with a personal baseline of 7.48 h (2.52 h below baseline). Relevant NASA research risk: Inadequate sleep and irregular schedules; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the sleep log and repeat the scheduled sleep check-in.",
+      "Repeat the reaction-time test at the next scheduled check-in.",
+      "Confirm the reading and review the next scheduled heart-rate measurement."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/",
+      "https://www.nasa.gov/hrp/ongoing-hrp-research/"
+    ]
+  },
+  {
+    "alert_id": "C-49",
+    "astronaut_id": "C",
+    "mission_day": 49,
+    "status": "amber",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Exercise duration is 59.14 min, compared with a personal baseline of 90.55 min (31.41 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Verify the reading using the onboard measurement procedure."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "B-49",
+    "astronaut_id": "B",
+    "mission_day": 49,
+    "status": "red",
+    "title": "Red alert: Sleep duration change",
+    "explanation": "Sleep duration is 6.09 h, compared with a personal baseline of 7.48 h (1.39 h below baseline). Relevant NASA research risk: Inadequate sleep and irregular schedules; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the sleep log and repeat the scheduled sleep check-in.",
+      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Repeat the reaction-time test at the next scheduled check-in."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/",
+      "https://www.nasa.gov/hrp/ongoing-hrp-research/"
+    ]
+  },
+  {
+    "alert_id": "C-48",
+    "astronaut_id": "C",
+    "mission_day": 48,
+    "status": "amber",
+    "title": "Amber alert: Body mass change",
+    "explanation": "Body mass is 83.2 kg, compared with a personal baseline of 84.91 kg (1.71 kg below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Review the planned exercise log and check the following day's activity record."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "B-48",
+    "astronaut_id": "B",
+    "mission_day": 48,
+    "status": "red",
+    "title": "Red alert: Sleep duration change",
+    "explanation": "Sleep duration is 5.88 h, compared with a personal baseline of 7.48 h (1.6 h below baseline). Relevant NASA research risk: Inadequate sleep and irregular schedules; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the sleep log and repeat the scheduled sleep check-in.",
+      "Confirm the reading and review the next scheduled heart-rate measurement."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-47",
+    "astronaut_id": "D",
+    "mission_day": 47,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 5.19 mGy/day, compared with a personal baseline of 0.49 mGy/day (4.7 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-47",
+    "astronaut_id": "C",
+    "mission_day": 47,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 5.66 mGy/day, compared with a personal baseline of 0.5 mGy/day (5.16 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "B-47",
+    "astronaut_id": "B",
+    "mission_day": 47,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 4.18 mGy/day, compared with a personal baseline of 0.51 mGy/day (3.67 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Review the sleep log and repeat the scheduled sleep check-in."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "A-47",
+    "astronaut_id": "A",
+    "mission_day": 47,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 5.06 mGy/day, compared with a personal baseline of 0.5 mGy/day (4.56 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Repeat the self-reported mood check-in and review the recent trend.",
+      "Confirm the reading and review the next scheduled heart-rate measurement."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-46",
+    "astronaut_id": "D",
+    "mission_day": 46,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 4.63 mGy/day, compared with a personal baseline of 0.49 mGy/day (4.14 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-46",
+    "astronaut_id": "C",
+    "mission_day": 46,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 4.93 mGy/day, compared with a personal baseline of 0.5 mGy/day (4.43 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "B-46",
+    "astronaut_id": "B",
+    "mission_day": 46,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 4.42 mGy/day, compared with a personal baseline of 0.51 mGy/day (3.91 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Review the sleep log and repeat the scheduled sleep check-in.",
       "Repeat the reaction-time test at the next scheduled check-in.",
       "Continue onboard monitoring and review the next scheduled reading."
     ],
     "escalate_to_earth": false,
     "sources": [
-      "https://www.nasa.gov/hrp/ongoing-hrp-research/",
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/risks/",
+      "https://www.nasa.gov/hrp/ongoing-hrp-research/"
+    ]
+  },
+  {
+    "alert_id": "A-46",
+    "astronaut_id": "A",
+    "mission_day": 46,
+    "status": "amber",
+    "title": "Amber alert: Simulated radiation reading change",
+    "explanation": "Simulated radiation reading is 4.7 mGy/day, compared with a personal baseline of 0.5 mGy/day (4.2 mGy/day above baseline). This is a simulated radiation reading, not a measured astronaut dose.",
+    "actions": [
+      "Review dosimeter readings and follow the mission radiation-monitoring procedure.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.asc-csa.gc.ca/eng/news/articles/2026/2026-02-26-monitoring-radiation-astronaut-health.asp",
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-45",
+    "astronaut_id": "C",
+    "mission_day": 45,
+    "status": "amber",
+    "title": "Amber alert: Resting heart rate change",
+    "explanation": "Resting heart rate is 74.89 bpm, compared with a personal baseline of 70.23 bpm (4.66 bpm above baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Review the planned exercise log and check the following day's activity record."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-44",
+    "astronaut_id": "C",
+    "mission_day": 44,
+    "status": "amber",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Exercise duration is 59.78 min, compared with a personal baseline of 90.55 min (30.77 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-43",
+    "astronaut_id": "C",
+    "mission_day": 43,
+    "status": "amber",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Exercise duration is 72.7 min, compared with a personal baseline of 90.55 min (17.85 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-42",
+    "astronaut_id": "C",
+    "mission_day": 42,
+    "status": "amber",
+    "title": "Amber alert: Heart-rate variability change",
+    "explanation": "Heart-rate variability is 41.21 ms, compared with a personal baseline of 49.11 ms (7.9 ms below baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-41",
+    "astronaut_id": "C",
+    "mission_day": 41,
+    "status": "amber",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Exercise duration is 61.88 min, compared with a personal baseline of 90.55 min (28.67 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Repeat the self-reported mood check-in and review the recent trend."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-40",
+    "astronaut_id": "D",
+    "mission_day": 40,
+    "status": "red",
+    "title": "Red alert: Systolic blood pressure change",
+    "explanation": "Systolic blood pressure is 125.49 mmHg, compared with a personal baseline of 112.2 mmHg (13.29 mmHg above baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Verify the reading using the onboard measurement procedure.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Confirm the reading and review the next scheduled heart-rate measurement."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-40",
+    "astronaut_id": "C",
+    "mission_day": 40,
+    "status": "amber",
+    "title": "Amber alert: Exercise duration change",
+    "explanation": "Exercise duration is 66.89 min, compared with a personal baseline of 90.55 min (23.66 min below baseline). Relevant NASA research risk: Reduced cardiorespiratory and musculoskeletal fitness; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-39",
+    "astronaut_id": "D",
+    "mission_day": 39,
+    "status": "red",
+    "title": "Red alert: Heart-rate variability change",
+    "explanation": "Heart-rate variability is 49.93 ms, compared with a personal baseline of 69.28 ms (19.35 ms below baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Verify the reading using the onboard measurement procedure.",
+      "Confirm the reading and review the next scheduled heart-rate measurement."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-39",
+    "astronaut_id": "C",
+    "mission_day": 39,
+    "status": "amber",
+    "title": "Amber alert: Systolic blood pressure change",
+    "explanation": "Systolic blood pressure is 131.19 mmHg, compared with a personal baseline of 121.44 mmHg (9.75 mmHg above baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Verify the reading using the onboard measurement procedure.",
+      "Review the planned exercise log and check the following day's activity record.",
+      "Confirm the body-mass reading and monitor the multi-day trend.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-38",
+    "astronaut_id": "D",
+    "mission_day": 38,
+    "status": "red",
+    "title": "Red alert: Heart-rate variability change",
+    "explanation": "Heart-rate variability is 49.13 ms, compared with a personal baseline of 69.28 ms (20.15 ms below baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Verify the reading using the onboard measurement procedure."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-37",
+    "astronaut_id": "D",
+    "mission_day": 37,
+    "status": "red",
+    "title": "Red alert: Heart-rate variability change",
+    "explanation": "Heart-rate variability is 57.11 ms, compared with a personal baseline of 69.28 ms (12.17 ms below baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Notify Earth using the mission's escalation procedure.",
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Verify the reading using the onboard measurement procedure."
+    ],
+    "escalate_to_earth": true,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-36",
+    "astronaut_id": "D",
+    "mission_day": 36,
+    "status": "amber",
+    "title": "Amber alert: Heart-rate variability change",
+    "explanation": "Heart-rate variability is 60.52 ms, compared with a personal baseline of 69.28 ms (8.76 ms below baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Verify the reading using the onboard measurement procedure.",
+      "Confirm the reading and review the next scheduled heart-rate measurement.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "C-33",
+    "astronaut_id": "C",
+    "mission_day": 33,
+    "status": "amber",
+    "title": "Amber alert: Heart-rate variability change",
+    "explanation": "Heart-rate variability is 40.75 ms, compared with a personal baseline of 49.11 ms (8.36 ms below baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Repeat the self-reported mood check-in and review the recent trend.",
+      "Review the sleep log and repeat the scheduled sleep check-in.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
+      "https://www.nasa.gov/hrp/risks/"
+    ]
+  },
+  {
+    "alert_id": "D-32",
+    "astronaut_id": "D",
+    "mission_day": 32,
+    "status": "amber",
+    "title": "Amber alert: Heart-rate variability change",
+    "explanation": "Heart-rate variability is 57.93 ms, compared with a personal baseline of 69.28 ms (11.35 ms below baseline). Relevant NASA research risk: Cardiovascular adaptations; this simulated flag is not a diagnosis.",
+    "actions": [
+      "Review the HRV trend alongside other scheduled cardiovascular readings.",
+      "Repeat the self-reported mood check-in and review the recent trend.",
+      "Continue onboard monitoring and review the next scheduled reading."
+    ],
+    "escalate_to_earth": false,
+    "sources": [
       "https://www.nasa.gov/hrp/risks/"
     ]
   }

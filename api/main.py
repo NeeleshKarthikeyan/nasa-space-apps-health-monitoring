@@ -74,7 +74,7 @@ def timeseries(astronaut_id: str):
 
     # Columns that aren't health measurements. Cumulative dose only ever goes up,
     # so it has no normal range.
-    SKIP = ["astronaut_id", "mission_day", "cumulative_dose_msv"]
+    SKIP = ["astronaut_id", "mission_day", "cumulative_dose_mgy"]
     signals = [c for c in keep.columns if c not in SKIP]
     if keep.empty:
         raise HTTPException(status_code=404, detail="Astronaut not found")
