@@ -36,25 +36,22 @@ cd web && npm install && npm run dev
 ```
 ## AI Usage
 Riyaz:
-- Write and debug the React components 
-- Styling and planning the layout. 
+- Write and debug the React components
+- Styling and planning the layout
 - Commenting on code for readability
 - Image generation for logo
 
-<<<<<<< HEAD
-Fahim:
+Talal:
+- Writing and debugging the isolation and anomaly detection code (baseline.py, detect.py and evaluate.py)
+- Commenting on the code for readability and explainability
+- Validating the code and making sure it is as reproducible as possible
 
+Fahim:
 - Learn FastAPI and pandas through step-by-step explanations
 - Debug errors and review endpoint code against the data contract
 - Write helper scripts (endpoint test script, parts of the fallback export)
 - Commenting on code for readability and drafting the API README
 - Guidance on deploying to Render and resolving Git merges
-=======
-Talal:
-- Writing and debugging the isolation and anomaly detection code (baselin.py, detect.py and evaluate.py)
-- commenting on the code for readability and explainablity 
-- Validating the code correctly and making sure it is reproducible as possible
->>>>>>> 4e6347743346170c79c5770892032ba6710863e7
 
 ## Repo layout
 | Folder | Owner | What goes there |
