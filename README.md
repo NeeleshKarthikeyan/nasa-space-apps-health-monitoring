@@ -58,6 +58,12 @@ Jayden:
 - Adding comments to the code for readability
 - Creating a rough draft for data/README.md
 
+Shyam:
+- Writing and debugging the explainability code and risk mappings
+- Adding comments to the code for readability
+- Adding comments to the code for readability
+- Helping draft the explainability README.md documentation
+
 ## Repo layout
 | Folder | Owner | What goes there |
 | --- | --- | --- |
