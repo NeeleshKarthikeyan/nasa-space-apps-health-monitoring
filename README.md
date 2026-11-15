@@ -53,6 +53,11 @@ Fahim:
 - Commenting on code for readability and drafting the API README
 - Guidance on deploying to Render and resolving Git merges
 
+Jayden:
+- Writing and debugging code
+- Adding comments to the code for readability
+- Creating a rough draft for data/README.md
+
 ## Repo layout
 | Folder | Owner | What goes there |
 | --- | --- | --- |
