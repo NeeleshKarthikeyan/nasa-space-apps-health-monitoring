@@ -90,7 +90,7 @@ export default function AstronautDetail({ day, delay, crew }) {
           </div>
         </div>
         <aside className="detail-side">
-          <AlertPanel id={id} day={day} delay={delay} />
+          <AlertPanel id={id} day={day} delay={delay} status={today?.status} reason={today?.top_reason} />
         </aside>
       </div>
     </div>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="planet" cx="36%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#7cc4ff"/>
+      <stop offset="45%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0a1440"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#050816"/>
+  <!-- small stars -->
+  <circle cx="9" cy="44" r="0.8" fill="#bfdbfe"/>
+  <circle cx="51" cy="9" r="0.7" fill="#bfdbfe"/>
+  <circle cx="27" cy="7" r="0.6" fill="#93c5fd"/>
+  <path d="M12 8.5 Q12 12 15.5 12 Q12 12 12 15.5 Q12 12 8.5 12 Q12 12 12 8.5 Z" fill="#e0f2fe" filter="url(#glow)"/>
+  <path d="M50 49.5 Q50 52 52.5 52 Q50 52 50 54.5 Q50 52 47.5 52 Q50 52 50 49.5 Z" fill="#e0f2fe"/>
+  <!-- orbit ring: back half (behind the planet) -->
+  <path d="M3 34 A29 10.5 0 0 1 61 34" transform="rotate(-20 32 34)" fill="none" stroke="#38bdf8" stroke-width="1.8" opacity="0.45"/>
+  <!-- planet -->
+  <circle cx="32" cy="33" r="17" fill="url(#planet)"/>
+  <circle cx="32" cy="33" r="17" fill="none" stroke="#93c5fd" stroke-width="0.8" opacity="0.5"/>
+  <!-- orbit ring: front half (in front of the planet) -->
+  <path d="M3 34 A29 10.5 0 0 0 61 34" transform="rotate(-20 32 34)" fill="none" stroke="#38bdf8" stroke-width="2.8" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- heartbeat (EKG) line: a cyan glow under a bright core -->
+  <polyline points="7,34 20,34 23,28 26.5,41 30.5,19 34.5,38 37.5,34 56,34" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.45" filter="url(#glow)"/>
+  <polyline points="7,34 20,34 23,28 26.5,41 30.5,19 34.5,38 37.5,34 56,34" fill="none" stroke="#e0f2fe" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- medical cross -->
+  <path d="M44 15.5 V25.5 M39 20.5 H49" stroke="#bfdbfe" stroke-width="3.2" stroke-linecap="round" filter="url(#glow)"/>
+  <!-- bright sparkle where the ring meets the right edge -->
+  <path d="M58 19 Q58 24 63 24 Q58 24 58 29 Q58 24 53 24 Q58 24 58 19 Z" fill="#ffffff" filter="url(#glow)"/>
+</svg>

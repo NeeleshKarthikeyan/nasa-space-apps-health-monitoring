@@ -8,7 +8,8 @@
  * On narrow screens App.css turns this column into a row along the top.
  */
 import { NavLink } from 'react-router-dom'
-import { LayoutGrid, Rocket } from 'lucide-react'
+import { LayoutGrid } from 'lucide-react'
+import BrandMark from './BrandMark'
 import { crewInfo } from '../crew'
 import { statusOf } from '../status'
 
@@ -17,9 +18,7 @@ export default function Sidebar({ crew, live }) {
   return (
     <aside className="sidebar">
       <div className="brand">
-        <span className="brand-icon">
-          <Rocket size={16} />
-        </span>
+        <BrandMark size={40} />
         Crew Health
       </div>
 

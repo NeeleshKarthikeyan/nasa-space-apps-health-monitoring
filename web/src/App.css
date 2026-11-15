@@ -43,7 +43,7 @@ h1 em, h2 em { font-style: italic; color: var(--muted); }
 
 /* ---------- App shell ---------- */
 .shell { display: grid; grid-template-columns: clamp(200px, 12vw, 260px) 1fr; min-height: 100vh; }
-.main { padding: 2rem clamp(1.5rem, 3vw, 4rem) 3rem; min-width: 0; width: 100%; max-width: 2200px; margin: 0 auto; }
+.main { padding: 2rem clamp(1.5rem, 3vw, 4rem) 2rem; min-width: 0; width: 100%; max-width: 2200px; margin: 0 auto; display: flex; flex-direction: column; min-height: 100vh; }
 .page { display: flex; flex-direction: column; gap: 28px; }
 .block { display: flex; flex-direction: column; }
 .boot { display: grid; place-content: center; min-height: 100vh; text-align: center; }
@@ -56,7 +56,7 @@ h1 em, h2 em { font-style: italic; color: var(--muted); }
   display: flex; flex-direction: column; gap: 2px;
 }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; margin-bottom: 20px; }
-.brand-icon { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #1e3a8a44; color: #93c5fd; }
+.brand svg { flex-shrink: 0; }
 .nav-label { font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.08em; color: #5b6475; margin: 18px 10px 6px; }
 .nav-item { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px; color: #c4c9d4; text-decoration: none; font-size: 0.92rem; }
 .nav-item:hover { background: #151922; }
@@ -87,10 +87,16 @@ h1 em, h2 em { font-style: italic; color: var(--muted); }
   border-radius: 16px;
 }
 .panel { padding: 20px; }
-.panel-head { display: flex; justify-content: space-between; align-items: baseline; }
+.panel-head { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; }
+/* Overview trend chart: grows with the window height, within limits */
+.trend-area { height: clamp(200px, 24vh, 400px); margin-top: 8px; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.85rem; color: #c4c9d4; }
+.legend > span { display: inline-flex; align-items: center; gap: 6px; }
 .icon-tile { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 9px; flex-shrink: 0; }
 .icon-tile.big { width: 44px; height: 44px; border-radius: 12px; }
 .status-pill { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border: 1px solid; border-radius: 999px; font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+/* flex-shrink: 0 stops long text next to the ring from squashing it */
+.ring { flex-shrink: 0; }
 .ring-value { fill: var(--text); font-family: var(--font-mono); font-size: 15px; }
 
 /* ---------- Overview ---------- */
@@ -112,7 +118,8 @@ h1 em, h2 em { font-style: italic; color: var(--muted); }
 
 .timeline { display: grid; gap: 3px; align-items: center; margin-top: 14px; }
 .timeline-name { font-size: 0.82rem; color: #c4c9d4; }
-.cell { height: 1.15rem; border: none; border-radius: 3px; padding: 0; cursor: pointer; }
+/* Timeline cells get taller on tall screens, within limits */
+.cell { height: clamp(1.15rem, 2vh, 1.9rem); border: none; border-radius: 3px; padding: 0; cursor: pointer; }
 .cell:hover { outline: 1px solid #ffffff88; }
 .cell.is-today { outline: 2px solid #ffffff; outline-offset: 1px; }
 .tick { font-family: var(--font-mono); font-size: 0.65rem; color: #5b6475; }
@@ -190,7 +197,9 @@ h1 em, h2 em { font-style: italic; color: var(--muted); }
 .delta.warn { color: #fbbf24; }
 
 /* ---------- Footer ---------- */
-.footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+/* margin-top: auto pushes the footer to the bottom of the window when the page is short */
+.footer { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; }
+.page { margin-bottom: 48px; }
 .pills { display: flex; gap: 8px; }
 .pill { padding: 2px 10px; border-radius: 999px; border: 1px solid var(--border-strong); font-family: var(--font-mono); font-size: 0.72rem; }
 .pill-live { border-color: #22c55e; color: #bbf7d0; }

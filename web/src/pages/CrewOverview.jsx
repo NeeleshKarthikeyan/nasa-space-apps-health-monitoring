@@ -5,11 +5,12 @@
  *
  * It doesn't load any data itself: App loads everything once and passes it down,
  * so moving between pages is instant.
- * Order on screen: TodayBanner, one StatusCard per crew member, then the CrewTimeline.
+ * Order on screen: TodayBanner, one StatusCard per crew member, the CrewTrend chart, then the CrewTimeline.
  */
 import TodayBanner from '../components/TodayBanner'
 import StatusCard from '../components/StatusCard'
 import CrewTimeline from '../components/CrewTimeline'
+import CrewTrend from '../components/CrewTrend'
 
 // Three things only: today's summary, one widget per crew member, and the mission timeline.
 export default function CrewOverview({ crew, history, day, setDay, lastDay }) {
@@ -23,6 +24,7 @@ export default function CrewOverview({ crew, history, day, setDay, lastDay }) {
           <StatusCard key={a.astronaut_id} astronaut={a} />
         ))}
       </div>
+      <CrewTrend history={history} lastDay={lastDay} day={day} />
       <CrewTimeline history={history} lastDay={lastDay} day={day} setDay={setDay} />
     </div>
   )

@@ -24,6 +24,9 @@ import { crewInfo } from './crew'
 import { SIGNALS, signalInfo } from './signals'
 
 const TIMESERIES_FILES = { A: tsA, B: tsB, C: tsC, D: tsD }
+// Optional backup file with every day's crew: { "1": [...], "2": [...] }. import.meta.glob means
+// "load it if it exists"; if Fahim's export doesn't include it, this is simply an empty object.
+const optionalCrewByDay = Object.values(import.meta.glob('./fallback/crew_by_day.json', { eager: true, import: 'default' }))[0]
 // The API address comes from web/.env.local (VITE_API_URL=...). Without it, it uses your own laptop.
 const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
 
@@ -166,6 +169,14 @@ export async function getCrewHistory(lastDay) {
       history[d] = normaliseCrew(results[i].data, alerts)
     })
     return { data: history, live: results.every((r) => r.live) }
+  }
+
+  // Offline, but the backup has every day's crew? Use it (it includes daily scores).
+  if (!probe.live && optionalCrewByDay) {
+    days.forEach((d) => {
+      history[d] = normaliseCrew(optionalCrewByDay[String(d)] ?? [], alerts)
+    })
+    return { data: history, live: false }
   }
 
   // Otherwise build each day from the timeseries, which has a status for every day.

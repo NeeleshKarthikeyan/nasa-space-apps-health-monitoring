@@ -1,7 +1,8 @@
 /*
  * AlertPanel: the right-hand panel on the astronaut page. It shows today's alert:
  * the explanation, a checklist of actions, source links, and the Send to Earth card.
- * PROPS: id (astronaut, e.g. "B"), day, delay.
+ * PROPS: id (astronaut, e.g. "B"), day, delay, and today's status and reason from the crew data,
+ *        so the panel never says "all normal" when the status says otherwise.
  *
  * HOW IT LOADS DATA (useEffect):
  *   The effect asks the API for this astronaut's alerts whenever `id` or `day` changes
@@ -9,7 +10,7 @@
  *   Until the answer arrives, `alerts` is null and the panel draws nothing.
  *
  * EARLY RETURNS: a component can `return` different JSX in different situations.
- * Here: nothing yet -> "No alerts today" -> the full alert.
+ * Here: nothing yet -> no alert (worded to match today's status) -> the full alert.
  */
 import { useEffect, useState } from 'react'
 import { CircleCheck } from 'lucide-react'
@@ -17,7 +18,7 @@ import { getAlerts } from '../api'
 import { statusOf } from '../status'
 import EscalateCard from './EscalateCard'
 
-export default function AlertPanel({ id, day, delay }) {
+export default function AlertPanel({ id, day, delay, status, reason }) {
   const [alerts, setAlerts] = useState(null)
   const [done, setDone] = useState({}) // ticked actions, keyed "alertId:action"
   const [expanded, setExpanded] = useState(false) // long explanations start folded to 3 lines
@@ -32,7 +33,29 @@ export default function AlertPanel({ id, day, delay }) {
   // .find() returns the first item that matches, or undefined if none does
   const today = alerts.find((a) => a.mission_day === day)
 
+  // No alert for today. Word it to match today's status: if the status is Watch or Act but no alert
+  // text exists for this day, say so honestly instead of claiming everything is normal.
   if (!today) {
+    if (status && status !== 'green' && status !== 'none') {
+      const st = statusOf(status)
+      const StatusIcon = st.icon
+      return (
+        <section className="alert-panel" style={{ '--accent': st.color }}>
+          <div className="alert-head">
+            <span className="icon-tile big" style={{ color: st.color, background: `${st.color}1f` }}>
+              <StatusIcon size={22} />
+            </span>
+            <div>
+              <h3>{reason ?? st.word}</h3>
+              <p className="alert-text">
+                No detailed alert was written for this day. The highlighted widgets show which signals are
+                outside your normal range.
+              </p>
+            </div>
+          </div>
+        </section>
+      )
+    }
     return (
       <section className="alert-panel is-clear" style={{ '--accent': statusOf('green').color }}>
         <p className="escalate-title">

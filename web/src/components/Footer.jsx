@@ -8,7 +8,7 @@ export default function Footer({ live }) {
     <footer className="footer">
       <div className="pills">
         <span className={`pill ${live ? 'pill-live' : 'pill-offline'}`}>
-          {live ? 'Live data' : 'Offline copy'}
+          {live ? 'Live API' : 'Offline copy'}
         </span>
         <span className="pill">Simulated crew data</span>
       </div>
