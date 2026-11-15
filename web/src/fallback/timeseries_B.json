@@ -1012,11 +1012,6 @@
       "mean": 0.51,
       "low": 0.41,
       "high": 0.61
-    },
-    "cumulative_dose_mgy": {
-      "mean": 3.88,
-      "low": -0.43,
-      "high": 8.2
     }
   }
 }
