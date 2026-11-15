@@ -61,14 +61,25 @@ class TestExplainability(unittest.TestCase):
         records = [
             self.record(1, "amber"),
             self.record(2, "amber"),
-            self.record(4, "amber")
+            self.record(4, "amber"),
+            self.record(5, "amber")
         ]
 
         alerts = generate_alerts(records, self.mappings)
+        by_day = {a["mission_day"]: a for a in alerts}
 
-        self.assertTrue(
-            all(not a["escalate_to_earth"] for a in alerts)
-        )
+        # First amber day: no escalation
+        self.assertFalse(by_day[1]["escalate_to_earth"])
+
+        # Second consecutive amber day: escalation
+        self.assertTrue(by_day[2]["escalate_to_earth"])
+
+        # Day 3 is missing, so Day 4 starts a new streak
+        self.assertFalse(by_day[4]["escalate_to_earth"])
+
+        # Day 5 is the second consecutive amber day
+        self.assertTrue(by_day[5]["escalate_to_earth"])
+
 
 
 if __name__ == "__main__":

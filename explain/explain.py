@@ -31,7 +31,7 @@ SIGNALS = {
     "body_mass_kg": ("Body mass", "kg"),
     "exercise_min": ("Exercise duration", "min"),
     "spo2_pct": ("Blood oxygen saturation", "%"),
-    "radiation_mgy": ("Radiation dose", "mGy/day"),
+    "radiation_mgy": ("Simulated radiation reading", "mGy/day"),
 }
 
 def display_number(value):
