@@ -12,6 +12,10 @@ Space Apps requires every external resource (data, code, libraries, text, images
 ## Data
 - NASA OSDR RadLab (if used): https://visualization.osdr.nasa.gov/radlab/
 - NASA Envirionmental data app : https://visualization.osdr.nasa.gov/eda/
+- NASA DONKI (Space Weather Database): https://api.nasa.gov/
+  - Local snapshot: `data/nasa_snapshots/donki_sep_2024-05.json`
+  - May 2024 solar particle event used as a reference for the simulated solar event on mission days 46–47.
+  - Astronaut health readings and radiation doses are simulated.
 
 ## Libraries
 - Python: pandas (BSD-3), NumPy (BSD-3), scikit-learn (BSD-3), FastAPI (MIT), Uvicorn (BSD-3), requests (Apache 2.0)
