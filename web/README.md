@@ -123,3 +123,13 @@ Every file starts with a comment explaining what it does and which React ideas i
 ## Built with
 
 All open source: [React](https://react.dev/), [Vite](https://vite.dev/), [React Router](https://reactrouter.com/), [Recharts](https://recharts.org/), [Lucide icons](https://lucide.dev/), and the fonts Manrope, JetBrains Mono and Instrument Serif via [Fontsource](https://fontsource.org/). These are also listed in the repo's `REFERENCES.md`.
+
+## Use of AI
+
+I used Anthropic's Claude as a coding assistant for this dashboard. It helped:
+- Write and debug the React components 
+- Styling and planning the layout. 
+- Commenting on code for readability
+- Image generation for logo
+  
+I directed the design, connected it to our API and models, and tested it. All crew members and health data shown are simulated.

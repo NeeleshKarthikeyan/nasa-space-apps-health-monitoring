@@ -18,3 +18,4 @@ Space Apps requires every external resource (data, code, libraries, text, images
 
 ## Images, icons, fonts
 - [ ] Add every image used in the app, video or project page
+- [ ] - Crew Health logo (`web/public/favicon.svg`, `web/src/components/BrandMark.jsx`): designed by the team
