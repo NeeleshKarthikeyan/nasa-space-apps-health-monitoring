@@ -41,6 +41,11 @@ Riyaz:
 - Commenting on code for readability
 - Image generation for logo
 
+Talal:
+- Writing and debugging the isolation and anomaly detection code (baselin.py, detect.py and evaluate.py)
+- commenting on the code for readability and explainablity 
+- Validating the code correctly and making sure it is reproducible as possible
+
 ## Repo layout
 | Folder | Owner | What goes there |
 | --- | --- | --- |
