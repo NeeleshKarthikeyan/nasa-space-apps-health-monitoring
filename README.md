@@ -40,10 +40,10 @@ cd web && npm install && npm run dev
 | --- | --- | --- |
 | `data/` | Jayden | Crew simulator, NASA data fetch, validation |
 | `model/` | Talal | Baselines, anomaly detection, evaluation |
-| `explain/` | E.S | Signal-to-risk mapping, alert text, escalation rules |
+| `explain/` | Shyam | Signal-to-risk mapping, alert text, escalation rules |
 | `api/` | Fahim | FastAPI server and fallback snapshot export |
 | `web/` | Riyaz | React dashboard |
 | `docs/` | Neelesh | Data contract, demo script, screenshots |
 
 ## Team
-Riyaz · Fahim · Talal · E.S · Neelesh · Jayden
+Riyaz · Fahim · Talal · Shyam · Neelesh · Jayden

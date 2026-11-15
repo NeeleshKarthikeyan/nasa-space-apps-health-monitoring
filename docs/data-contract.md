@@ -6,7 +6,7 @@ This file is the single source of truth for every format passed between folders.
 ## Pipeline
 ```
 data/processed/crew_daily.csv  ->  model/output/model_output.json  ->  explain/output/alerts.json  ->  api  ->  web
-        (Jayden)                          (Talal)                            (E.S)                  (Fahim)  (Riyaz)
+        (Jayden)                          (Talal)                            (Shyam)                  (Fahim)  (Riyaz)
 ```
 
 ## 1. `data/processed/crew_daily.csv`: one row per astronaut per mission day

@@ -1,4 +1,4 @@
-"""Alert writer. Owner: E.S.
+"""Alert writer. Owner: Shyam
 
 Input:  model/output/model_output.json + explain/hazard_map.csv
 Output: explain/output/alerts.json (docs/data-contract.md, section 3)
