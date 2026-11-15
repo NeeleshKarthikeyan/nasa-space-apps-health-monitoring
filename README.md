@@ -60,7 +60,7 @@ Jayden:
 
 Shyam:
 - Writing and debugging the explainability code and risk mappings
-- Adding comments to the code for readability
+- Developing and testing the alert generation and earth escalation logic
 - Adding comments to the code for readability
 - Helping draft the explainability README.md documentation
 
