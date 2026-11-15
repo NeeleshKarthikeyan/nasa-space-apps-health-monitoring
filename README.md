@@ -51,7 +51,7 @@ Fahim:
 - Guidance on deploying to Render and resolving Git merges
 =======
 Talal:
-- Writing and debugging the isolation and anomaly detection code (baselin.py, detect.py and evaluate.py)
+- Writing and debugging the isolation and anomaly detection code (baseline.py, detect.py and evaluate.py)
 - commenting on the code for readability and explainablity 
 - Validating the code correctly and making sure it is reproducible as possible
 >>>>>>> 4e6347743346170c79c5770892032ba6710863e7
