@@ -1,4 +1,4 @@
-# [Product name]: Astronaut Health Monitor
+# Deep Space Sentry: Astronaut Health Monitor
 
 NASA Space Apps Challenge 2026, challenge: **Create Health Monitoring Software for Astronauts on Space Missions**.
 
@@ -34,6 +34,7 @@ cd api && pip install -r requirements.txt && uvicorn main:app --reload
 # 3. Dashboard (new terminal)
 cd web && npm install && npm run dev
 ```
+## AI Usage
 
 ## Repo layout
 | Folder | Owner | What goes there |
