@@ -10,12 +10,13 @@ Space Apps requires every external resource (data, code, libraries, text, images
 - CSA, Why Do We Conduct Science Experiments in Space?: https://www.asc-csa.gc.ca/eng/iss/science/why-do-we-conduct-science-experiments-in-space.asp
 
 ## Data
-- [ ] NASA OSDR RadLab (if used): https://visualization.osdr.nasa.gov/radlab/
+- NASA OSDR RadLab (if used): https://visualization.osdr.nasa.gov/radlab/
 
 ## Libraries
-- Python: pandas, NumPy, scikit-learn, FastAPI, Uvicorn, requests
-- JavaScript: React, Vite, Recharts, React Router , lucide-react icons; fonts Manrope, JetBrains Mono and Instrument Serif via Fontsource
+- Python: pandas (BSD-3), NumPy (BSD-3), scikit-learn (BSD-3), FastAPI (MIT), Uvicorn (BSD-3), requests (Apache 2.0)
+- JavaScript: React (MIT), Vite (MIT), React Router (MIT), Recharts (MIT), lucide-react icons (ISC)
+- Fonts via Fontsource: Manrope, JetBrains Mono, Instrument Serif (SIL Open Font License 1.1)
 
 ## Images, icons, fonts
-- [ ] Add every image used in the app, video or project page
-- [ ] - Crew Health logo (`web/public/favicon.svg`, `web/src/components/BrandMark.jsx`): designed by the team
+- Deep Space Sentry logo (`web/public/favicon.svg`, `web/src/components/BrandMark.jsx`): designed by Riyaz, drawn as SVG code with help from Anthropic's Claude
+- Dashboard screenshots in `docs/screenshots/`: our own

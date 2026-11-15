@@ -35,6 +35,11 @@ cd api && pip install -r requirements.txt && uvicorn main:app --reload
 cd web && npm install && npm run dev
 ```
 ## AI Usage
+Riyaz:
+- Write and debug the React components 
+- Styling and planning the layout. 
+- Commenting on code for readability
+- Image generation for logo
 
 ## Repo layout
 | Folder | Owner | What goes there |

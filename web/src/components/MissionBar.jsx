@@ -39,7 +39,7 @@ export default function MissionBar({ mission, day, setDay, destination, setDesti
   return (
     <header className="mission-bar">
       <div className="mission-title">
-        <p className="eyebrow">ARES-1 · {mission.label}</p>
+        <p className="eyebrow">HELIX-1 · {mission.label}</p>
         <h1>
           Day {day} <em>of {mission.day}</em>
         </h1>

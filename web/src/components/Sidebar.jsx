@@ -17,9 +17,13 @@ import { statusOf } from '../status'
 export default function Sidebar({ crew, live }) {
   return (
     <aside className="sidebar">
-      <div className="brand">
-        <BrandMark size={40} />
-        Crew Health
+      {/* Logo and name, with the AI label on its own line underneath */}
+      <div className="brand-block">
+        <div className="brand">
+          <BrandMark size={60} />
+          Deep Space Sentry
+        </div>
+        <small className="ai-note">Logo: AI-generated</small>
       </div>
 
       <NavLink to="/" end className="nav-item">
