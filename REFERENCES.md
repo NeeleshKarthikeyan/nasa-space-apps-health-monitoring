@@ -11,6 +11,7 @@ Space Apps requires every external resource (data, code, libraries, text, images
 
 ## Data
 - NASA OSDR RadLab (if used): https://visualization.osdr.nasa.gov/radlab/
+- NASA Envirionmental data app : https://visualization.osdr.nasa.gov/eda/
 
 ## Libraries
 - Python: pandas (BSD-3), NumPy (BSD-3), scikit-learn (BSD-3), FastAPI (MIT), Uvicorn (BSD-3), requests (Apache 2.0)
