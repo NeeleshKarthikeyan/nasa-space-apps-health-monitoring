@@ -5,142 +5,97 @@
 
 ## Overview
 
-Role:
-- To build the explainability component
-- It takes the anomalies detected by Talal's model and provide explanations for them
-- Alongside explanations, suggested actions and earth escalation decisions are provided
-- This system uses simulated health data and does not provide medical diagnoses or validate clinical recommendations
+My role was to build the explainability part of the project. Talal's model detects unusual astronaut health readings, and my code takes those results and generates explanations for them.
 
-## File Structure
+The system also provides suggested actions and decides whether an alert should be escalated to Earth.
 
-| Path | Description |
+## Files
+
+| File | Purpose |
 |---|---|
-| `explain.py` | Generates alerts from the model output |
-| `hazard_map.csv` | Maps health signals to NASA risks, explanation templates, actions, escalation rules and sources |
-| `output/alerts.json` | Generated alert data consumed by the backend |
-| `../tests/test_explain.py` | Automated tests for explanation and escalation logic |
+| `explain.py` | Generates explanations and alerts from the model results |
+| `hazard_map.csv` | Contains NASA risk mappings, explanation templates, actions and sources |
+| `output/alerts.json` | Stores the generated alerts for the backend |
+| `../tests/test_explain.py` | Tests the alert generation and escalation rules |
 
-## Inputs
+## How It Works
 
-The module reads:
+The script reads the results from `model/output/model_output.json`.
 
-- `model/output/model_output.json` — Talal's anomaly detection results.
-- `explain/hazard_map.csv` — Health risk mappings, explanations and suggested actions.
+- Green readings are ignored as they don't require alerts.
+- Amber and red readings are used to generate alerts.
+- The current measurements are compared against each astronaut's personal baseline.
+- `hazard_map.csv` is used to link flagged measurements to relevant NASA research and suggested actions.
+- The generated alerts are saved in `explain/output/alerts.json`, which Fahim's API uses for the dashboard.
 
-Each model record contains an astronaut ID, mission day, anomaly score, status, top signals and associated hazards.
+The explanations are kept short so they're easier to understand on the dashboard.
 
-The module uses the model's predicted results and does not access the ground-truth `scenario` column.
+The script only uses the model's predictions, not the `scenario` labels used for evaluating the model.
 
-## Explanation Generation
+## Escalation Rules
 
-For each astronaut and mission day:
-
-1. Ignore records with `green` status.
-2. Generate one alert for each `amber` or `red` record.
-3. Identify the primary flagged measurement.
-4. Compare its current reading against the astronaut's personal baseline.
-5. Generate a concise, human-readable explanation.
-6. Retrieve relevant research context, suggested actions and source links from `hazard_map.csv`.
-7. Apply the escalation rules.
-8. Export the structured alert.
-
-The dashboard explanation is limited to approximately one or two sentences. Supporting monitoring actions and source links are returned separately.
-
-The generated JSON follows `docs/data-contract.md`, section 3.
-
-## Earth Escalation Rules
-
-The current prototype applies these rules:
-
-| Status | Escalation |
+| Status | Action |
 |---|---|
-| Green | No alert or escalation |
-| Amber — first consecutive day | Onboard monitoring |
-| Amber — second consecutive day | Escalate to Earth |
+| Green | No alert |
+| Amber (first day) | Continue onboard monitoring |
+| Amber (second consecutive day) | Escalate to Earth |
 | Red | Escalate to Earth immediately |
 
-A green day, a red day or a gap in consecutive mission-day records resets the amber streak.
+If the amber days are not consecutive, the counter resets. A green or red day also resets the amber counter.
 
-These thresholds are project-defined demonstration rules, not NASA-approved medical escalation criteria, and should be reviewed by the team integration lead.
+These rules were created for our prototype and aren't official NASA medical thresholds.
 
-The `escalate_to_earth` field represents a decision-support recommendation. Generating an alert does not itself transmit a message to Mission Control.
+## Running the Code
 
-## Simulated Radiation Data
+Run the following from the main repository folder:
 
-Radiation measurements are simulated and should not be presented as real astronaut exposure data.
+```bash
+python explain/explain.py
+```
 
-The crew-wide solar event scenario draws on the timing of a historical NASA DONKI solar particle event. The radiation values and personal baselines are simulated placeholders.
+If the model output needs updating, run:
 
-Radiation explanations explicitly identify the readings as simulated and avoid making unsupported health claims.
-
-## Output
-
-The module writes:
-
-`explain/output/alerts.json`
-
-Each alert contains:
-
-- `alert_id`
-- `astronaut_id`
-- `mission_day`
-- `status`
-- `title`
-- `explanation`
-- `actions`
-- `escalate_to_earth`
-- `sources`
-
-The FastAPI backend reads this file and provides alerts to the React dashboard.
-
-## Running the Module
-
-From the repository root, run:
-
-`python explain/explain.py`
-
-To regenerate model results first, run:
-
-`python model/detect.py`
-
-Then rerun the explanation generator.
+```bash
+python model/detect.py
+python explain/explain.py
+```
 
 ## Testing
 
-Run the automated tests from the repository root:
+To run the tests:
 
-`python -m unittest discover -s tests -p "test_explain.py" -v`
+```bash
+python -m unittest discover -s tests -p "test_explain.py" -v
+```
 
-The tests verify:
+The tests check that:
 
-1. Green records generate no alerts.
-2. A single amber day does not escalate.
-3. Two consecutive amber days trigger escalation.
-4. Red alerts escalate immediately.
-5. A gap between amber days resets the escalation streak.
+- Green readings don't produce alerts.
+- A single amber day does not escalate.
+- Two consecutive amber days trigger escalation.
+- Red alerts escalate immediately.
+- Gaps between amber days reset the counter.
 
-## Integration Verification
+## Results
 
-Using the team's 240-record simulation dataset, the latest tested pipeline generated:
+Using our simulated dataset of 240 records, the system generated:
 
 - **38 alerts**
 - **28 Earth escalations**
 - **13 red alerts**, all escalated
 - **5 passing automated tests**
 
-On mission Day 47, all four astronauts received amber alerts associated with the simulated crew-wide radiation event, with Earth escalation enabled.
+I also tested the integration with the FastAPI backend and React dashboard.
 
-The alert explanations, monitoring actions, source links and escalation panel were verified in the live FastAPI-connected React dashboard.
-
-These results describe the tested dataset and may change when the simulation or anomaly detector is updated.
+For example, on mission Day 47, the dashboard successfully displayed the simulated radiation alerts, explanations, recommended actions and Earth escalation options.
 
 ## Limitations
-- Health measurements and radiation doses are simulated
-- NASA/CSA references provide research context, not medical diagnoses or any approved procedures
-- Earth escalation feature is a prototype decision-support workflow, not a real transmissio to mission control 
+
+- All astronaut health readings and radiation doses are simulated.
+- The solar event timing was based on historical NASA DONKI data, but the radiation values themselves are simulated.
+- NASA and CSA references provide research context, not medical diagnoses or approved treatment procedures.
+- Earth escalation is a simulated decision-support feature, not a real transmission to Mission Control.
 
 ## References
 
-The research context and source URLs are stored in `hazard_map.csv` and listed in the repository's `REFERENCES.md`.
-
-NASA HRP and CSA references inform the risk categories. The suggested actions are prototype monitoring guidance rather than approved medical procedures.
+The NASA and CSA sources used for the explanations are included in `hazard_map.csv` and the project's main `REFERENCES.md` file.
