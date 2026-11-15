@@ -52,6 +52,15 @@ Fahim:
 - Write helper scripts (endpoint test script, parts of the fallback export)
 - Commenting on code for readability and drafting the API README
 - Guidance on deploying to Render and resolving Git merges
+<<<<<<< HEAD
+=======
+=======
+Talal:
+- Writing and debugging the isolation and anomaly detection code (baseline.py, detect.py and evaluate.py)
+- commenting on the code for readability and explainablity 
+- Validating the code correctly and making sure it is reproducible as possible
+>>>>>>> 4e6347743346170c79c5770892032ba6710863e7
+>>>>>>> df129ea29e422cca9d7e057b7e190dc39afed687
 
 ## Repo layout
 | Folder | Owner | What goes there |
