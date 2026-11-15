@@ -2,7 +2,7 @@
 
 NASA Space Apps Challenge 2026, challenge: **Create Health Monitoring Software for Astronauts on Space Missions**.
 
-> Live demo: [link] · API: [link] · Demo video: [link]
+> · API: [[link]](https://astro-health-api-f899.onrender.com/docs ) · Demo video: [[link]](https://youtu.be/WU5chr-lhSU)
 
 ## The problem
 On long missions, astronauts carry much of the responsibility for spotting changes in their own health. On the way to Mars, help from Earth is minutes of radio delay away.
