@@ -41,6 +41,14 @@ Riyaz:
 - Commenting on code for readability
 - Image generation for logo
 
+Fahim:
+
+- Learn FastAPI and pandas through step-by-step explanations
+- Debug errors and review endpoint code against the data contract
+- Write helper scripts (endpoint test script, parts of the fallback export)
+- Commenting on code for readability and drafting the API README
+- Guidance on deploying to Render and resolving Git merges
+
 ## Repo layout
 | Folder | Owner | What goes there |
 | --- | --- | --- |
