@@ -42,7 +42,7 @@ Riyaz:
 - Image generation for logo
 
 Talal:
-- Writing and debugging the isolation and anomaly detection code (baseline.py, detect.py and evaluate.py)
+- Writing and debugging the isolationforest and z-score anomaly detection code (baseline.py, detect.py and evaluate.py)
 - Commenting on the code for readability and explainability
 - Validating the code and making sure it is as reproducible as possible
 
