@@ -5,7 +5,7 @@ NASA Space Apps Challenge 2026, challenge: **Create Health Monitoring Software f
 > · API: [[link]](https://astro-health-api-f899.onrender.com/docs ) · Demo video: [[link]](https://youtu.be/WU5chr-lhSU)
 
 ## The problem
-On long missions, astronauts carry much of the responsibility for spotting changes in their own health. On the way to Mars, help from Earth is minutes of radio delay away.
+Our project directly addresses the challenge of maintaining crew health with the constraints of limited or delayed deep space communications. This capability is vital for future space exploration, where communication delays with Earth can exceed 12 minutes, which can easily be the difference between life and death. By catching both subtle and significant deviations from standard daily fluctuations in various medical elements, space crews can be alerted to emerging risks early and take action.
 
 ## What it does
 - Compares each astronaut against **their own baseline**, not population averages
